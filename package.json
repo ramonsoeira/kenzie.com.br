@@ -1,0 +1,28 @@
+{
+  "name": "kenzie.com.br",
+  "version": "1.0.0",
+  "description": "The Kenzie website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenzie-Academy-Brasil/kenzie.com.br.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenzie-Academy-Brasil/kenzie.com.br/issues"
+  },
+  "homepage": "https://github.com/Kenzie-Academy-Brasil/kenzie.com.br#readme",
+  "dependencies": {
+    "gatsby": "^2.18.5",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-sass": "^2.1.24",
+    "node-sass": "^4.13.0",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
