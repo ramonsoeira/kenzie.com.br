@@ -1,3 +1,6 @@
 import React from "react";
+import Topbar from "@components/topbar";
 
-export default () => <div>WIP</div>;
+import "@styles/index.scss";
+
+export default () => <Topbar />;
