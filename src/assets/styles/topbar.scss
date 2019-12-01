@@ -1,0 +1,23 @@
+.kz-topbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b2ddcb;
+  padding: 12px 0;
+
+  .kz-topbar-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30334a;
+    margin-right: 18px;
+  }
+
+  .kz-topbar-alert {
+    font-size: 14px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    background-color: #30334a;
+  }
+}
