@@ -1,0 +1,13 @@
+.kz-button {
+  display: inline-block;
+  min-width: 184px;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #1c3869;
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
