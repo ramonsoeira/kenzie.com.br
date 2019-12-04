@@ -1,0 +1,20 @@
+.kz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+
+  .kz-header-nav {
+    display: flex;
+
+    a {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1c3869;
+    }
+
+    li:not(:last-child) {
+      margin-right: 52px;
+    }
+  }
+}

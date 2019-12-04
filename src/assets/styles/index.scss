@@ -1,6 +1,8 @@
-@import "button.scss";
+$family-sans-serif: "Montserrat", sans-serif;
 
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
 @import "~bulma/sass/grid/_all.sass";
 @import "~typeface-montserrat/index.css";
+
+@import "button.scss";

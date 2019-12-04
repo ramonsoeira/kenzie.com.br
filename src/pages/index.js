@@ -2,7 +2,6 @@ import React from "react";
 
 import Topbar from "@components/topbar";
 import Card from "@components/card";
-
 import KnowledgeIcon from "@icons/knowledge";
 
 import "@styles/index.scss";
