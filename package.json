@@ -4,7 +4,9 @@
   "description": "The Kenzie website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "gatsby": "^2.18.5",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-sass": "^2.1.24",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
     "path": "^0.12.7",
     "react": "^16.12.0",
