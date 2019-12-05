@@ -1,8 +1,10 @@
 $family-sans-serif: "Montserrat", sans-serif;
+$fullhd-enabled: false;
 
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
 @import "~bulma/sass/grid/_all.sass";
+@import "~bulma/sass/elements/container.sass";
 @import "~typeface-montserrat/index.css";
 
 @import "button.scss";
