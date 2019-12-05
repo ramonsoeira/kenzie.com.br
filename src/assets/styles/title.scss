@@ -1,0 +1,19 @@
+.kz-title {
+  width: 100%;
+  max-width: 940px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 500;
+  color: #30334a;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 125px;
+    height: 4px;
+    background-color: #1c3869;
+    margin: 0 auto 24px auto;
+  }
+}

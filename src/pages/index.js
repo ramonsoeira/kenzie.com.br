@@ -11,11 +11,7 @@ import KnowledgeIcon from "@icons/knowledge";
 import "@styles/index.scss";
 
 const Index = () => {
-  return (
-    <div>
-      <Footer />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Index;

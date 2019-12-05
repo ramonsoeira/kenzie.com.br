@@ -17,6 +17,7 @@ $fullhd-enabled: false;
 /* Font family */
 @import "~typeface-montserrat/index.css";
 
+@import "title.scss";
 @import "button.scss";
 
 .columns {
