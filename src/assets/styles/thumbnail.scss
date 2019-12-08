@@ -1,23 +1,44 @@
 .kz-thumbnail {
   width: 100%;
   position: relative;
-  padding-top: 8%;
-  padding-left: 8%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 160px;
+  padding-right: 0;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 80px;
+  }
+
+  background: center right / contain no-repeat
+    url("../images/thumbnail/rectangle.png");
+
+  z-index: -3;
 
   &-frame {
     width: 30%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 85px;
     z-index: -1;
+
+    @media screen and (max-width: 768px) {
+      top: 30px;
+      left: 30px;
+    }
   }
 
   &.reverse {
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 0;
-    padding-right: 8%;
+    padding-right: 160px;
+
+    background: center left / contain no-repeat
+      url("../images/thumbnail/rectangle-reverse.png");
 
     .kz-thumbnail-frame {
-      right: 0;
+      right: 85px;
       left: auto;
     }
   }

@@ -1,7 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 
-import Frame from "@images/frame.png";
+import Frame from "@images/thumbnail/frame.png";
+
 import "@styles/thumbnail.scss";
 
 const Thumbnail = ({ src, reverse }) => {

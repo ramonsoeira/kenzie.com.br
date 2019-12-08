@@ -40,11 +40,11 @@ const Index = () => {
 
         <div className="kz-about-us-section container">
           <div className="columns is-vcentered">
-            <div className="column">
+            <div className="column is-8">
               <Thumbnail src={FirstImage} reverse={true} />
             </div>
 
-            <div className="column is-offset-1">
+            <div className="column is-4">
               {/* prettier-ignore */}
               <p>
                 Agora iniciamos nosso trabalho no <span class="is-bold">Brasil</span>, trazendo todo a
@@ -59,7 +59,7 @@ const Index = () => {
 
         <div className="kz-about-us-section container">
           <div className="columns is-vcentered">
-            <div className="column">
+            <div className="column is-5">
               {/* prettier-ignore */}
               <p>
                 A <span class="is-bold">Kenzie Academy</span> atua a mais de <span class="is-bold">3 anos</span>, 
@@ -69,7 +69,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="column is-offset-1">
+            <div className="column is-8">
               <Thumbnail src={SecondImage} />
             </div>
           </div>
