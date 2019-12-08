@@ -1,0 +1,13 @@
+.kz-two-thousand-hours {
+  .column {
+    .kz-card {
+      max-width: 320px;
+    }
+
+    &:last-child {
+      .kz-card {
+        margin-left: auto;
+      }
+    }
+  }
+}

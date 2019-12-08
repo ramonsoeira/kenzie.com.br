@@ -1,0 +1,22 @@
+.kz-hero {
+  padding: 80px 0;
+
+  &-title {
+    display: block;
+    margin-bottom: 42px;
+    max-width: 430px;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #1c3869;
+  }
+
+  &-content {
+    margin-bottom: 24px;
+
+    p {
+      max-width: 480px;
+      margin-bottom: 12px;
+    }
+  }
+}

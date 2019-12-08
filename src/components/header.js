@@ -4,10 +4,10 @@ import "@styles/header.scss";
 
 const Header = () => {
   return (
-    <div class="kz-header">
+    <div className="kz-header">
       <img width="53" height="53" src={Logo} alt="Kenzie" />
 
-      <ul class="kz-header-nav">
+      <ul className="kz-header-nav">
         <li>
           <a href="/" title="Quem somos">
             Quem somos

@@ -1,17 +1,26 @@
 import React from "react";
 
 import Topbar from "@components/topbar";
-import Card from "@components/card";
-import PartnerList from "@components/partner-list";
-import BottomBar from "@components/bottom-bar";
-import Footer from "@components/footer";
+import Header from "@components/header";
 
-import KnowledgeIcon from "@icons/knowledge";
+import Hero from "@sections/hero";
+import TwoThousandHours from "@sections/two-thousand-hours";
+import WeBelieveInYourPotential from "@sections/we-believe";
 
 import "@styles/index.scss";
 
 const Index = () => {
-  return <div></div>;
+  return (
+    <React.Fragment>
+      <Topbar />
+      <Header />
+
+      <Hero />
+
+      <TwoThousandHours />
+      <WeBelieveInYourPotential />
+    </React.Fragment>
+  );
 };
 
 export default Index;

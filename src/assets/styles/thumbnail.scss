@@ -1,0 +1,14 @@
+.kz-thumbnail {
+  width: 100%;
+  position: relative;
+  padding-top: 8%;
+  padding-left: 8%;
+
+  &-frame {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
