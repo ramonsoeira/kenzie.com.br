@@ -22,5 +22,6 @@ module.exports = {
         extensions: ["js"]
       }
     }
-  ]
+  ],
+  pathPrefix: `/kenzie.com.br`
 };
