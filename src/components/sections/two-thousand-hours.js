@@ -9,6 +9,9 @@ const TwoThousandHours = () => {
   return (
     <React.Fragment>
       <div class="kz-two-thousand-hours">
+
+        <h3 class="kz-title">Mais de 2.000 horas de aulas</h3>
+
         <div class="container">
           <div class="columns is-justified-between">
             <div class="column">
@@ -16,6 +19,7 @@ const TwoThousandHours = () => {
                 icon={KnowledgeIcon}
                 title="O que você vai aprender aqui?"
                 buttonLabel="Saiba mais"
+                align="left"
               >
                 Linguagens de programação modernas e muito utilizadas no mercado
                 Front end: HTML, CSS, JavaScript e React. Back end: Python e
@@ -40,6 +44,7 @@ const TwoThousandHours = () => {
                 icon={KnowledgeIcon}
                 title="Metodologia comprovada"
                 buttonLabel="Saiba mais"
+                align="right"
               >
                 A combinação de aulas presenciais, ensino baseado em projetos,
                 acompanhamento do nosso time e currículo validado nos Estados

@@ -1,11 +1,16 @@
 import React from "react";
-import "@styles/thumbnail.scss";
+import classNames from "classnames";
 
 import Frame from "@images/frame.png";
+import "@styles/thumbnail.scss";
 
-const Thumbnail = ({ src }) => {
+const Thumbnail = ({ src, reverse }) => {
+  const thumbnailClass = classNames("kz-thumbnail", {
+    reverse
+  });
+
   return (
-    <div className="kz-thumbnail">
+    <div className={thumbnailClass}>
       <img className="kz-thumbnail-frame" src={Frame} />
       <img src={src} />
     </div>

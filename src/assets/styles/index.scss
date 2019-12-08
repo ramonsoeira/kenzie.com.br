@@ -20,6 +20,15 @@ $fullhd-enabled: false;
 @import "title.scss";
 @import "button.scss";
 
+@import "pages/general.scss";
+
+/* To working with top bar */
+body {
+  @media screen and (min-width: 768px) {
+    margin-top: 55px;
+  }
+}
+
 .columns {
   width: 100%;
   height: 100%;
@@ -28,4 +37,8 @@ $fullhd-enabled: false;
 
 .is-justified-between {
   justify-content: space-between;
+}
+
+.is-bold {
+  font-weight: bold;
 }

@@ -1,25 +1,20 @@
 import React from "react";
-
-import Topbar from "@components/topbar";
-import Header from "@components/header";
+import Layout from "@layout/default";
 
 import Hero from "@sections/hero";
 import TwoThousandHours from "@sections/two-thousand-hours";
-import WeBelieveInYourPotential from "@sections/we-believe";
-
-import "@styles/index.scss";
+import WeBelieve from "@sections/we-believe";
+import SuccessfulCareer from "@sections/successful-career";
 
 const Index = () => {
   return (
-    <React.Fragment>
-      <Topbar />
-      <Header />
-
+    <Layout>
       <Hero />
 
       <TwoThousandHours />
-      <WeBelieveInYourPotential />
-    </React.Fragment>
+      <WeBelieve />
+      <SuccessfulCareer />
+    </Layout>
   );
 };
 

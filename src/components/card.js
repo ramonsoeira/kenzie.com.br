@@ -1,17 +1,29 @@
 import React from "react";
+import { Link } from "gatsby";
+import classNames from "classnames";
+
 import "@styles/card.scss";
 
-const Card = ({ title, children, icon, buttonHref, buttonLabel }) => {
+const Card = ({ title, children, icon, buttonHref, buttonLabel, align }) => {
+  const hasButtonProp = buttonLabel;
+
+  const cardClass = classNames("kz-card", {
+    "is-align-right": align === "right",
+    "is-align-left": align === "left"
+  });
+
   return (
-    <div class="kz-card">
-      <div class="kz-card-icon">{icon}</div>
+    <div className={cardClass}>
+      <div className="kz-card-icon">{icon}</div>
 
-      <p class="kz-card-title">{title}</p>
-      <p class="kz-card-text">{children}</p>
+      <p className="kz-card-title">{title}</p>
+      <p className="kz-card-text">{children}</p>
 
-      <a class="kz-button" href={buttonHref}>
-        {buttonLabel}
-      </a>
+      {hasButtonProp && (
+        <Link className="kz-button" to={buttonHref}>
+          {buttonLabel}
+        </Link>
+      )}
     </div>
   );
 };

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Kenzie-Academy-Brasil/kenzie.com.br#readme",
   "dependencies": {
     "bulma": "^0.8.0",
+    "classnames": "^2.2.6",
     "gatsby": "^2.18.5",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-sass": "^2.1.24",

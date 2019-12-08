@@ -1,23 +1,34 @@
-.kz-topbar {
+.kz-top-bar {
   width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background-color: #b2ddcb;
   padding: 12px 0;
 
-  .kz-topbar-text {
+  &-text {
     font-size: 16px;
     font-weight: 500;
     color: #30334a;
     margin-right: 18px;
   }
 
-  .kz-topbar-alert {
+  &-alert {
     font-size: 14px;
     color: white;
     padding: 5px 15px;
     border-radius: 4px;
     background-color: #30334a;
+
+    &:hover {
+      color: white;
+    }
   }
 }

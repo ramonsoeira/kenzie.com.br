@@ -11,4 +11,14 @@
     left: 0;
     z-index: -1;
   }
+
+  &.reverse {
+    padding-left: 0;
+    padding-right: 8%;
+
+    .kz-thumbnail-frame {
+      right: 0;
+      left: auto;
+    }
+  }
 }

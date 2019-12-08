@@ -1,12 +1,18 @@
 .kz-two-thousand-hours {
-  .column {
-    .kz-card {
-      max-width: 320px;
-    }
+  .kz-title {
+    margin-bottom: 72px;
+  }
 
-    &:last-child {
+  @media screen and (min-width: 768px) {
+    .column {
       .kz-card {
-        margin-left: auto;
+        max-width: 320px;
+      }
+
+      &:last-child {
+        .kz-card {
+          margin-left: auto;
+        }
       }
     }
   }

@@ -20,20 +20,22 @@ const Hero = () => {
               <div class="kz-hero-content">
                 {/* prettier-ignore */}
                 <p>
-                  Aprenda com os melhores profissionais a se tornar um <span class="has-text-weight-bold">DESENVOLVEDOR
+                  Aprenda com os melhores profissionais a se tornar um <span class="is-bold">DESENVOLVEDOR
                   DE SOFTWARE</span> completo.
                 </p>
 
+                {/* prettier-ignore */}
                 <p>
                   Começamos em 2017 nos Estados Unidos com o propósito de
                   oferecer a oportunidade para pessoas se formarem e ingressarem
-                  no mercado de tecnologia rapidamente, sem mensalidade e com
-                  alta qualidade.
+                  no mercado de tecnologia <span class="is-bold">rapidamente, 
+                  sem mensalidade e com alta qualidade.</span>
                 </p>
 
+                {/* prettier-ignore */}
                 <p>
-                  Já formamos centenas de alunos e contamos com uma alta taxa de
-                  empregabilidade!
+                  Já formamos <span class="is-bold">centenas de alunos</span> e
+                  contamos com uma <span class="is-bold">alta taxa de empregabilidade!</span>
                 </p>
               </div>
 

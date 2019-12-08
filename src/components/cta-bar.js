@@ -1,12 +1,12 @@
 import React from "react";
-import "@styles/bottom-bar.scss";
+import "@styles/cta-bar.scss";
 
-const BottomBar = () => {
+const CTABar = () => {
   return (
-    <div class="kz-bottom-bar">
+    <div class="kz-cta-bar">
       <div class="container">
         <div class="column has-text-centered">
-          <h3 class="kz-bottom-bar-title">
+          <h3 class="kz-cta-bar-title">
             Preparado para começar uma nova carreira?
           </h3>
 
@@ -19,4 +19,4 @@ const BottomBar = () => {
   );
 };
 
-export default BottomBar;
+export default CTABar;

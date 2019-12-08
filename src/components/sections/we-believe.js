@@ -15,12 +15,12 @@ const WeBelieve = () => {
               <h1 class="kz-hero-title">Nós acreditamos em seu potencial!</h1>
 
               <div class="kz-hero-content">
+                {/* prettier-ignore */}
                 <p>
                   Por isso, você não paga o curso até ser contratado com uma
-                  remuneração de R$ 3.000,00/mês. Para garantir o seu sucesso
-                  nós damos todo o apoio para a sua colocação no mercado de
-                  trabalho através de mentoria de carreira e parcerias que
-                  aceleram sua contratação.
+                  remuneração de <span class="is-bold">R$ 3.000,00/mês</span>. 
+                  Para garantir o seu sucesso nós damos todo o apoio para a sua colocação no mercado de
+                  trabalho através de mentoria de carreira e parcerias que aceleram sua contratação.
                 </p>
               </div>
 

@@ -2,34 +2,38 @@ import React from "react";
 import Logo from "@images/brand/logo.png";
 import "@styles/header.scss";
 
+import { Link } from "gatsby";
+
 const Header = () => {
   return (
     <div className="kz-header">
-      <img width="53" height="53" src={Logo} alt="Kenzie" />
+      <Link to="/">
+        <img width="53" height="53" src={Logo} alt="Kenzie" />
+      </Link>
 
       <ul className="kz-header-nav">
         <li>
-          <a href="/" title="Quem somos">
+          <Link to="/quem-somos" title="Quem somos">
             Quem somos
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/" title="Currículo">
+          <Link to="/" title="Currículo">
             Currículo
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/" title="Pagamento">
+          <Link to="/pagamento" title="Pagamento">
             Pagamento
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/" title="FAQ">
+          <Link to="/" title="FAQ">
             FAQ
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
