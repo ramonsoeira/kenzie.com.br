@@ -4,7 +4,8 @@ module.exports = {
   siteMetadata: {
     title: `Kenzie Academy Brazil`,
     siteUrl: `https://kenzie.com.br`,
-    description: `Comece aqui sua carreira em tecnologia!`
+    description: `Comece aqui sua carreira em tecnologia!`,
+    pathPrefix: `/kenzie.com.br`,
   },
   plugins: [
     `gatsby-plugin-sass`,
