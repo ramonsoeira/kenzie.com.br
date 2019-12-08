@@ -1,7 +1,7 @@
 import React from "react";
 import "@styles/cta-bar.scss";
 
-const CTABar = () => {
+const CTABar = ({ onOpenLeadForm }) => {
   return (
     <div class="kz-cta-bar">
       <div class="container">
@@ -10,9 +10,9 @@ const CTABar = () => {
             Preparado para começar uma nova carreira?
           </h3>
 
-          <a href="/" class="kz-button">
+          <button class="kz-button" onClick={onOpenLeadForm}>
             Tenho interesse
-          </a>
+          </button>
         </div>
       </div>
     </div>

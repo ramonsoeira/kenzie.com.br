@@ -42,19 +42,28 @@ const Footer = () => {
 
             <ul className="kz-footer-social">
               <li>
-                <a href="/">
+                <a
+                  href="https://www.linkedin.com/school/kenzie-academy-brasil/"
+                  target="_blank"
+                >
                   <img width="26" src={Linkedin} alt="Linkedin" />
                 </a>
               </li>
 
               <li>
-                <a href="">
+                <a
+                  href="https://www.facebook.com/kenzieacademybr/"
+                  target="_blank"
+                >
                   <img width="12" src={Facebook} alt="Facebook" />
                 </a>
               </li>
 
               <li>
-                <a href="">
+                <a
+                  href="https://www.instagram.com/kenzieacademybr/"
+                  target="_blank"
+                >
                   <img width="26" src={Instagram} alt="Instagram" />
                 </a>
               </li>

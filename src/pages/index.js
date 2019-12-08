@@ -8,7 +8,7 @@ import SuccessfulCareer from "@sections/successful-career";
 
 const Index = () => {
   return (
-    <Layout>
+    <Layout title="Comece aqui sua carreira em tecnologia!">
       <Hero />
 
       <TwoThousandHours />
