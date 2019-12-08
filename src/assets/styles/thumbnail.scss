@@ -28,6 +28,11 @@
     }
   }
 
+  &-img {
+    width: 100%;
+    max-width: 584px;
+  }
+
   &.reverse {
     padding-top: 80px;
     padding-bottom: 80px;

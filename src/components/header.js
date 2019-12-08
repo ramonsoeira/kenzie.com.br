@@ -19,7 +19,7 @@ const Header = () => {
         </li>
 
         <li>
-          <Link to="/" title="Currículo">
+          <Link to="/curriculo" title="Currículo">
             Currículo
           </Link>
         </li>
@@ -27,12 +27,6 @@ const Header = () => {
         <li>
           <Link to="/pagamento" title="Pagamento">
             Pagamento
-          </Link>
-        </li>
-
-        <li>
-          <Link to="/" title="FAQ">
-            FAQ
           </Link>
         </li>
       </ul>

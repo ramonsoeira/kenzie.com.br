@@ -9,11 +9,11 @@ import Footer from "@components/footer";
 
 import "@styles/index.scss";
 
-export default ({ children, title }) => {
+export default ({ children, title, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
 
   return (
-    <React.Fragment>
+    <div {...rest}>
       <SEO title={title} />
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
 
@@ -24,6 +24,6 @@ export default ({ children, title }) => {
 
       <CTABar onOpenLeadForm={() => setOpenLeadForm(true)} />
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };

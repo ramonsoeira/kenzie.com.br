@@ -1,12 +1,16 @@
 .kz-card {
   width: 100%;
-  max-width: 320px;
+  height: 100%;
   margin: 0 auto;
   padding: 32px 16px;
   border-radius: 16px;
   text-align: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
   background-color: white;
+
+  @media screen and (min-width: 769px) {
+    max-width: 320px;
+  }
 
   &-icon {
     margin-bottom: 18px;
