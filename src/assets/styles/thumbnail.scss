@@ -1,8 +1,8 @@
 .kz-thumbnail {
   width: 100%;
   position: relative;
-  background: center right / contain no-repeat
-    url("../images/thumbnail/rectangle.png");
+  // background: center right / contain no-repeat
+  //   url("../images/thumbnail/rectangle.png");
 
   &-image {
     width: 100%;
@@ -31,8 +31,8 @@
   }
 
   &.reverse {
-    background: center left / contain no-repeat
-      url("../images/thumbnail/rectangle-reverse.png");
+    // background: center left / contain no-repeat
+    //   url("../images/thumbnail/rectangle-reverse.png");
 
     .kz-thumbnail-frame {
       right: -72px;

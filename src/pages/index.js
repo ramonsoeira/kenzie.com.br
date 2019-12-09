@@ -2,19 +2,19 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "@layout/default";
 
-import WeBelieve from "@sections/we-believe";
-import SuccessfulCareer from "@sections/successful-career";
-
 //Components
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
+import PartnerList from "@components/partner-list";
 
 //Imagens
 import FirstImage from "@images/home/photo-1.png";
+import SecondImage from "@images/home/photo-2.png";
 
 //Icon
 import KnowledgeIcon from "@icons/knowledge";
 import CodeIcon from "@icons/code";
+import VerifyIcon from "@icons/verify";
 
 import "@styles/pages/home.scss";
 
@@ -22,33 +22,33 @@ const Index = () => {
   return (
     <React.Fragment>
       <Layout
-        class="kz-home-page"
+        className="kz-home-page"
         title="Comece aqui sua carreira em tecnologia!"
       >
-        <div class="kz-hero">
+        <div className="kz-hero">
           <div className="container">
             <div className="columns is-vcentered reverse-columns">
               <div className="column">
-                <h1 class="kz-hero-title">Comece aqui sua carreira</h1>
+                <h1 className="kz-hero-title">Comece aqui sua carreira</h1>
 
-                <div class="kz-hero-content">
+                <div className="kz-hero-content">
                   {/* prettier-ignore */}
                   <p>
-                  Aprenda com os melhores profissionais a se tornar um <span class="is-bold">DESENVOLVEDOR DE SOFTWARE</span> completo.
+                  Aprenda com os melhores profissionais a se tornar um <span className="is-bold">DESENVOLVEDOR DE SOFTWARE</span> completo.
                 </p>
 
                   {/* prettier-ignore */}
                   <p>
                   Começamos em 2017 nos Estados Unidos com o propósito de
                   oferecer a oportunidade para pessoas se formarem e ingressarem
-                  no mercado de tecnologia <span class="is-bold">rapidamente, 
+                  no mercado de tecnologia <span className="is-bold">rapidamente, 
                   sem mensalidade e com alta qualidade.</span>
                 </p>
 
                   {/* prettier-ignore */}
                   <p>
-                  Já formamos <span class="is-bold">centenas de alunos</span> e
-                  contamos com uma <span class="is-bold">alta taxa de empregabilidade!</span>
+                  Já formamos <span className="is-bold">centenas de alunos</span> e
+                  contamos com uma <span className="is-bold">alta taxa de empregabilidade!</span>
                 </p>
                 </div>
 
@@ -56,7 +56,6 @@ const Index = () => {
                   Saiba mais
                 </Link>
               </div>
-
               <div className="column">
                 <Thumbnail
                   src={FirstImage}
@@ -68,12 +67,14 @@ const Index = () => {
           </div>
         </div>
 
-        <div>
-          <h3 class="kz-title">Mais de 2.000 horas de aulas</h3>
+        <div className="kz-section">
+          <div className="container">
+            <div className="column">
+              <h3 className="kz-title">Mais de 2.000 horas de aulas</h3>
+            </div>
 
-          <div class="container">
-            <div class="columns is-justified-between">
-              <div class="column">
+            <div className="columns is-justified-between">
+              <div className="column">
                 <Card
                   icon={<KnowledgeIcon />}
                   title="O que você vai aprender aqui?"
@@ -86,7 +87,7 @@ const Index = () => {
                 </Card>
               </div>
 
-              <div class="column">
+              <div className="column">
                 <Card
                   icon={<CodeIcon />}
                   title="Aprenda na prática"
@@ -98,9 +99,9 @@ const Index = () => {
                 </Card>
               </div>
 
-              <div class="column">
+              <div className="column">
                 <Card
-                  icon={<CodeIcon />}
+                  icon={<VerifyIcon />}
                   title="Metodologia comprovada"
                   buttonLabel="Saiba mais"
                   align="right"
@@ -114,8 +115,51 @@ const Index = () => {
           </div>
         </div>
 
-        <WeBelieve />
-        <SuccessfulCareer />
+        <div className="kz-section">
+          <div className="container">
+            <div className="columns is-vcentered">
+              <div className="column">
+                <h3 class="kz-section-title">
+                  Nós acreditamos em seu potencial!
+                </h3>
+
+                <div class="kz-hero-content">
+                  {/* prettier-ignore */}
+                  <p>
+                    Por isso, você não paga o curso até ser contratado com uma
+                    remuneração de <span class="is-bold">R$ 3.000,00/mês</span>. 
+                  </p>
+
+                  <p>
+                    Para garantir o seu sucesso nós damos todo o apoio para a
+                    sua colocação no mercado de trabalho através de mentoria de
+                    carreira e parcerias que aceleram sua contratação.
+                  </p>
+                </div>
+
+                <Link className="kz-button" to="/">
+                  Saiba mais
+                </Link>
+              </div>
+
+              <div className="column is-offset-1">
+                <Thumbnail
+                  src={SecondImage}
+                  alt="Comece aqui sua carreira em tecnologia!"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="kz-section">
+          <h3 class="kz-section-featured-title">
+            Conheça os nossos parceiros que podem dar início a sua carreira de
+            sucesso.
+          </h3>
+
+          <PartnerList />
+        </div>
       </Layout>
     </React.Fragment>
   );

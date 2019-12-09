@@ -10,29 +10,29 @@ import SocialWave from "@images/partners/social-wave.png";
 const PartnerList = () => {
   return (
     <div class="container">
-      <div class="columns is-vcentered">
-        <div class="column has-text-centered">
-          <img width="120" src={BancoBari} alt="Banco Bari" />
+      <div class="columns is-mobile is-multiline is-vcentered">
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={BancoBari} alt="Banco Bari" />
         </div>
 
-        <div class="column has-text-centered">
-          <img width="120" src={CPlug} alt="CPlug" />
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={CPlug} alt="CPlug" />
         </div>
 
-        <div class="column has-text-centered">
-          <img width="120" src={James} alt="James" />
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={James} alt="James" />
         </div>
 
-        <div class="column has-text-centered">
-          <img width="120" src={GrupoBarigui} alt="Grupo Barigui" />
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={GrupoBarigui} alt="Grupo Barigui" />
         </div>
 
-        <div class="column has-text-centered">
-          <img width="120" src={EBANX} alt="EBANX" />
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={EBANX} alt="EBANX" />
         </div>
 
-        <div class="column has-text-centered">
-          <img width="120" src={SocialWave} alt="Social Wave" />
+        <div class="column is-half-mobile has-text-centered">
+          <img width="120px" src={SocialWave} alt="Social Wave" />
         </div>
       </div>
     </div>
