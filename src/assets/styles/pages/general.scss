@@ -5,6 +5,15 @@
     padding: 24px 0;
   }
 
+  &-list {
+    padding-left: 18px;
+    list-style-type: disc;
+
+    li:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
   &-text {
     font-size: 18px;
     line-height: 1.8;
@@ -16,7 +25,7 @@
     display: block;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   &-title,

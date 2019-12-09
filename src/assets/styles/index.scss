@@ -42,6 +42,10 @@ body {
   margin-left: 0;
 }
 
+.container.is-fullhd {
+  max-width: 1344px;
+}
+
 .is-justified-between {
   justify-content: space-between;
 }

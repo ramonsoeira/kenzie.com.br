@@ -40,7 +40,7 @@ const Index = () => {
       </div>
 
       <div className="kz-section">
-        <div className="container is-widescreen">
+        <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-6">
               <Thumbnail src={FirstImage} reverse={true} />

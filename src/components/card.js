@@ -14,10 +14,11 @@ const Card = ({ title, children, icon, buttonHref, buttonLabel, align }) => {
 
   return (
     <div className={cardClass}>
-      <div className="kz-card-icon">{icon}</div>
-
-      <p className="kz-card-title">{title}</p>
-      <p className="kz-card-text">{children}</p>
+      <div>
+        <div className="kz-card-icon">{icon}</div>
+        <p className="kz-card-title">{title}</p>
+        <p className="kz-card-text">{children}</p>
+      </div>
 
       {hasButtonProp && (
         <Link className="kz-button" to={buttonHref}>

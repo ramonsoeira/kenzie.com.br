@@ -20,8 +20,8 @@ const Verify = props => (
 Verify.defaultProps = {
   xmlns: "http://www.w3.org/2000/svg",
   fill: "#00b58c",
-  width: "55",
-  height: "55",
+  width: "50",
+  height: "70",
   viewBox: "0 0 55 55"
 };
 
