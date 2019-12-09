@@ -9,29 +9,29 @@ import SocialWave from "@images/partners/social-wave.png";
 
 const PartnerList = () => {
   return (
-    <div class="container">
-      <div class="columns is-mobile is-multiline is-vcentered">
-        <div class="column is-half-mobile has-text-centered">
+    <div className="container">
+      <div className="columns is-mobile is-multiline is-vcentered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={BancoBari} alt="Banco Bari" />
         </div>
 
-        <div class="column is-half-mobile has-text-centered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={CPlug} alt="CPlug" />
         </div>
 
-        <div class="column is-half-mobile has-text-centered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={James} alt="James" />
         </div>
 
-        <div class="column is-half-mobile has-text-centered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={GrupoBarigui} alt="Grupo Barigui" />
         </div>
 
-        <div class="column is-half-mobile has-text-centered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={EBANX} alt="EBANX" />
         </div>
 
-        <div class="column is-half-mobile has-text-centered">
+        <div className="column is-half-mobile has-text-centered">
           <img width="120px" src={SocialWave} alt="Social Wave" />
         </div>
       </div>

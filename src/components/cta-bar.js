@@ -3,14 +3,14 @@ import "@styles/cta-bar.scss";
 
 const CTABar = ({ onOpenLeadForm }) => {
   return (
-    <div class="kz-cta-bar">
-      <div class="container">
-        <div class="column has-text-centered">
-          <h3 class="kz-cta-bar-title">
+    <div className="kz-cta-bar">
+      <div className="container">
+        <div className="column has-text-centered">
+          <h3 className="kz-cta-bar-title">
             Preparado para começar uma nova carreira?
           </h3>
 
-          <button class="kz-button" onClick={onOpenLeadForm}>
+          <button className="kz-button" onClick={onOpenLeadForm}>
             Tenho interesse
           </button>
         </div>

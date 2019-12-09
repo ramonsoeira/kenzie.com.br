@@ -17,7 +17,7 @@ const ScenarioCard = ({
 
       <p className="kz-scenario-card-main">
         Você conseguiu um trabalho com remuneração de
-        <span class="salary">{salary}</span>
+        <span className="salary">{salary}</span>
       </p>
 
       {hasPayment ? (
@@ -25,7 +25,7 @@ const ScenarioCard = ({
           <p className="kz-scenario-card-payment">
             <p>
               Você pagará: <br />
-              <span class="is-bold">
+              <span className="is-bold">
                 {paymentAmount} por {paymentTerms}
               </span>
             </p>
@@ -33,7 +33,7 @@ const ScenarioCard = ({
           <p className="is-bold">Total de {total}</p>
         </div>
       ) : (
-        <p class="no-payment is-bold">Você não precisa pagar nada.</p>
+        <p className="no-payment is-bold">Você não precisa pagar nada.</p>
       )}
     </div>
   );

@@ -26,8 +26,8 @@ const Payment = () => {
         </div>
       </div>
 
-      <div class="kz-section">
-        <div class="container">
+      <div className="kz-section">
+        <div className="container">
           <h3 className="kz-section-featured-title">Como funciona</h3>
 
           <div className="columns is-justified-between">
@@ -45,7 +45,7 @@ const Payment = () => {
             <div className="column">
               <Card icon={<JobMarketIcon />} title="No mercado de Trabalho">
                 Quando você estiver empregado com uma remuneração, de pelo
-                menos, <span class="is-bold">R$ 3.000,00</span> você começa a
+                menos, <span className="is-bold">R$ 3.000,00</span> você começa a
                 pagar 17% da sua remuneração para a Kenzie.
               </Card>
             </div>
@@ -54,8 +54,8 @@ const Payment = () => {
               {/* prettier-ignore */}
               <Card icon={<PaymentIcon />} title="Pagamento" align="right">
                 O pagamento acontece nas seguintes situações: <br />
-                - Durante <span class="is-bold">60 meses</span> ou <br />
-                - Até chegar a <span class="is-bold">R$ 48.000,00</span>
+                - Durante <span className="is-bold">60 meses</span> ou <br />
+                - Até chegar a <span className="is-bold">R$ 48.000,00</span>
               </Card>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Payment = () => {
       </div>
 
       <div className="kz-section">
-        <div class="container">
+        <div className="container">
           <h3 className="kz-section-featured-title">Cenários</h3>
 
           <div className="columns is-multiline is-justified-between">

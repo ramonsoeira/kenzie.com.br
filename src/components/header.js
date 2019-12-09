@@ -20,7 +20,7 @@ const Header = () => {
       </Link>
 
       <div
-        class="kz-header-toggle is-hidden-tablet"
+        className="kz-header-toggle is-hidden-tablet"
         onClick={() => setOpen(!isOpen)}
       >
         <span></span>

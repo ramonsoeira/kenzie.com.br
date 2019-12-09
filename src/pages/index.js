@@ -122,18 +122,18 @@ const Index = () => {
           <div className="container">
             <div className="columns is-vcentered">
               <div className="column">
-                <h3 class="kz-section-title">
+                <h3 className="kz-section-title">
                   Nós acreditamos em seu potencial!
                 </h3>
 
-                <div class="kz-hero-content">
+                <div className="kz-hero-content">
                   {/* prettier-ignore */}
-                  <p class="kz-section-text">
+                  <p className="kz-section-text">
                     Por isso, você não paga o curso até ser contratado com uma
-                    remuneração de <span class="is-bold">R$ 3.000,00/mês</span>. 
+                    remuneração de <span className="is-bold">R$ 3.000,00/mês</span>. 
                   </p>
 
-                  <p class="kz-section-text">
+                  <p className="kz-section-text">
                     Para garantir o seu sucesso nós damos todo o apoio para a
                     sua colocação no mercado de trabalho através de mentoria de
                     carreira e parcerias que aceleram sua contratação.
@@ -155,13 +155,19 @@ const Index = () => {
           </div>
         </div>
 
-        <div class="kz-section">
-          <h3 class="kz-section-featured-title">
-            Conheça os nossos parceiros que podem dar início a sua carreira de
-            sucesso.
-          </h3>
+        <div className="kz-section">
+          <div className="kz-container">
+            <div className="columns">
+              <div className="column">
+                <h3 className="kz-section-featured-title">
+                  Conheça os nossos parceiros que podem dar início a sua
+                  carreira de sucesso.
+                </h3>
 
-          <PartnerList />
+                <PartnerList />
+              </div>
+            </div>
+          </div>
         </div>
       </Layout>
     </React.Fragment>

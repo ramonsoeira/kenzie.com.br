@@ -13,16 +13,16 @@ const Index = () => {
     <Layout>
       <div className="kz-section has-text-centered">
         <div className="container">
-          <div class="columns">
-            <div class="column">
+          <div className="columns">
+            <div className="column">
               <h3 className="kz-section-head-title">Quem somos</h3>
 
               {/* prettier-ignore */}
               <p className="kz-section-text">
-                Começamos em <span class="is-bold">2017</span> nos <span class="is-bold">Estados Unidos</span> com o
+                Começamos em <span className="is-bold">2017</span> nos <span className="is-bold">Estados Unidos</span> com o
                 propósito de oferecer a oportunidade para pessoas se formarem e
-                ingressarem no mercado de <span class="is-bold">tecnologia rapidamente</span>, 
-                sem mensalidade e com <span class="is-bold">alta qualidade.</span>
+                ingressarem no mercado de <span className="is-bold">tecnologia rapidamente</span>, 
+                sem mensalidade e com <span className="is-bold">alta qualidade.</span>
               </p>
 
               <iframe
@@ -54,11 +54,11 @@ const Index = () => {
             <div className="column is-5 is-offset-1">
               {/* prettier-ignore */}
               <p className="kz-section-text">
-                  Agora iniciamos nosso trabalho no <span class="is-bold">Brasil</span>, trazendo todo a
+                  Agora iniciamos nosso trabalho no <span className="is-bold">Brasil</span>, trazendo todo a
                   experiência adquirida no mercado americano. Nosso objetivo é
                   fomentar essa área, garantindo que nossos alunos
-                  tenham a expertise para atuação como <span class="is-bold">desenvolvedor full-stack</span>
-                  após <span class="is-bold">12 meses de curso</span>.
+                  tenham a expertise para atuação como <span className="is-bold">desenvolvedor full-stack</span>
+                  após <span className="is-bold">12 meses de curso</span>.
                 </p>
             </div>
           </div>
@@ -71,9 +71,9 @@ const Index = () => {
             <div className="column is-5">
               {/* prettier-ignore */}
               <p className="kz-section-text">
-                  A <span class="is-bold">Kenzie Academy</span> atua a mais de <span class="is-bold">3 anos</span>, 
-                  com mais de <span class="is-bold">500 alunos matriculados</span>. Recentemente, levantamos um 
-                  fundo de investimento de <span class="is-bold">US$100 milhões</span> para dar oportunidade a 
+                  A <span className="is-bold">Kenzie Academy</span> atua a mais de <span className="is-bold">3 anos</span>, 
+                  com mais de <span className="is-bold">500 alunos matriculados</span>. Recentemente, levantamos um 
+                  fundo de investimento de <span className="is-bold">US$100 milhões</span> para dar oportunidade a 
                   milhares de novos alunos transformarem suas vidas.
                 </p>
             </div>

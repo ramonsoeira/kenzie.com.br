@@ -13,7 +13,7 @@ const Thumbnail = ({ src, alt, reverse, removeBg }) => {
 
   return (
     <div className={thumbnailClass}>
-      <div class="kz-thumbnail-image">
+      <div className="kz-thumbnail-image">
         <img className="kz-thumbnail-frame" src={Frame} />
         <img alt={alt} src={src} />
       </div>
