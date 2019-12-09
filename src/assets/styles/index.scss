@@ -1,5 +1,12 @@
 $family-sans-serif: "Montserrat", sans-serif;
+
+// Disable the widescreen breakpoint
+$widescreen-enabled: true;
+
+// Disable the fullhd breakpoint
 $fullhd-enabled: false;
+
+$column-gap: 1.25rem;
 
 /* Bulma */
 @import "~bulma/sass/utilities/initial-variables.sass";
@@ -24,7 +31,7 @@ $fullhd-enabled: false;
 
 /* To working with top bar */
 body {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     margin-top: 55px;
   }
 }
@@ -37,6 +44,13 @@ body {
 
 .is-justified-between {
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .reverse-columns {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 .is-bold {

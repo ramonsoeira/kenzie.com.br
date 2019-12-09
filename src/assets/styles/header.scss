@@ -1,8 +1,29 @@
 .kz-header {
-  padding: 16px 24px 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 24px 0 24px;
+
+  &-toggle {
+    span {
+      display: block;
+      width: 24px;
+      height: 4px;
+      background-color: #1c3869;
+
+      &:not(:last-child) {
+        margin-bottom: 6px;
+      }
+    }
+  }
+
+  &-brand {
+    width: 53px;
+    height: 53px;
+  }
 
   &-nav {
     li {
@@ -20,6 +41,39 @@
 
       &:hover {
         color: #1c3869;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      position: fixed;
+      pointer-events: none;
+      opacity: 0;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 5;
+      background-color: #1c3869;
+      padding: 42px 32px;
+      transition: opacity 80ms ease-in-out 0s;
+
+      li {
+        display: block;
+
+        &:not(:last-child) {
+          margin-bottom: 48px;
+          margin-right: 0;
+        }
+      }
+
+      a {
+        font-size: 18px;
+        color: white;
+      }
+
+      &.is-open {
+        opacity: 1;
+        pointer-events: unset;
       }
     }
   }

@@ -1,6 +1,11 @@
 .kz-card {
   width: 100%;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   margin: 0 auto;
   padding: 32px 16px;
   border-radius: 16px;
@@ -26,6 +31,11 @@
   &-text {
     color: #30334a;
     margin-bottom: 18px;
+  }
+
+  .kz-button {
+    max-width: 184px;
+    margin: 0 auto;
   }
 
   @media screen and (min-width: 769px) {
