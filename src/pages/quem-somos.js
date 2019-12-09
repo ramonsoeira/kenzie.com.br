@@ -11,18 +11,18 @@ import "@styles/pages/about-us.scss";
 const Index = () => {
   return (
     <Layout>
-      <div className="page">
+      <div className="kz-section has-text-centered">
         <div className="container">
-          <div className="column">
-            <div className="page-head">
-              <h3>Quem somos</h3>
+          <div class="columns">
+            <div class="column">
+              <h3 className="kz-section-head-title">Quem somos</h3>
 
               {/* prettier-ignore */}
-              <p>
+              <p className="kz-section-text">
                 Começamos em <span class="is-bold">2017</span> nos <span class="is-bold">Estados Unidos</span> com o
                 propósito de oferecer a oportunidade para pessoas se formarem e
                 ingressarem no mercado de <span class="is-bold">tecnologia rapidamente</span>, 
-                sem mensalidade e com <span class="is-bold">alta qualidade</span>.
+                sem mensalidade e com <span class="is-bold">alta qualidade.</span>
               </p>
 
               <iframe
@@ -37,39 +37,43 @@ const Index = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="kz-about-us-section container">
+      <div className="kz-section">
+        <div className="container is-widescreen">
           <div className="columns is-vcentered">
-            <div className="column is-8">
+            <div className="column is-6">
               <Thumbnail src={FirstImage} reverse={true} />
             </div>
 
-            <div className="column is-4">
+            <div className="column is-5 is-offset-1">
               {/* prettier-ignore */}
-              <p>
-                Agora iniciamos nosso trabalho no <span class="is-bold">Brasil</span>, trazendo todo a
-                experiência adquirida no mercado americano. Nosso objetivo é
-                fomentar essa área, garantindo que nossos alunos
-                tenham a expertise para atuação como <span class="is-bold">desenvolvedor full-stack</span>
-                após <span class="is-bold">12 meses de curso</span>.
-              </p>
+              <p className="kz-section-text">
+                  Agora iniciamos nosso trabalho no <span class="is-bold">Brasil</span>, trazendo todo a
+                  experiência adquirida no mercado americano. Nosso objetivo é
+                  fomentar essa área, garantindo que nossos alunos
+                  tenham a expertise para atuação como <span class="is-bold">desenvolvedor full-stack</span>
+                  após <span class="is-bold">12 meses de curso</span>.
+                </p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="kz-about-us-section container">
-          <div className="columns is-vcentered">
+      <div className="kz-section">
+        <div className="container">
+          <div className="columns reverse-columns is-vcentered">
             <div className="column is-5">
               {/* prettier-ignore */}
-              <p>
-                A <span class="is-bold">Kenzie Academy</span> atua a mais de <span class="is-bold">3 anos</span>, 
-                com mais de <span class="is-bold">500 alunos matriculados</span>. Recentemente, levantamos um 
-                fundo de investimento de <span class="is-bold">US$100 milhões</span> para dar oportunidade a 
-                milhares de novos alunos transformarem suas vidas.
-              </p>
+              <p className="kz-section-text">
+                  A <span class="is-bold">Kenzie Academy</span> atua a mais de <span class="is-bold">3 anos</span>, 
+                  com mais de <span class="is-bold">500 alunos matriculados</span>. Recentemente, levantamos um 
+                  fundo de investimento de <span class="is-bold">US$100 milhões</span> para dar oportunidade a 
+                  milhares de novos alunos transformarem suas vidas.
+                </p>
             </div>
 
-            <div className="column is-8">
+            <div className="column is-7">
               <Thumbnail src={SecondImage} />
             </div>
           </div>

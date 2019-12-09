@@ -1,3 +1,5 @@
+$column-gap: 1.25rem;
+$body-color: #30334a;
 $family-sans-serif: "Montserrat", sans-serif;
 
 // Disable the widescreen breakpoint
@@ -5,8 +7,6 @@ $widescreen-enabled: true;
 
 // Disable the fullhd breakpoint
 $fullhd-enabled: false;
-
-$column-gap: 1.25rem;
 
 /* Bulma */
 @import "~bulma/sass/utilities/initial-variables.sass";

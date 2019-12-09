@@ -33,23 +33,23 @@ const Index = () => {
 
                 <div className="kz-hero-content">
                   {/* prettier-ignore */}
-                  <p>
-                  Aprenda com os melhores profissionais a se tornar um <span className="is-bold">DESENVOLVEDOR DE SOFTWARE</span> completo.
-                </p>
+                  <p className="kz-section-text">
+                    Aprenda com os melhores profissionais a se tornar um <span className="is-bold">DESENVOLVEDOR DE SOFTWARE</span> completo.
+                  </p>
 
                   {/* prettier-ignore */}
-                  <p>
-                  Começamos em 2017 nos Estados Unidos com o propósito de
-                  oferecer a oportunidade para pessoas se formarem e ingressarem
-                  no mercado de tecnologia <span className="is-bold">rapidamente, 
-                  sem mensalidade e com alta qualidade.</span>
-                </p>
+                  <p className="kz-section-text">
+                    Começamos em 2017 nos Estados Unidos com o propósito de
+                    oferecer a oportunidade para pessoas se formarem e ingressarem
+                    no mercado de tecnologia <span className="is-bold">rapidamente, 
+                    sem mensalidade e com alta qualidade.</span>
+                  </p>
 
                   {/* prettier-ignore */}
-                  <p>
-                  Já formamos <span className="is-bold">centenas de alunos</span> e
-                  contamos com uma <span className="is-bold">alta taxa de empregabilidade!</span>
-                </p>
+                  <p className="kz-section-text">
+                    Já formamos <span className="is-bold">centenas de alunos</span> e
+                    contamos com uma <span className="is-bold">alta taxa de empregabilidade!</span>
+                  </p>
                 </div>
 
                 <Link className="kz-button" to="/">
@@ -125,12 +125,12 @@ const Index = () => {
 
                 <div class="kz-hero-content">
                   {/* prettier-ignore */}
-                  <p>
+                  <p class="kz-section-text">
                     Por isso, você não paga o curso até ser contratado com uma
                     remuneração de <span class="is-bold">R$ 3.000,00/mês</span>. 
                   </p>
 
-                  <p>
+                  <p class="kz-section-text">
                     Para garantir o seu sucesso nós damos todo o apoio para a
                     sua colocação no mercado de trabalho através de mentoria de
                     carreira e parcerias que aceleram sua contratação.

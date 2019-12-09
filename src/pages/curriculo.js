@@ -3,6 +3,7 @@ import Layout from "@layout/default";
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
 
+//Images
 import FirstImage from "@images/curriculum/photo-1.png";
 import SecondImage from "@images/curriculum/photo-2.png";
 import SecondMobileImage from "@images/curriculum/photo-2-mobile.png";
@@ -13,6 +14,7 @@ import NodeJS from "@images/skills/nodejs.png";
 import Python from "@images/skills/python.png";
 import ReactJS from "@images/skills/react.png";
 
+//Icon
 import AgileIcon from "@icons/agile";
 import LeadershipIcon from "@icons/leadership";
 import RocketIcon from "@icons/rocket";
@@ -22,7 +24,7 @@ import "@styles/pages/curriculum.scss";
 
 const Curriculum = () => {
   return (
-    <Layout className="kz-curriculum">
+    <Layout class="page">
       <div className="page">
         <div className="container">
           <div className="column">
@@ -38,8 +40,8 @@ const Curriculum = () => {
           </div>
         </div>
 
-        <div className="page-section container">
-          <div className="columns is-vcentered">
+        <div className="container">
+          <div className="columns  is-vcentered">
             <div className="column is-7">
               <Thumbnail src={FirstImage} reverse={true} />
             </div>
@@ -59,7 +61,7 @@ const Curriculum = () => {
           </div>
         </div>
 
-        <div className="page-section container">
+        <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-5">
               <h3>Currículo front-end 6 primeiros meses</h3>
@@ -111,7 +113,7 @@ const Curriculum = () => {
           </div>
         </div>
 
-        <div className="page-section container">
+        <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-5">
               <div className="columns is-justified-between">
