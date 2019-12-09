@@ -45,7 +45,7 @@ const Curriculum = () => {
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-6">
-              <Thumbnail src={FirstImage} reverse={true} />
+              <Thumbnail alt="Notebook com editor de código aberto" src={FirstImage} reverse={true} />
             </div>
 
             <div className="column is-5 is-offset-1">
@@ -95,21 +95,21 @@ const Curriculum = () => {
               <div className="columns is-mobile is-multiline">
                 <div className="column is-half-mobile is-one-third-desktop">
                   <div className="kz-skill-card">
-                    <img src={HTMLCSS} />
+                    <img alt="HTML e CSS" src={HTMLCSS} />
                     <p>HTML e CSS</p>
                   </div>
                 </div>
 
                 <div className="column is-half-mobile is-one-third-desktop">
                   <div className="kz-skill-card">
-                    <img src={JavaScript} />
+                    <img alt="JavaScript" src={JavaScript} />
                     <p>JavaScript</p>
                   </div>
                 </div>
 
                 <div className="column is-one-third-desktop">
                   <div className="kz-skill-card">
-                    <img src={ReactJS} />
+                    <img alt="React" src={ReactJS} />
                     <p>React</p>
                   </div>
                 </div>
@@ -126,14 +126,14 @@ const Curriculum = () => {
               <div className="columns is-mobile is-multiline">
                 <div className="column is-6">
                   <div className="kz-skill-card">
-                    <img src={NodeJS} />
+                    <img alt="Node.js" src={NodeJS} />
                     <p>Node.js</p>
                   </div>
                 </div>
 
                 <div className="column is-6">
                   <div className="kz-skill-card">
-                    <img src={Python} />
+                    <img alt="Python" src={Python} />
                     <p>Python</p>
                   </div>
                 </div>
@@ -207,11 +207,19 @@ const Curriculum = () => {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h3 className="kz-section-featured-title">Como é o dia-a-dia?</h3>
+              <h3 className="kz-section-featured-title">Como é o dia a dia?</h3>
 
               <div className="kz-schedule">
-                <img className="is-hidden-mobile" src={SecondImage} />
-                <img className="is-hidden-desktop" src={SecondMobileImage} />
+                <img
+                  alt="Como é o dia a dia?"
+                  className="is-hidden-mobile"
+                  src={SecondImage}
+                />
+                <img
+                  alt="Como é o dia a dia?"
+                  className="is-hidden-desktop"
+                  src={SecondMobileImage}
+                />
 
                 <div className="kz-schedule-note">
                   <p className="is-bold">1-2 vezes por mês teremos também:</p>

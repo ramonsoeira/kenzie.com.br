@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import "@styles/footer.scss";
 
 import Logo from "@images/brand/logo-white.png";
@@ -20,19 +21,15 @@ const Footer = () => {
               <h3 className="kz-footer-title">Kenzie Academy Brazil</h3>
 
               <li>
-                <a>Quem somos</a>
+                <Link to="/quem-somos">Quem somos</Link>
               </li>
 
               <li>
-                <a>Currículo</a>
+                <Link to="/curriculo">Currículo</Link>
               </li>
 
               <li>
-                <a>Pagamento</a>
-              </li>
-
-              <li>
-                <a>FAQ</a>
+                <Link to="/pagamento">Pagamento</Link>
               </li>
             </ul>
           </div>
@@ -45,6 +42,7 @@ const Footer = () => {
                 <a
                   href="https://www.linkedin.com/school/kenzie-academy-brasil/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img width="26" src={Linkedin} alt="Linkedin" />
                 </a>
@@ -54,6 +52,7 @@ const Footer = () => {
                 <a
                   href="https://www.facebook.com/kenzieacademybr/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img width="12" src={Facebook} alt="Facebook" />
                 </a>
@@ -63,6 +62,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/kenzieacademybr/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img width="26" src={Instagram} alt="Instagram" />
                 </a>

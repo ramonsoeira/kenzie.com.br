@@ -23,7 +23,7 @@ const Index = () => {
     <React.Fragment>
       <Layout
         className="kz-home-page"
-        title="Comece aqui sua carreira em tecnologia!"
+        title="Comece aqui sua carreira em tecnologia! | Kenzie Academy Brazil"
       >
         <div className="kz-hero">
           <div className="container">
@@ -52,7 +52,7 @@ const Index = () => {
                   </p>
                 </div>
 
-                <Link className="kz-button" to="/">
+                <Link className="kz-button" to="/quem-somos">
                   Saiba mais
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const Index = () => {
                 <Thumbnail
                   src={FirstImage}
                   removeBg={true}
-                  alt="Comece aqui sua carreira em tecnologia!"
+                  alt="Grupo de alunos"
                 />
               </div>
             </div>
@@ -79,6 +79,7 @@ const Index = () => {
                   icon={<KnowledgeIcon />}
                   title="O que você vai aprender aqui?"
                   buttonLabel="Saiba mais"
+                  buttonTo="/curriculo"
                   align="left"
                 >
                   Linguagens de programação modernas e muito utilizadas no
@@ -92,6 +93,7 @@ const Index = () => {
                   icon={<CodeIcon />}
                   title="Aprenda na prática"
                   buttonLabel="Saiba mais"
+                  buttonTo="/curriculo"
                 >
                   Nossos alunos criam um amplo portfólio de projetos realizados,
                   se preparando para o dia a dia de um programador e facilitando
@@ -104,6 +106,7 @@ const Index = () => {
                   icon={<VerifyIcon />}
                   title="Metodologia comprovada"
                   buttonLabel="Saiba mais"
+                  buttonTo="/curriculo"
                   align="right"
                 >
                   A combinação de aulas presenciais, ensino baseado em projetos,
@@ -137,7 +140,7 @@ const Index = () => {
                   </p>
                 </div>
 
-                <Link className="kz-button" to="/">
+                <Link className="kz-button" to="/pagamento">
                   Saiba mais
                 </Link>
               </div>
@@ -145,7 +148,7 @@ const Index = () => {
               <div className="column is-offset-1">
                 <Thumbnail
                   src={SecondImage}
-                  alt="Comece aqui sua carreira em tecnologia!"
+                  alt="Grupo de alunos mexendo no computador"
                 />
               </div>
             </div>

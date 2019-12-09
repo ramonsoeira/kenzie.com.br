@@ -5,7 +5,7 @@ import Frame from "@images/thumbnail/frame.png";
 
 import "@styles/thumbnail.scss";
 
-const Thumbnail = ({ src, reverse, removeBg }) => {
+const Thumbnail = ({ src, alt, reverse, removeBg }) => {
   const thumbnailClass = classNames("kz-thumbnail", {
     reverse,
     "remove-bg": removeBg
@@ -15,7 +15,7 @@ const Thumbnail = ({ src, reverse, removeBg }) => {
     <div className={thumbnailClass}>
       <div class="kz-thumbnail-image">
         <img className="kz-thumbnail-frame" src={Frame} />
-        <img src={src} />
+        <img alt={alt} src={src} />
       </div>
     </div>
   );

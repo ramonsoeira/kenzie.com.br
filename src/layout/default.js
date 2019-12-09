@@ -9,12 +9,12 @@ import Footer from "@components/footer";
 
 import "@styles/index.scss";
 
-export default ({ children, title, ...rest }) => {
+export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
 
   return (
     <div {...rest}>
-      <SEO title={title} />
+      <SEO title={title} description={description} />
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
 
       <Topbar onOpenLeadForm={() => setOpenLeadForm(true)} />

@@ -26,6 +26,7 @@ const Index = () => {
               </p>
 
               <iframe
+                title="Quem somos"
                 width="560"
                 height="315"
                 className="kz-about-us-iframe"
@@ -43,7 +44,11 @@ const Index = () => {
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-6">
-              <Thumbnail src={FirstImage} reverse={true} />
+              <Thumbnail
+                alt="Grupo de alunos conversando entre si"
+                src={FirstImage}
+                reverse={true}
+              />
             </div>
 
             <div className="column is-5 is-offset-1">
@@ -74,7 +79,10 @@ const Index = () => {
             </div>
 
             <div className="column is-7">
-              <Thumbnail src={SecondImage} />
+              <Thumbnail
+                alt="Grupo de alunos em uma aula de programação"
+                src={SecondImage}
+              />
             </div>
           </div>
         </div>

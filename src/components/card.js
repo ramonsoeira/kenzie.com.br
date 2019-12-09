@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "@styles/card.scss";
 
-const Card = ({ title, children, icon, buttonHref, buttonLabel, align }) => {
+const Card = ({ title, children, icon, buttonTo, buttonLabel, align }) => {
   const hasButtonProp = buttonLabel;
 
   const cardClass = classNames("kz-card", {
@@ -21,7 +21,7 @@ const Card = ({ title, children, icon, buttonHref, buttonLabel, align }) => {
       </div>
 
       {hasButtonProp && (
-        <Link className="kz-button" to={buttonHref}>
+        <Link className="kz-button" to={buttonTo}>
           {buttonLabel}
         </Link>
       )}

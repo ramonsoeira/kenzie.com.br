@@ -9,6 +9,18 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Kenzie Academy Brazil`,
+        short_name: `KenzieBR`,
+        start_url: `/`,
+        background_color: `#1c3869`,
+        theme_color: `#1c3869`,
+        display: `standalone`,
+        icon: `src/assets/images/favicon.png`
+      }
+    },
+    {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
@@ -18,7 +30,7 @@ module.exports = {
           "@icons": path.resolve(__dirname, "src/components/icons"),
           "@styles": path.resolve(__dirname, "src/assets/styles"),
           "@images": path.resolve(__dirname, "src/assets/images"),
-          "@utils": path.resolve(__dirname, "src/utils"),
+          "@utils": path.resolve(__dirname, "src/utils")
         },
         extensions: ["js"]
       }
