@@ -24,7 +24,7 @@ import "@styles/pages/curriculum.scss";
 
 const Curriculum = () => {
   return (
-    <Layout>
+    <Layout title="Currículo | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">

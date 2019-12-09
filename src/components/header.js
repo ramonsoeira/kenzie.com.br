@@ -29,7 +29,7 @@ const Header = () => {
       </div>
 
       <ul className={navClass}>
-        <li classname="is-hidden-desktop">
+        <li className="is-hidden-desktop">
           <CloseIcon
             width="20px"
             height="20px"

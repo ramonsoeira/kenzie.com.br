@@ -40,7 +40,7 @@ const LeadForm = ({ isOpen, onClose }) => {
   }, []);
 
   return (
-    <div class={leadFormClass} onClick={onClose}>
+    <div className={leadFormClass} onClick={onClose}>
       <div className="kz-lead-form-overlay">
         <div className="kz-lead-form-close" onClick={onClose}>
           <CloseIcon />

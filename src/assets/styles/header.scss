@@ -71,6 +71,10 @@
       a {
         font-size: 18px;
         color: white;
+
+        &:hover {
+          color: white;
+        }
       }
 
       &.is-open {

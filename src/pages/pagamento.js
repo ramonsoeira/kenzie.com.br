@@ -9,7 +9,7 @@ import PaymentIcon from "@icons/payment";
 
 const Payment = () => {
   return (
-    <Layout>
+    <Layout title="Quem somos | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">

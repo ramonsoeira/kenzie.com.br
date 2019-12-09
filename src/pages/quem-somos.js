@@ -10,7 +10,7 @@ import "@styles/pages/about-us.scss";
 
 const Index = () => {
   return (
-    <Layout>
+    <Layout title="Quem somos | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -31,9 +31,9 @@ const Index = () => {
                 height="315"
                 className="kz-about-us-iframe"
                 src="https://www.youtube.com/embed/aKrv8YsMYaY"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>

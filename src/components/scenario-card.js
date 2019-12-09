@@ -30,7 +30,7 @@ const ScenarioCard = ({
               </span>
             </p>
           </p>
-          <p className="is-bold">Total de {total}</p>
+          <span className="is-bold">Total de {total}</span>
         </div>
       ) : (
         <p className="no-payment is-bold">Você não precisa pagar nada.</p>

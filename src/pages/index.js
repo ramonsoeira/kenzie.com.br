@@ -120,7 +120,7 @@ const Index = () => {
 
         <div className="kz-section">
           <div className="container">
-            <div className="columns is-vcentered">
+            <div className="columns reverse-columns is-vcentered">
               <div className="column">
                 <h3 className="kz-section-title">
                   Nós acreditamos em seu potencial!
