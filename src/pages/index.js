@@ -83,8 +83,10 @@ const Index = () => {
                   align="left"
                 >
                   Linguagens de programação modernas e muito utilizadas no
-                  mercado Front end: HTML, CSS, JavaScript e React. Back end:
-                  Python e Node.jS
+                  mercado. <br />
+                  <span className="is-bold">Front-end:</span> HTML, CSS,
+                  JavaScript e React. <br />
+                  <span className="is-bold">Back-end:</span> Python e Node.jS.
                 </Card>
               </div>
 

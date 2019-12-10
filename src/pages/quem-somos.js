@@ -17,13 +17,24 @@ const Index = () => {
             <div className="column">
               <h3 className="kz-section-head-title">Quem somos</h3>
 
-              {/* prettier-ignore */}
-              <p className="kz-section-text">
-                Começamos em <span className="is-bold">2017</span> nos <span className="is-bold">Estados Unidos</span> com o
-                propósito de oferecer a oportunidade para pessoas se formarem e
-                ingressarem no mercado de <span className="is-bold">tecnologia rapidamente</span>, 
-                sem mensalidade e com <span className="is-bold">alta qualidade.</span>
-              </p>
+              <div>
+                {/* prettier-ignore */}
+                <p className="kz-section-text">
+                  Começamos em <span className="is-bold">2017</span> nos <span className="is-bold">Estados Unidos</span> com o
+                  propósito de oferecer a oportunidade para pessoas se formarem e
+                  ingressarem no mercado de <span className="is-bold">tecnologia rapidamente</span>, 
+                  sem mensalidade e com <span className="is-bold">alta qualidade.</span>
+                </p>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://www.kenzie.academy/"
+                  rel="noopener noreferrer"
+                  className="kz-button"
+                >
+                  Conheça o site da Kenzie EUA
+                </a>
+              </div>
 
               <iframe
                 title="Quem somos"
@@ -56,9 +67,8 @@ const Index = () => {
               <p className="kz-section-text">
                   Agora iniciamos nosso trabalho no <span className="is-bold">Brasil</span>, trazendo todo a
                   experiência adquirida no mercado americano. Nosso objetivo é
-                  fomentar essa área, garantindo que nossos alunos
-                  tenham a expertise para atuação como <span className="is-bold">desenvolvedor full-stack</span>
-                  após <span className="is-bold">12 meses de curso</span>.
+                  fomentar essa área, garantindo que nossos alunos tenham a expertise para atuação 
+                  como <span className="is-bold">desenvolvedor full-stack</span> após <span className="is-bold">12 meses de curso</span>.
                 </p>
             </div>
           </div>

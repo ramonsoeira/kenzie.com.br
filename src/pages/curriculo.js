@@ -45,7 +45,11 @@ const Curriculum = () => {
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-6">
-              <Thumbnail alt="Notebook com editor de código aberto" src={FirstImage} reverse={true} />
+              <Thumbnail
+                alt="Notebook com editor de código aberto"
+                src={FirstImage}
+                reverse={true}
+              />
             </div>
 
             <div className="column is-5 is-offset-1">
@@ -54,9 +58,13 @@ const Curriculum = () => {
               {/* prettier-ignore */}
               <p className="kz-section-text">
                 Para formarmos o melhor desenvolvedor <span className="is-bold">full-stack</span> nosso currículo
-                abrange tecnologias front-end nos <span className="is-bold">6 primeiros meses</span> e back-end
-                nos 6 últimos meses. Trimestralmente melhoramos nosso material
-                conforme atualizações do mercado e <span className="is-bold">feedback dos alunos</span>.
+                abrange tecnologias front-end nos 6 primeiros meses e back-end
+                nos 6 últimos meses.
+              </p>
+              <br />
+              <p className="kz-section-text">
+                Trimestralmente melhoramos nosso material conforme atualizações
+                do mercado e <span className="is-bold">feedback dos alunos</span>.
               </p>
             </div>
           </div>
@@ -147,7 +155,7 @@ const Curriculum = () => {
 
               <ul className="kz-section-list">
                 <li>
-                  Aprender Python uma linguagem de programação muito popular e
+                  Aprender Python, uma linguagem de programação muito popular e
                   requisitada no mercado, bem como seus frameworks mais comuns -
                   Django e Flask.
                 </li>
@@ -171,8 +179,7 @@ const Curriculum = () => {
               <div className="column is-half-tablet is-one-quarter-desktop">
                 <Card icon={<AgileIcon />} title="Metodologia ágil">
                   Aprenda os conceitos e vivencie a utilização dessa metodologia
-                  utilizada em grandes com cada vez mais frequência em empresas
-                  e startups.
+                  utilizada com cada vez mais frequência em empresas e startups.
                 </Card>
               </div>
 
@@ -215,6 +222,7 @@ const Curriculum = () => {
                   className="is-hidden-mobile"
                   src={SecondImage}
                 />
+                
                 <img
                   alt="Como é o dia a dia?"
                   className="is-hidden-desktop"

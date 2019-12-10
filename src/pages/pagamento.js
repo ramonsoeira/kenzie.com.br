@@ -9,7 +9,7 @@ import PaymentIcon from "@icons/payment";
 
 const Payment = () => {
   return (
-    <Layout title="Quem somos | Kenzie Academy Brazil">
+    <Layout title="Pagamento | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -18,7 +18,7 @@ const Payment = () => {
 
               {/* prettier-ignore */}
               <p className="kz-section-text">
-                A Kenzie confia no seu potencial, você não paga mensalidade até
+                A Kenzie confia no seu potencial, por isso você não paga mensalidade até
                 conseguir um trabalho com remuneração de <span className="is-bold">pelo menos R$ 3.000,00/mês.</span>
               </p>
             </div>

@@ -69,9 +69,11 @@ const Footer = () => {
               </li>
             </ul>
 
-            <address>Av. do Batel, 1705 - 101 - Batel, Curitiba/PR</address>
-            <p>Fone: 41 9905-1517</p>
-            <p>contato@kenzie.com</p>
+            <address>
+              R. General Mario Tourinho, 1733 - 706 - Seminário, Curitiba/PR
+            </address>
+            <p>Telefone: (41) 99232-9867</p>
+            <p>contato@kenzie.com.br</p>
           </div>
         </div>
       </div>
