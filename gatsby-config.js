@@ -51,6 +51,5 @@ module.exports = {
         id: "GTM-NB5L2PM"
       }
     }
-  ],
-  pathPrefix: `/kenzie.com.br`
+  ]
 };
