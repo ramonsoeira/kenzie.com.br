@@ -54,7 +54,7 @@ const Payment = () => {
               {/* prettier-ignore */}
               <Card icon={<PaymentIcon />} title="Pagamento" align="right">
                 O pagamento acontece nas seguintes situações: <br />
-                - Durante <span className="is-bold">60 meses</span> ou <br />
+                - <span className="is-bold">60 meses</span> após concluir o curso ou <br />
                 - Até chegar a <span className="is-bold">R$ 48.000,00</span>
               </Card>
             </div>
