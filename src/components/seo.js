@@ -56,6 +56,22 @@ function SEO({ description, lang, meta, title }) {
           content: site.siteMetadata.siteUrl + Image
         },
         {
+          property: `og:image:secure_url`,
+          content: site.siteMetadata.siteUrl + Image
+        },
+        {
+          property: `og:image:width`,
+          content: `300`
+        },
+        {
+          property: `og:image:height`,
+          content: `430`
+        },
+        {
+          property: `og:image:alt`,
+          content: title
+        },
+        {
           property: `og:description`,
           content: metaDescription
         },
