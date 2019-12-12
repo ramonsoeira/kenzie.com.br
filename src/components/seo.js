@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription
         },
         {
+          property: `og:site_name`,
+          content: title
+        },
+        {
           property: `og:title`,
           content: title
         },
