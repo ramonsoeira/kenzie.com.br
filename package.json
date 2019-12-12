@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "gatsby build",
+    "predeploy": "gatsby build && cp CNAME ./public",
     "deploy": "gh-pages -d public"
   },
   "repository": {
