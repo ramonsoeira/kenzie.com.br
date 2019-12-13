@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "@images/whatsapp.png";
 import "@styles/whatsapp-button.scss";
 
 const WhatsappButton = () => {
@@ -8,9 +7,10 @@ const WhatsappButton = () => {
       data-ga="whatsapp-btn"
       className="kz-whatsapp-button"
       target="_blank"
+      rel="noopener noreferrer"
       href="https://api.whatsapp.com/send?phone=5541992329867"
     >
-      <img src={Image} />
+      Tenho interesse
     </a>
   );
 };

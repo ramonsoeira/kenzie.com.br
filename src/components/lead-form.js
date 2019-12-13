@@ -25,8 +25,8 @@ const LeadForm = ({ isOpen, onClose }) => {
       formId: "5eb291f0-d4b8-4229-8583-8745a7dddc56",
       target: `#${form.current.id}`,
       onFormSubmitted: function() {
-        if (process.env.NODE_ENV !== "development") {
-          dataLayer.push({ event: "hubspot_form_registration" });
+        if (process.env.NODE_ENV !== "development" && windowGlobal) {
+          windowGlobal.dataLayer.push({ event: "hubspot_form_registration" });
         }
       }
     });
