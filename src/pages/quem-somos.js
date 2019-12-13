@@ -27,6 +27,7 @@ const Index = () => {
                 </p>
                 <br />
                 <a
+                  data-ga="eua-kenzie-btn"
                   target="_blank"
                   href="https://www.kenzie.academy/"
                   rel="noopener noreferrer"
@@ -38,6 +39,7 @@ const Index = () => {
 
               <iframe
                 title="Quem somos"
+                data-ga="who-we-are-video"
                 width="560"
                 height="315"
                 className="kz-about-us-iframe"

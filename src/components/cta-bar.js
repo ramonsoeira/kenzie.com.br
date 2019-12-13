@@ -10,7 +10,11 @@ const CTABar = ({ onOpenLeadForm }) => {
             Preparado para começar uma nova carreira?
           </h3>
 
-          <button className="kz-button" onClick={onOpenLeadForm}>
+          <button
+            data-ga="bottom-bar-cta-btn"
+            className="kz-button"
+            onClick={onOpenLeadForm}
+          >
             Tenho interesse
           </button>
         </div>

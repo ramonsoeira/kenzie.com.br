@@ -6,7 +6,7 @@ const Topbar = ({ onOpenLeadForm }) => {
     <div className="kz-top-bar">
       <p className="kz-top-bar-text">Próxima turma inicia 28 de Janeiro!</p>
 
-      <button className="kz-top-bar-alert" onClick={onOpenLeadForm}>
+      <button data-ga="top-bar-cta-btn" className="kz-top-bar-alert" onClick={onOpenLeadForm}>
         Tenho interesse
       </button>
     </div>
