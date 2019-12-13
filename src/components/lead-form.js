@@ -26,10 +26,7 @@ const LeadForm = ({ isOpen, onClose }) => {
       target: `#${form.current.id}`,
       onFormSubmitted: function() {
         if (process.env.NODE_ENV !== "development") {
-          //Send conversion event
-          windowGlobal.gtag("event", "conversion", {
-            send_to: "AW-700277406/tAe6COeChrEBEJ7F9c0C"
-          });
+          dataLayer.push({ event: "hubspot_form_registration" });
         }
       }
     });
