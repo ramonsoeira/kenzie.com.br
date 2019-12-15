@@ -7,9 +7,12 @@ import HeartIcon from "@icons/heart";
 import JobMarketIcon from "@icons/job-market";
 import PaymentIcon from "@icons/payment";
 
-const Payment = () => {
+const Payment = props => {
   return (
-    <Layout title="Pagamento | Kenzie Academy Brazil">
+    <Layout
+      title="Pagamento | Kenzie Academy Brazil"
+      searchParams={props.location.search}
+    >
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -45,8 +48,8 @@ const Payment = () => {
             <div className="column">
               <Card icon={<JobMarketIcon />} title="No mercado de Trabalho">
                 Quando você estiver empregado com uma remuneração, de pelo
-                menos, <span className="is-bold">R$ 3.000,00</span> você começa a
-                pagar 17% da sua remuneração para a Kenzie.
+                menos, <span className="is-bold">R$ 3.000,00</span> você começa
+                a pagar 17% da sua remuneração para a Kenzie.
               </Card>
             </div>
 

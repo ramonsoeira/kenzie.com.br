@@ -18,12 +18,13 @@ import VerifyIcon from "@icons/verify";
 
 import "@styles/pages/home.scss";
 
-const Index = () => {
+const Index = props => {
   return (
     <React.Fragment>
       <Layout
         className="kz-home-page"
         title="Comece aqui sua carreira em tecnologia! | Kenzie Academy Brazil"
+        searchParams={props.location.search}
       >
         <div className="kz-hero">
           <div className="container">

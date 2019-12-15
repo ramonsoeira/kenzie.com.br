@@ -8,9 +8,12 @@ import SecondImage from "@images/about-us/photo-2.png";
 
 import "@styles/pages/about-us.scss";
 
-const Index = () => {
+const Index = props => {
   return (
-    <Layout title="Quem somos | Kenzie Academy Brazil">
+    <Layout
+      title="Quem somos | Kenzie Academy Brazil"
+      searchParams={props.location.search}
+    >
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">

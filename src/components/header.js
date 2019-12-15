@@ -6,7 +6,7 @@ import Logo from "@images/brand/logo.png";
 import CloseIcon from "@icons/close";
 import "@styles/header.scss";
 
-const Header = () => {
+const Header = ({ searchParams }) => {
   const [isOpen, setOpen] = useState(false);
 
   const navClass = classNames("kz-header-nav", {
@@ -39,19 +39,19 @@ const Header = () => {
         </li>
 
         <li>
-          <Link to="/quem-somos" title="Quem somos">
+          <Link to={`/quem-somos/` + searchParams} title="Quem somos">
             Quem somos
           </Link>
         </li>
 
         <li>
-          <Link to="/curriculo" title="Currículo">
+          <Link to={`/curriculo/` + searchParams} title="Currículo">
             Currículo
           </Link>
         </li>
 
         <li>
-          <Link to="/pagamento" title="Pagamento">
+          <Link to={`/pagamento/` + searchParams} title="Pagamento">
             Pagamento
           </Link>
         </li>

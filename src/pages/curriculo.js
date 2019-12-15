@@ -22,9 +22,12 @@ import SkillIcon from "@icons/skill";
 
 import "@styles/pages/curriculum.scss";
 
-const Curriculum = () => {
+const Curriculum = props => {
   return (
-    <Layout title="Currículo | Kenzie Academy Brazil">
+    <Layout
+      title="Currículo | Kenzie Academy Brazil"
+      searchParams={props.location.search}
+    >
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -64,7 +67,8 @@ const Curriculum = () => {
               <br />
               <p className="kz-section-text">
                 Trimestralmente melhoramos nosso material conforme atualizações
-                do mercado e <span className="is-bold">feedback dos alunos</span>.
+                do mercado e{" "}
+                <span className="is-bold">feedback dos alunos</span>.
               </p>
             </div>
           </div>
@@ -222,7 +226,7 @@ const Curriculum = () => {
                   className="is-hidden-mobile"
                   src={SecondImage}
                 />
-                
+
                 <img
                   alt="Como é o dia a dia?"
                   className="is-hidden-desktop"
