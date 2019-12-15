@@ -7,6 +7,7 @@ module.exports = {
     description: `Comece aqui sua carreira em tecnologia!`
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
