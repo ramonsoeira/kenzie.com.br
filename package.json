@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "gatsby build && cp CNAME ./public/static",
+    "clean": "gatsby clean",
+    "predeploy": "yarn clean && gatsby build && cp CNAME ./public",
     "deploy": "gh-pages -d public"
   },
   "repository": {
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/Kenzie-Academy-Brasil/kenzie.com.br#readme",
   "dependencies": {
+    "@sentry/browser": "^5.10.2",
+    "@sentry/integrations": "^5.10.2",
     "bulma": "^0.8.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.18.5",
