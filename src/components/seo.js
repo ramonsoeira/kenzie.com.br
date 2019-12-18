@@ -97,6 +97,34 @@ function SEO({ description, lang, meta, title }) {
         }
       ].concat(meta)}
     >
+      <link
+        rel="preconnect"
+        href="https://googleads.g.doubleclick.net"
+        crossorigin
+      />
+
+      <link
+        rel="preconnect"
+        href="https://www.google-analytics.com"
+        crossorigin
+      />
+
+      <link
+        rel="preconnect"
+        href="https://www.googletagmanager.com"
+        crossorigin
+      />
+
+      <link rel="preconnect" href="https://www.google.com" crossorigin />
+      <link rel="preconnect" href="https://www.google.com.br" crossorigin />
+
+      <link
+        rel="preconnect"
+        href="https://www.googleadservices.com"
+        crossorigin
+      />
+
+      <link rel="preconnect" href="https://connect.facebook.net" crossorigin />
 
       <script
         src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
