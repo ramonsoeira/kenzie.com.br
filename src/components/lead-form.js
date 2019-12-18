@@ -12,10 +12,11 @@ const LeadForm = ({ isOpen, onClose }) => {
     "is-open": isOpen
   });
 
-  const appendScript = (src, formId) => {
+  const appendScript = src => {
     const script = document.createElement("script");
     script.src = src;
-    script.onload = () => loadScript(formId);
+    script.defer = true;
+    script.onload = () => loadScript();
     document.head.appendChild(script);
   };
 
