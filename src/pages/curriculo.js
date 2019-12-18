@@ -4,7 +4,6 @@ import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
 
 //Images
-import FirstImage from "@images/curriculum/photo-1.png";
 import SecondImage from "@images/curriculum/photo-2.png";
 import SecondMobileImage from "@images/curriculum/photo-2-mobile.png";
 
@@ -50,7 +49,7 @@ const Curriculum = props => {
             <div className="column is-6">
               <Thumbnail
                 alt="Notebook com editor de código aberto"
-                src={FirstImage}
+                fluid={props.data.imageOne.childImageSharp.fluid}
                 reverse={true}
               />
             </div>
@@ -250,5 +249,23 @@ const Curriculum = props => {
     </Layout>
   );
 };
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "curriculum/photo-1.jpg" }) {
+      ...fluidImage
+    }
+  }
+`;
 
 export default Curriculum;

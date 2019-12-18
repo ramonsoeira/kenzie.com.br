@@ -1,10 +1,6 @@
 import React from "react";
 import Layout from "@layout/default";
-
 import Thumbnail from "@components/thumbnail";
-
-import FirstImage from "@images/about-us/photo-1.png";
-import SecondImage from "@images/about-us/photo-2.png";
 
 import "@styles/pages/about-us.scss";
 
@@ -61,8 +57,8 @@ const Index = props => {
           <div className="columns is-vcentered">
             <div className="column is-6">
               <Thumbnail
+                fluid={props.data.imageOne.childImageSharp.fluid}
                 alt="Grupo de alunos conversando entre si"
-                src={FirstImage}
                 reverse={true}
               />
             </div>
@@ -96,7 +92,7 @@ const Index = props => {
             <div className="column is-7">
               <Thumbnail
                 alt="Grupo de alunos em uma aula de programação"
-                src={SecondImage}
+                fluid={props.data.imageTwo.childImageSharp.fluid}
               />
             </div>
           </div>
@@ -105,5 +101,27 @@ const Index = props => {
     </Layout>
   );
 };
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "about-us/photo-1.jpg" }) {
+      ...fluidImage
+    }
+
+    imageTwo: file(relativePath: { eq: "about-us/photo-2.jpg" }) {
+      ...fluidImage
+    }
+  }
+`;
 
 export default Index;

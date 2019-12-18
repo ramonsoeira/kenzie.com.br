@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from "gatsby";
 import { Link } from "gatsby";
 import Layout from "@layout/default";
 
@@ -6,10 +7,6 @@ import Layout from "@layout/default";
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
 import PartnerList from "@components/partner-list";
-
-//Imagens
-import FirstImage from "@images/home/photo-1.png";
-import SecondImage from "@images/home/photo-2.png";
 
 //Icon
 import KnowledgeIcon from "@icons/knowledge";
@@ -59,7 +56,7 @@ const Index = props => {
               </div>
               <div className="column">
                 <Thumbnail
-                  src={FirstImage}
+                  fluid={props.data.imageOne.childImageSharp.fluid}
                   removeBg={true}
                   alt="Grupo de alunos"
                 />
@@ -150,7 +147,7 @@ const Index = props => {
 
               <div className="column is-offset-1">
                 <Thumbnail
-                  src={SecondImage}
+                  fluid={props.data.imageTwo.childImageSharp.fluid}
                   alt="Grupo de alunos mexendo no computador"
                 />
               </div>
@@ -176,5 +173,27 @@ const Index = props => {
     </React.Fragment>
   );
 };
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "home/photo-1.jpg" }) {
+      ...fluidImage
+    }
+
+    imageTwo: file(relativePath: { eq: "home/photo-2.jpg" }) {
+      ...fluidImage
+    }
+  }
+`;
 
 export default Index;

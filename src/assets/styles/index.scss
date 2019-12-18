@@ -54,8 +54,15 @@ body {
 
 @media (max-width: 768px) {
   .reverse-columns {
-    display: flex;
-    flex-direction: column-reverse;
+    display: grid;
+
+    .column:nth-child(1) {
+      order: 2;
+    }
+
+    .column:nth-child(2) {
+      order: 1;
+    }
   }
 }
 
