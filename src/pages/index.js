@@ -7,6 +7,7 @@ import Layout from "@layout/default";
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
 import PartnerList from "@components/partner-list";
+import NewsList from "@components/news-list";
 
 //Icon
 import KnowledgeIcon from "@icons/knowledge";
@@ -109,10 +110,25 @@ const Index = props => {
                   buttonTo="/curriculo"
                   align="right"
                 >
-                  A combinação de aulas presenciais, ensino baseado em projetos,
+                  A combinação de aulas, ensino baseado em projetos,
                   acompanhamento do nosso time e currículo validado nos Estados
                   Unidos vai acelerar sua carreira para o sucesso.
                 </Card>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="kz-section">
+          <div className="kz-container">
+            <div className="columns">
+              <div className="column">
+                <h3 className="kz-section-featured-title">
+                  Conheça os nossos parceiros que podem dar início a sua
+                  carreira de sucesso.
+                </h3>
+
+                <PartnerList />
               </div>
             </div>
           </div>
@@ -159,12 +175,9 @@ const Index = props => {
           <div className="kz-container">
             <div className="columns">
               <div className="column">
-                <h3 className="kz-section-featured-title">
-                  Conheça os nossos parceiros que podem dar início a sua
-                  carreira de sucesso.
-                </h3>
+                <h3 className="kz-section-featured-title">#kenzienamídia</h3>
 
-                <PartnerList />
+                <NewsList />
               </div>
             </div>
           </div>
