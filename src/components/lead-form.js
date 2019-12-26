@@ -24,10 +24,14 @@ const LeadForm = ({ isOpen, onClose }) => {
     return global.hbspt.forms.create({
       portalId: "6600573",
       formId: "5eb291f0-d4b8-4229-8583-8745a7dddc56",
-      target: `#${form.current.id}`,
+      target: `#form`,
       onFormSubmitted: function() {
         if (process.env.NODE_ENV !== "development" && windowGlobal) {
-          windowGlobal.dataLayer.push({ event: "hubspot_form_registration" });
+          windowGlobal.gtag("event", "conversion", {
+            send_to: "AW-700277406/tAe6COeChrEBEJ7F9c0C"
+          });
+
+          windowGlobal.gtag("event", "hubspot_form_registration");
         }
       }
     });
