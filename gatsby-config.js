@@ -7,6 +7,21 @@ module.exports = {
     description: `Comece aqui sua carreira em tecnologia!`
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-150590368-1",
+        //The pageview event is sending with Google Tag Manager
+        exclude: ["/", "/quem-somos/", "/curriculo/", "/pagamento/"],
+        head: true
+      }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NB5L2PM"
+      }
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

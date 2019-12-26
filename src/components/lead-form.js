@@ -27,11 +27,7 @@ const LeadForm = ({ isOpen, onClose }) => {
       target: `#form`,
       onFormSubmitted: function() {
         if (process.env.NODE_ENV !== "development" && windowGlobal) {
-          windowGlobal.gtag("event", "conversion", {
-            send_to: "AW-700277406/tAe6COeChrEBEJ7F9c0C"
-          });
-
-          windowGlobal.gtag("event", "hubspot_form_registration");
+          windowGlobal.dataLayer.push({ event: "hubspot_form_registration" });
         }
       }
     });
