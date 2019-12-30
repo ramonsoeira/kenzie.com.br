@@ -22,7 +22,6 @@ const Index = props => {
       <Layout
         className="kz-home-page"
         title="Comece aqui sua carreira em tecnologia! | Kenzie Academy Brazil"
-        searchParams={props.location.search}
       >
         <div className="kz-hero">
           <div className="container">
@@ -33,7 +32,7 @@ const Index = props => {
                 <div className="kz-hero-content">
                   {/* prettier-ignore */}
                   <p className="kz-section-text">
-                    Aprenda com os melhores profissionais a se tornar um <span className="is-bold">DESENVOLVEDOR DE SOFTWARE</span> completo.
+                    Aprenda com os melhores profissionais a se tornar um <span className="is-bold">PROGRAMADOR</span> completo.
                   </p>
 
                   {/* prettier-ignore */}
@@ -69,7 +68,12 @@ const Index = props => {
         <div className="kz-section">
           <div className="container">
             <div className="column">
-              <h3 className="kz-title">Mais de 2.000 horas de aulas</h3>
+              <div className="kz-section-head">
+                <h3 className="kz-section-featured-title">
+                  Curso de programação
+                </h3>
+                <p className="kz-section-subtitle">Mais de 2.000 mil horas de curso</p>
+              </div>
             </div>
 
             <div className="columns is-justified-between">
@@ -123,10 +127,12 @@ const Index = props => {
           <div className="kz-container">
             <div className="columns">
               <div className="column">
-                <h3 className="kz-section-featured-title">
-                  Conheça os nossos parceiros que podem dar início a sua
-                  carreira de sucesso.
-                </h3>
+                <div className="kz-section-head">
+                  <h3 className="kz-section-featured-title">
+                    Conheça os nossos parceiros que podem dar início a sua
+                    carreira de sucesso.
+                  </h3>
+                </div>
 
                 <PartnerList />
               </div>
@@ -175,7 +181,9 @@ const Index = props => {
           <div className="kz-container">
             <div className="columns">
               <div className="column">
-                <h3 className="kz-section-featured-title">#kenzienamídia</h3>
+                <div className="kz-section-head">
+                  <h3 className="kz-section-featured-title">#kenzienamídia</h3>
+                </div>
 
                 <NewsList />
               </div>

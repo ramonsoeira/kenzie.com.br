@@ -7,7 +7,7 @@ import Facebook from "@images/social/facebook.png";
 import Instagram from "@images/social/instagram.png";
 import Linkedin from "@images/social/linkedin.png";
 
-const Footer = ({ searchParams }) => {
+const Footer = () => {
   return (
     <div className="kz-footer">
       <div className="container">
@@ -21,15 +21,15 @@ const Footer = ({ searchParams }) => {
               <h3 className="kz-footer-title">Kenzie Academy Brazil</h3>
 
               <li>
-                <Link to={`/quem-somos` + searchParams}>Quem somos</Link>
+                <Link to={`/quem-somos`}>Quem somos</Link>
               </li>
 
               <li>
-                <Link to={`/curriculo` + searchParams}>Currículo</Link>
+                <Link to={`/curriculo`}>Currículo</Link>
               </li>
 
               <li>
-                <Link to={`/pagamento` + searchParams}>Pagamento</Link>
+                <Link to={`/pagamento`}>Pagamento</Link>
               </li>
             </ul>
           </div>

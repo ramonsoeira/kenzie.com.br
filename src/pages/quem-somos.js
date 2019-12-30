@@ -6,10 +6,7 @@ import "@styles/pages/about-us.scss";
 
 const Index = props => {
   return (
-    <Layout
-      title="Quem somos | Kenzie Academy Brazil"
-      searchParams={props.location.search}
-    >
+    <Layout title="Quem somos | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">

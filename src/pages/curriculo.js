@@ -23,10 +23,7 @@ import "@styles/pages/curriculum.scss";
 
 const Curriculum = props => {
   return (
-    <Layout
-      title="Currículo | Kenzie Academy Brazil"
-      searchParams={props.location.search}
-    >
+    <Layout title="Currículo | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -217,7 +214,11 @@ const Curriculum = props => {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h3 className="kz-section-featured-title">Como é o dia a dia?</h3>
+              <div className="kz-section-head">
+                <h3 className="kz-section-featured-title">
+                  Como é o dia a dia?
+                </h3>
+              </div>
 
               <div className="kz-schedule">
                 <img

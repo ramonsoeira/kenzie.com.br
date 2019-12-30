@@ -21,7 +21,7 @@ if (process.env.NODE_ENV !== "development") {
   });
 }
 
-export default ({ children, title, description, searchParams, ...rest }) => {
+export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
 
   return (
@@ -31,12 +31,12 @@ export default ({ children, title, description, searchParams, ...rest }) => {
 
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
       <Topbar onOpenLeadForm={() => setOpenLeadForm(true)} />
-      <Header searchParams={searchParams || ""} />
+      <Header />
 
       {children}
 
       <CTABar onOpenLeadForm={() => setOpenLeadForm(true)} />
-      <Footer searchParams={searchParams || ""} />
+      <Footer />
     </div>
   );
 };

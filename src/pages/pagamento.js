@@ -9,10 +9,7 @@ import PaymentIcon from "@icons/payment";
 
 const Payment = props => {
   return (
-    <Layout
-      title="Pagamento | Kenzie Academy Brazil"
-      searchParams={props.location.search}
-    >
+    <Layout title="Pagamento | Kenzie Academy Brazil">
       <div className="kz-section has-text-centered">
         <div className="container">
           <div className="columns">
@@ -31,7 +28,9 @@ const Payment = props => {
 
       <div className="kz-section">
         <div className="container">
-          <h3 className="kz-section-featured-title">Como funciona</h3>
+          <div className="kz-section-head">
+            <h3 className="kz-section-featured-title">Como funciona</h3>
+          </div>
 
           <div className="columns is-justified-between">
             <div className="column">
@@ -67,7 +66,9 @@ const Payment = props => {
 
       <div className="kz-section">
         <div className="container">
-          <h3 className="kz-section-featured-title">Cenários</h3>
+          <div className="kz-section-head">
+            <h3 className="kz-section-featured-title">Cenários</h3>
+          </div>
 
           <div className="columns is-multiline is-justified-between">
             <div className="column">

@@ -12,27 +12,39 @@ const PartnerList = () => {
     <div className="container">
       <div className="columns is-mobile is-multiline is-vcentered">
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={BancoBari} alt="Banco Bari" />
+          <a href="https://www.bancobari.com.br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={BancoBari} alt="Banco Bari" />
+          </a>
         </div>
 
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={CPlug} alt="CPlug" />
+          <a href="https://www.connectplug.com.br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={CPlug} alt="CPlug" />
+          </a>
         </div>
 
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={James} alt="James" />
+          <a href="https://www.jamesdelivery.com.br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={James} alt="James" />
+          </a>
         </div>
 
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={GrupoBarigui} alt="Grupo Barigui" />
+          <a href="https://www.grupobarigui.com.br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={GrupoBarigui} alt="Grupo Barigui" />
+          </a>
         </div>
 
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={EBANX} alt="EBANX" />
+          <a href="https://www.ebanx.com/br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={EBANX} alt="EBANX" />
+          </a>
         </div>
 
         <div className="column is-half-mobile has-text-centered">
-          <img width="120px" src={SocialWave} alt="Social Wave" />
+          <a href="https://socialwave.com.br/" target="_blank" rel="noopener noreferrer">
+            <img width="120px" src={SocialWave} alt="Social Wave" />
+          </a>
         </div>
       </div>
     </div>

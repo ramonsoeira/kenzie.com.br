@@ -5,6 +5,11 @@
     padding: 24px 0;
   }
 
+  &-head {
+    text-align: center;
+    margin: 0 auto 40px auto;
+  }
+
   &-list {
     padding-left: 18px;
     list-style-type: disc;
@@ -19,13 +24,22 @@
     line-height: 1.8;
   }
 
+  &-subtitle {
+    font-size: 21px;
+    margin-top: 8px;
+  }
+
+  &-title,
+  &-head-title {
+    margin-bottom: 32px;
+  }
+
   &-title,
   &-featured-title,
   &-head-title {
     display: block;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 32px;
   }
 
   &-title,
