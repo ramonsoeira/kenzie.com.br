@@ -1,0 +1,10 @@
+.kz-terms-and-conditions-page {
+  ul {
+    list-style: lower-roman;
+    padding: 0 24px;
+
+    li:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+}
