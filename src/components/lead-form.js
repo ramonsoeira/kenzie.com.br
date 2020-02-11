@@ -12,14 +12,6 @@ const LeadForm = ({ isOpen, onClose }) => {
     "is-open": isOpen
   });
 
-  const appendScript = src => {
-    const script = document.createElement("script");
-    script.src = src;
-    script.defer = true;
-    script.onload = () => loadScript();
-    document.head.appendChild(script);
-  };
-
   const loadScript = () => {
     return global.hbspt.forms.create({
       portalId: "6600573",
@@ -34,15 +26,23 @@ const LeadForm = ({ isOpen, onClose }) => {
   };
 
   useEffect(() => {
+    const appendScript = src => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.defer = true;
+      script.onload = () => loadScript();
+      document.head.appendChild(script);
+    };
+
     appendScript("https://js.hsforms.net/forms/v2.js");
   }, []);
 
   return (
-    <div className={leadFormClass} onClick={onClose}>
+    <div className={leadFormClass} onClick={onClose} role="dialog">
       <div className="kz-lead-form-overlay">
-        <div className="kz-lead-form-close" onClick={onClose}>
+        <button className="kz-lead-form-close" onClick={onClose}>
           <CloseIcon />
-        </div>
+        </button>
 
         <div ref={form} id="form" />
       </div>

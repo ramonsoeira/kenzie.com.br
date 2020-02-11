@@ -19,14 +19,14 @@ const Header = () => {
         <img width="53" height="53" src={Logo} alt="Kenzie" />
       </Link>
 
-      <div
+      <button
         className="kz-header-toggle is-hidden-tablet"
         onClick={() => setOpen(!isOpen)}
       >
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </button>
 
       <ul className={navClass}>
         <li className="is-hidden-desktop">

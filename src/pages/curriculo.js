@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from "gatsby";
 import Layout from "@layout/default";
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
