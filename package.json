@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/Kenzie-Academy-Brasil/kenzie.com.br#readme",
   "dependencies": {
-    "@sentry/browser": "^5.10.2",
-    "@sentry/integrations": "^5.10.2",
     "bulma": "^0.8.0",
     "classnames": "^2.2.6",
     "gatsby": "^2.18.5",

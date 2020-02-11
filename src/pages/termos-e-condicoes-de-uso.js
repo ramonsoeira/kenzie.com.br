@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "@layout/default";
-import Thumbnail from "@components/thumbnail";
 
 import "@styles/pages/terms-and-conditions.scss";
 
