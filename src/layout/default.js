@@ -17,8 +17,7 @@ export default ({ children, title, description, ...rest }) => {
       <WhatsappButton />
 
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
-      <Topbar onOpenLeadForm={() => setOpenLeadForm(true)} />
-      <Header />
+      <Header onOpenLeadForm={() => setOpenLeadForm(true)} />
 
       {children}
 

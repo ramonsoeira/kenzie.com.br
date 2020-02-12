@@ -29,15 +29,6 @@ $fullhd-enabled: false;
 
 @import "pages/general.scss";
 
-/* To working with top bar */
-body {
-  margin-top: 100px;
-
-  @media screen and (min-width: 769px) {
-    margin-top: 55px;
-  }
-}
-
 .columns {
   width: 100%;
   height: 100%;

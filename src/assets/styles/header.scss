@@ -1,13 +1,20 @@
 .kz-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  max-width: 1440px;
   margin: 0 auto;
-  padding: 16px 24px 0 24px;
+  padding: 12px 20px 12px 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   &-toggle {
+    border: 0;
+    background: none;
+    padding: 6px 0 0 0;
+
     span {
       display: block;
       width: 24px;
@@ -26,21 +33,28 @@
   }
 
   &-nav {
+    display: inline-block;
+
     li {
       display: inline-block;
 
       &:not(:last-child) {
-        margin-right: 52px;
+        margin-right: 75px;
+      }
+
+      &:last-child {
+        margin-right: 42px;
       }
     }
 
     a {
-      font-size: 16px;
-      font-weight: 700;
-      color: #1c3869;
+      font-size: 14px;
+      font-weight: 500;
+      color: #959595;
+      text-transform: uppercase;
 
       &:hover {
-        color: #1c3869;
+        color: #959595;
       }
     }
 
