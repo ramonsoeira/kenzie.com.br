@@ -26,7 +26,7 @@ const Payment = props => {
         </div>
       </div>
 
-      <div className="kz-section">
+      <div className="kz-section with-blue-bg">
         <div className="container">
           <div className="kz-section-head">
             <h3 className="kz-section-featured-title">Como funciona</h3>
