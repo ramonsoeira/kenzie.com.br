@@ -76,4 +76,20 @@
       font-size: 28px !important;
     }
   }
+
+  &.with-blue-bg {
+    background-color: #1c3869;
+
+    .kz-section-subtitle {
+      color: white;
+    }
+
+    .kz-section-featured-title {
+      color: white;
+
+      &:before {
+        background-color: white;
+      }
+    }
+  }
 }

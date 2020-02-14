@@ -10,9 +10,9 @@ import PartnerList from "@components/partner-list";
 import NewsList from "@components/news-list";
 
 //Icon
-import KnowledgeIcon from "@icons/knowledge";
-import CodeIcon from "@icons/code";
-import VerifyIcon from "@icons/verify";
+import TechHandsIcon from "@icons/tech-hands";
+import ComputerWithToolsIcon from "@icons/computer-with-tools";
+import MethodologyIcon from "@icons/methodology";
 
 import "@styles/pages/home.scss";
 
@@ -25,7 +25,7 @@ const Index = props => {
       >
         <div className="kz-hero">
           <div className="container">
-            <div className="columns is-vcentered reverse-columns">
+            <div className="columns is-vcentered reverse-columns-tablet">
               <div className="column">
                 <h1 className="kz-hero-title">Comece aqui sua carreira</h1>
 
@@ -65,21 +65,21 @@ const Index = props => {
           </div>
         </div>
 
-        <div className="kz-section">
+        <div className="kz-section with-blue-bg">
           <div className="container">
-            <div className="column">
-              <div className="kz-section-head">
-                <h3 className="kz-section-featured-title">
-                  Curso de programação
-                </h3>
-                <p className="kz-section-subtitle">Mais de 2.000 mil horas de curso</p>
-              </div>
+            <div className="kz-section-head">
+              <h3 className="kz-section-featured-title">
+                Curso de programação
+              </h3>
+              <p className="kz-section-subtitle">
+                Mais de 2.000 mil horas de curso
+              </p>
             </div>
 
             <div className="columns is-justified-between">
               <div className="column">
                 <Card
-                  icon={<KnowledgeIcon />}
+                  icon={<TechHandsIcon />}
                   title="O que você vai aprender aqui?"
                   buttonLabel="Saiba mais"
                   buttonTo="/curriculo"
@@ -95,7 +95,7 @@ const Index = props => {
 
               <div className="column">
                 <Card
-                  icon={<CodeIcon />}
+                  icon={<ComputerWithToolsIcon />}
                   title="Aprenda na prática"
                   buttonLabel="Saiba mais"
                   buttonTo="/curriculo"
@@ -108,7 +108,7 @@ const Index = props => {
 
               <div className="column">
                 <Card
-                  icon={<VerifyIcon />}
+                  icon={<MethodologyIcon />}
                   title="Metodologia comprovada"
                   buttonLabel="Saiba mais"
                   buttonTo="/curriculo"
@@ -142,7 +142,7 @@ const Index = props => {
 
         <div className="kz-section">
           <div className="container">
-            <div className="columns reverse-columns is-vcentered">
+            <div className="columns reverse-columns-tablet is-vcentered">
               <div className="column">
                 <h3 className="kz-section-title">
                   Nós acreditamos em seu potencial!

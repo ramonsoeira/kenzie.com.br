@@ -3,7 +3,7 @@ import Layout from "@layout/default";
 import Card from "@components/card";
 import ScenarioCard from "@components/scenario-card";
 
-import HeartIcon from "@icons/heart";
+import StudyIcon from "@icons/study";
 import JobMarketIcon from "@icons/job-market";
 import PaymentIcon from "@icons/payment";
 
@@ -26,7 +26,7 @@ const Payment = props => {
         </div>
       </div>
 
-      <div className="kz-section">
+      <div className="kz-section with-blue-bg">
         <div className="container">
           <div className="kz-section-head">
             <h3 className="kz-section-featured-title">Como funciona</h3>
@@ -35,7 +35,7 @@ const Payment = props => {
           <div className="columns is-justified-between">
             <div className="column">
               <Card
-                icon={<HeartIcon />}
+                icon={<StudyIcon />}
                 title="Você não paga nada enquanto estuda"
                 align="left"
               >

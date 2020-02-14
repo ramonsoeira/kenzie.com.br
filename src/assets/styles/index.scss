@@ -27,7 +27,12 @@ $fullhd-enabled: false;
 @import "title.scss";
 @import "button.scss";
 
+/* Pages */
 @import "pages/general.scss";
+
+/* Helpers */
+@import "helpers/general.scss";
+@import "helpers/reverse-columns.scss";
 
 .columns {
   width: 100%;
@@ -37,26 +42,4 @@ $fullhd-enabled: false;
 
 .container.is-fullhd {
   max-width: 1344px;
-}
-
-.is-justified-between {
-  justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-  .reverse-columns {
-    display: grid;
-
-    .column:nth-child(1) {
-      order: 2;
-    }
-
-    .column:nth-child(2) {
-      order: 1;
-    }
-  }
-}
-
-.is-bold {
-  font-weight: bold;
 }

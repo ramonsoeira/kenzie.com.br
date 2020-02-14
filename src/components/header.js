@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import classNames from "classnames";
 
+import NavLink from "@components/nav-link";
 import Symbol from "@images/brand/symbol.svg";
 import CloseIcon from "@icons/close";
 import "@styles/header.scss";
@@ -15,17 +16,17 @@ const Header = ({ onOpenLeadForm }) => {
 
   return (
     <div className="kz-header">
-      <div class="container">
-        <div class="columns is-mobile is-vcentered is-justified-between">
-          <div class="column is-narrow">
+      <div className="container">
+        <div className="columns is-mobile is-vcentered is-justified-between">
+          <div className="column is-narrow">
             <Link className="kz-header-brand" to="/">
-              <img width="57" height="57" src={Symbol} alt="Kenzie" />
+              <img src={Symbol} alt="Kenzie" />
             </Link>
           </div>
 
-          <div className="column">
-            <div className="columns is-mobile is-vcentered reverse-columns">
-              <div className="column is-narrow is-hidden-tablet">
+          <div className="column is-narrow">
+            <div className="columns is-mobile is-vcentered reverse-columns-desktop">
+              <div className="column is-narrow is-hidden-desktop">
                 <button
                   className="kz-header-toggle"
                   onClick={() => setOpen(!isOpen)}
@@ -48,21 +49,21 @@ const Header = ({ onOpenLeadForm }) => {
                   </li>
 
                   <li>
-                    <Link to={`/quem-somos/`} title="Quem somos">
+                    <NavLink to={`/quem-somos/`} title="Quem somos">
                       Quem somos
-                    </Link>
+                    </NavLink>
                   </li>
 
                   <li>
-                    <Link to={`/curriculo/`} title="Currículo">
+                    <NavLink to={`/curriculo/`} title="Currículo">
                       Currículo
-                    </Link>
+                    </NavLink>
                   </li>
 
                   <li>
-                    <Link to={`/pagamento/`} title="Pagamento">
+                    <NavLink to={`/pagamento/`} title="Pagamento">
                       Pagamento
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
 

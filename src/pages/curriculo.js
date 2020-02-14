@@ -18,7 +18,7 @@ import ReactJS from "@images/skills/react.png";
 import AgileIcon from "@icons/agile";
 import LeadershipIcon from "@icons/leadership";
 import RocketIcon from "@icons/rocket";
-import SkillIcon from "@icons/skill";
+import SoftSkillIcon from "@icons/soft-skill";
 
 import "@styles/pages/curriculum.scss";
 
@@ -130,7 +130,7 @@ const Curriculum = props => {
 
       <div className="kz-section">
         <div className="container">
-          <div className="columns reverse-columns is-vcentered">
+          <div className="columns reverse-columns-tablet is-vcentered">
             <div className="column">
               <div className="columns is-mobile is-multiline">
                 <div className="column is-6">
@@ -174,7 +174,9 @@ const Curriculum = props => {
       <div className="kz-section">
         <div className="container is-fullhd">
           <div className="column">
-            <h3 className="kz-title">Nosso diferencial</h3>
+            <div className="kz-section-head">
+              <h3 className="kz-section-featured-title">Nosso diferencial</h3>
+            </div>
 
             <div className="columns is-multiline">
               <div className="column is-half-tablet is-one-quarter-desktop">
@@ -185,7 +187,7 @@ const Curriculum = props => {
               </div>
 
               <div className="column is-half-tablet is-one-quarter-desktop">
-                <Card icon={<SkillIcon />} title="Soft skills">
+                <Card icon={<SoftSkillIcon />} title="Soft skills">
                   Aprenda e pratique skills que vão além de questões técnicas,
                   como: comunicação eficaz, trabalho em equipe, proatividade e
                   pensamento crítico.
