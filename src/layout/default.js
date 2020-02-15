@@ -15,9 +15,9 @@ import "@styles/index.scss";
 export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
   const size = windowGlobal ? useWindowSize() : 1024;
-  const showMobileHeader = size >= 1024;
+  const showMobileHeader = size < 1024;
 
-  console.log(useWindowSize);
+  console.log(size);
 
   const headerProps = {
     onOpenLeadForm: () => setOpenLeadForm(true)
@@ -31,9 +31,9 @@ export default ({ children, title, description, ...rest }) => {
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
 
       {showMobileHeader ? (
-        <Header {...headerProps} />
-      ) : (
         <HeaderMobile {...headerProps} />
+      ) : (
+        <Header {...headerProps} />
       )}
 
       {children}
