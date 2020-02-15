@@ -1,0 +1,21 @@
+@mixin reverse-columns($breakpoint) {
+  .reverse-columns-#{$breakpoint} {
+    display: grid;
+
+    .column:nth-child(1) {
+      order: 2;
+    }
+
+    .column:nth-child(2) {
+      order: 1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @include reverse-columns("tablet");
+}
+
+@media (max-width: 1023px) {
+  @include reverse-columns("desktop");
+}

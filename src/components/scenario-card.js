@@ -23,12 +23,10 @@ const ScenarioCard = ({
       {hasPayment ? (
         <div>
           <p className="kz-scenario-card-payment">
-            <p>
-              Você pagará: <br />
-              <span className="is-bold">
-                {paymentAmount} por {paymentTerms}
-              </span>
-            </p>
+            Você pagará: <br />
+            <span className="is-bold">
+              {paymentAmount} por {paymentTerms}
+            </span>
           </p>
           <span className="is-bold">Total de {total}</span>
         </div>

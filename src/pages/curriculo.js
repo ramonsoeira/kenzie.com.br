@@ -130,7 +130,7 @@ const Curriculum = props => {
 
       <div className="kz-section">
         <div className="container">
-          <div className="columns reverse-columns is-vcentered">
+          <div className="columns reverse-columns-tablet is-vcentered">
             <div className="column">
               <div className="columns is-mobile is-multiline">
                 <div className="column is-6">

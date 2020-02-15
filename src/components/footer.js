@@ -21,15 +21,15 @@ const Footer = () => {
               <h3 className="kz-footer-title">Kenzie Academy Brazil</h3>
 
               <li>
-                <Link to={`/quem-somos`}>Quem somos</Link>
+                <Link to={`/quem-somos/`}>Quem somos</Link>
               </li>
 
               <li>
-                <Link to={`/curriculo`}>Currículo</Link>
+                <Link to={`/curriculo/`}>Currículo</Link>
               </li>
 
               <li>
-                <Link to={`/pagamento`}>Pagamento</Link>
+                <Link to={`/pagamento/`}>Pagamento</Link>
               </li>
             </ul>
           </div>

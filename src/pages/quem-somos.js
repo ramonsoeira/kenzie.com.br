@@ -76,7 +76,7 @@ const Index = props => {
 
       <div className="kz-section">
         <div className="container">
-          <div className="columns reverse-columns is-vcentered">
+          <div className="columns reverse-columns-tablet is-vcentered">
             <div className="column is-5">
               {/* prettier-ignore */}
               <p className="kz-section-text">

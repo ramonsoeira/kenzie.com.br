@@ -25,7 +25,7 @@ const Index = props => {
       >
         <div className="kz-hero">
           <div className="container">
-            <div className="columns is-vcentered reverse-columns">
+            <div className="columns is-vcentered reverse-columns-tablet">
               <div className="column">
                 <h1 className="kz-hero-title">Comece aqui sua carreira</h1>
 
@@ -142,7 +142,7 @@ const Index = props => {
 
         <div className="kz-section">
           <div className="container">
-            <div className="columns reverse-columns is-vcentered">
+            <div className="columns reverse-columns-tablet is-vcentered">
               <div className="column">
                 <h3 className="kz-section-title">
                   Nós acreditamos em seu potencial!
