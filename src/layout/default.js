@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
-import windowGlobal from "@utils/window";
-import useWindowSize from "@utils/use-window-size";
+import { BrowserView, MobileView } from "react-device-detect";
 
 import SEO from "@components/seo";
 import WhatsappButton from "@components/whatsapp-button";
@@ -14,10 +12,6 @@ import "@styles/index.scss";
 
 export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
-  const size = windowGlobal ? useWindowSize() : 1024;
-  const showMobileHeader = size < 1024;
-
-  console.log(size);
 
   const headerProps = {
     onOpenLeadForm: () => setOpenLeadForm(true)
@@ -30,11 +24,13 @@ export default ({ children, title, description, ...rest }) => {
 
       <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
 
-      {showMobileHeader ? (
-        <HeaderMobile {...headerProps} />
-      ) : (
+      <BrowserView>
         <Header {...headerProps} />
-      )}
+      </BrowserView>
+
+      <MobileView>
+        <HeaderMobile {...headerProps} />
+      </MobileView>
 
       {children}
 
