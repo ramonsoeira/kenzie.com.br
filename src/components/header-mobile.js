@@ -16,7 +16,7 @@ const HeaderMobile = ({ onOpenLeadForm }) => {
 
   return (
     <div className="kz-header">
-      <div className="container">
+      <div className="container is-hidden-desktop">
         <div className="columns is-gapless is-vcentered is-mobile is-justified-between">
           <div className="column is-narrow">
             <Link className="kz-header-brand" to="/">
