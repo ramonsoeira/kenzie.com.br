@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, { useState } from "react";
 import useWindowSize from "@utils/use-window-size";
 import windowGlobal from "@utils/window";
 
@@ -13,7 +13,7 @@ import "@styles/index.scss";
 
 export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
-  const windowSize = windowGlobal && useWindowSize();
+  const windowSize = (windowGlobal && useWindowSize()) || 1024;
 
   const setClosedLeadForm = () => setOpenLeadForm(false);
   const setOpenedLeadForm = () => setClosedLeadForm(true);
@@ -25,10 +25,10 @@ export default ({ children, title, description, ...rest }) => {
 
       <LeadForm isOpen={openLeadForm} onClose={setClosedLeadForm} />
 
-      {windowSize >= 1024 ? (
-        <Header onOpenLeadForm={setOpenedLeadForm} />
-      ) : (
+      {windowSize < 1024 ? (
         <HeaderMobile onOpenLeadForm={setOpenedLeadForm} />
+      ) : (
+        <Header onOpenLeadForm={setOpenedLeadForm} />
       )}
 
       {children}

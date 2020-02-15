@@ -8,7 +8,7 @@ import "@styles/header.scss";
 const Header = ({ onOpenLeadForm }) => {
   return (
     <div className="kz-header">
-      <div className="container is-hidden-mobile">
+      <div className="container">
         <div className="columns is-gapless is-vcentered is-mobile is-justified-between">
           <div className="column is-narrow">
             <Link className="kz-header-brand" to="/">
