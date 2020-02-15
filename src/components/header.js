@@ -67,7 +67,7 @@ const Header = ({ onOpenLeadForm }) => {
                   </li>
                 </ul>
 
-                <button onClick={onOpenLeadForm} className="kz-button">
+                <button onClick={onOpenLeadForm} className="kz-button with-shadow">
                   Quero participar
                 </button>
               </div>
