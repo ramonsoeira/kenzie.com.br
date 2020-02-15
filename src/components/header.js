@@ -7,9 +7,9 @@ import "@styles/header.scss";
 
 const Header = ({ onOpenLeadForm }) => {
   return (
-    <div className="kz-header">
+    <div className="kz-header is-hidden-mobile">
       <div className="container">
-        <div className="columns is-gapless is-vcentered is-mobile is-justified-between">
+        <div className="columns is-vcentered is-mobile is-justified-between">
           <div className="column is-narrow">
             <Link className="kz-header-brand" to="/">
               <img src={Symbol} alt="Kenzie" />
@@ -17,7 +17,7 @@ const Header = ({ onOpenLeadForm }) => {
           </div>
 
           <div className="column is-narrow">
-            <div className="columns is-vcentered">
+            <div className="columns is-gapless is-vcentered">
               <div className="column is-narrow">
                 <ul className="kz-header-nav">
                   <li>

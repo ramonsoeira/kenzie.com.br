@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import useWindowSize from "@utils/use-window-size";
-import windowGlobal from "@utils/window";
-
 import SEO from "@components/seo";
 import WhatsappButton from "@components/whatsapp-button";
 import LeadForm from "@components/lead-form";
@@ -13,27 +10,20 @@ import "@styles/index.scss";
 
 export default ({ children, title, description, ...rest }) => {
   const [openLeadForm, setOpenLeadForm] = useState(false);
-  const windowSize = (windowGlobal && useWindowSize()) || 1024;
-
-  const setClosedLeadForm = () => setOpenLeadForm(false);
-  const setOpenedLeadForm = () => setClosedLeadForm(true);
 
   return (
     <div {...rest}>
       <SEO title={title} description={description} />
       <WhatsappButton />
 
-      <LeadForm isOpen={openLeadForm} onClose={setClosedLeadForm} />
+      <LeadForm isOpen={openLeadForm} onClose={() => setOpenLeadForm(false)} />
 
-      {windowSize < 1024 ? (
-        <HeaderMobile onOpenLeadForm={setOpenedLeadForm} />
-      ) : (
-        <Header onOpenLeadForm={setOpenedLeadForm} />
-      )}
+      <HeaderMobile onOpenLeadForm={() => setOpenLeadForm(true)} />
+      <Header onOpenLeadForm={() => setOpenLeadForm(true)} />
 
       {children}
 
-      <CTABar onOpenLeadForm={setOpenedLeadForm} />
+      <CTABar onOpenLeadForm={() => setOpenLeadForm(true)} />
       <Footer />
     </div>
   );

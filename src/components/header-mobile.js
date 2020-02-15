@@ -5,21 +5,21 @@ import classNames from "classnames";
 import NavLink from "@components/nav-link";
 import Symbol from "@images/brand/symbol.svg";
 import CloseIcon from "@icons/close";
-import "@styles/header.scss";
+import "@styles/header-mobile.scss";
 
 const HeaderMobile = ({ onOpenLeadForm }) => {
   const [isOpen, setOpen] = useState(false);
 
-  const navClass = classNames("kz-header-nav", {
+  const navClass = classNames("kz-header-mobile-nav", {
     "is-open": isOpen
   });
 
   return (
-    <div className="kz-header">
-      <div className="container is-hidden-desktop">
+    <div className="kz-header-mobile is-hidden-tablet">
+      <div className="container">
         <div className="columns is-gapless is-vcentered is-mobile is-justified-between">
           <div className="column is-narrow">
-            <Link className="kz-header-brand" to="/">
+            <Link className="kz-header-mobile-brand" to="/">
               <img src={Symbol} alt="Kenzie" />
             </Link>
           </div>
@@ -32,7 +32,7 @@ const HeaderMobile = ({ onOpenLeadForm }) => {
 
           <div className="column is-narrow">
             <button
-              className="kz-header-toggle"
+              className="kz-header-mobile-toggle"
               onClick={() => setOpen(!isOpen)}
             >
               <span></span>
@@ -41,7 +41,7 @@ const HeaderMobile = ({ onOpenLeadForm }) => {
             </button>
 
             <ul className={navClass}>
-              <li className="is-hidden-desktop">
+              <li>
                 <CloseIcon
                   width="20px"
                   height="20px"
