@@ -1,28 +1,19 @@
-// import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
-// const useWindowSize = () => {
-//   const isClient = typeof window === "object";
+const useWindowSize = () => {
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
 
-//   function getSize() {
-//     return isClient ? window.innerWidth : undefined;
-//   }
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize(window.innerWidth);
+    }
 
-//   const [windowSize, setWindowSize] = useState(getSize);
+    window.addEventListener("resize", handleResize);
 
-//   useEffect(() => {
-//     if (!isClient) {
-//       return false;
-//     }
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount and unmount
 
-//     function handleResize() {
-//       setWindowSize(getSize());
-//     }
+  return windowSize;
+};
 
-//     window.addEventListener("resize", handleResize);
-//     return () => window.removeEventListener("resize", handleResize);
-//   }, []); // Empty array ensures that effect is only run on mount and unmount
-
-//   return windowSize;
-// };
-
-// export default useWindowSize;
+export default useWindowSize;
