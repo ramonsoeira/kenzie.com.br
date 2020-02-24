@@ -124,18 +124,16 @@ const Index = props => {
         </div>
 
         <div className="kz-section">
-          <div className="kz-container">
-            <div className="columns">
-              <div className="column">
-                <div className="kz-section-head">
-                  <h3 className="kz-section-featured-title">
-                    Conheça os nossos parceiros que podem dar início a sua
-                    carreira de sucesso.
-                  </h3>
-                </div>
-
-                <PartnerList />
+          <div className="columns">
+            <div className="column">
+              <div className="kz-section-head">
+                <h3 className="kz-section-featured-title">
+                  Conheça os nossos parceiros que podem dar início a sua
+                  carreira de sucesso.
+                </h3>
               </div>
+
+              <PartnerList />
             </div>
           </div>
         </div>
@@ -178,7 +176,7 @@ const Index = props => {
         </div>
 
         <div className="kz-section">
-          <div className="kz-container">
+          <div className="container">
             <div className="columns">
               <div className="column">
                 <div className="kz-section-head">

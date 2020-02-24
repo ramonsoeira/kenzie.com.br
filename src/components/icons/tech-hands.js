@@ -167,7 +167,7 @@ const TechHands = props => {
         />
         <text
           id="tech-hands_svg___html_Css_"
-          data-name="&lt;html Css}"
+          data-name="<html Css}"
           transform="translate(1145 1495)"
           fontFamily="Montserrat-SemiBold,Montserrat"
           fontWeight={600}
@@ -175,7 +175,7 @@ const TechHands = props => {
           fill="#fff"
         >
           <tspan x={-48.656} y={0}>
-            {"&lt;html"}
+            {"<html"}
           </tspan>
           <tspan x={-33.712} y={14}>
             {"Css}"}

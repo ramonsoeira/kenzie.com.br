@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql } from "gatsby";
 import Layout from "@layout/default";
 
 import FAQList from "@utils/faq";
@@ -23,7 +22,7 @@ const FAQ = props => {
             <div className="columns">
               <div className="column">
                 <div className="kz-section-head">
-                  <h3 className="kz-section-featured-title">FAQ</h3>
+                  <h3 className="kz-section-title">Perguntas frequentes</h3>
                 </div>
 
                 {FAQList.map(({ title, text }, index) => {
