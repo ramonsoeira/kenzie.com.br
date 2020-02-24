@@ -4,10 +4,15 @@ import { Link } from "gatsby";
 import Layout from "@layout/default";
 
 //Components
+import Box from "@components/box";
 import Card from "@components/card";
 import Thumbnail from "@components/thumbnail";
 import PartnerList from "@components/partner-list";
 import NewsList from "@components/news-list";
+
+//Images
+import BoyImage from "@images/illustrates/boy.png";
+import GirlImage from "@images/illustrates/girl.png";
 
 //Icon
 import TechHandsIcon from "@icons/tech-hands";
@@ -124,18 +129,16 @@ const Index = props => {
         </div>
 
         <div className="kz-section">
-          <div className="kz-container">
-            <div className="columns">
-              <div className="column">
-                <div className="kz-section-head">
-                  <h3 className="kz-section-featured-title">
-                    Conheça os nossos parceiros que podem dar início a sua
-                    carreira de sucesso.
-                  </h3>
-                </div>
-
-                <PartnerList />
+          <div className="columns">
+            <div className="column">
+              <div className="kz-section-head">
+                <h3 className="kz-section-featured-title">
+                  Conheça os nossos parceiros que podem dar início a sua
+                  carreira de sucesso.
+                </h3>
               </div>
+
+              <PartnerList />
             </div>
           </div>
         </div>
@@ -186,6 +189,43 @@ const Index = props => {
                 </div>
 
                 <NewsList />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="kz-section">
+          <div className="container">
+            <div className="kz-section-head">
+              <h3 className="kz-section-featured-title">
+                Como funciona nossa escola?
+              </h3>
+
+              <p className="kz-section-subtitle">
+                Agora iniciamos nosso trabalho no Brasil, trazendo todo a
+                experiência adquirida no mercado americano. Nosso objetivo é
+                fomentar essa área, garantindo que nossos alunos tenham a
+                expertise para atuação como desenvolvedor full-stack após 12
+                meses de curso.
+              </p>
+            </div>
+
+            <div className="columns">
+              <div className="column">
+                <Box
+                  title="Aulas ao vivo <br /> e remoto"
+                  image={BoyImage}
+                  buttonLabel="Saiba mais"
+                  buttonTo="/"
+                />
+              </div>
+              <div className="column">
+                <Box
+                  title="Aulas presenciais <br /> na Kenzie"
+                  image={GirlImage}
+                  buttonLabel="Saiba mais"
+                  buttonTo="/"
+                />
               </div>
             </div>
           </div>
