@@ -10,7 +10,7 @@ const School = props => {
   return (
     <Layout
       className="kz-school-page"
-      title="Currículo | Kenzie Academy Brazil"
+      title="Como funciona nossa escola | Kenzie Academy Brazil"
     >
       <div className="kz-section">
         <div className="container with-symbol-bg">
