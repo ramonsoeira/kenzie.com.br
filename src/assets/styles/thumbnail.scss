@@ -1,10 +1,9 @@
 .kz-thumbnail {
   width: 100%;
   position: relative;
-  // background: center right / contain no-repeat
-  //   url("../images/thumbnail/rectangle.png");
 
   &-image {
+    z-index: 1;
     width: 100%;
     padding-top: 54px;
     padding-left: 72px;
@@ -31,9 +30,6 @@
   }
 
   &.reverse {
-    // background: center left / contain no-repeat
-    //   url("../images/thumbnail/rectangle-reverse.png");
-
     .kz-thumbnail-image {
       padding-left: 0;
       padding-right: 72px;
@@ -46,6 +42,16 @@
     .kz-thumbnail-frame {
       right: 0;
       left: auto;
+    }
+  }
+
+  &.remove-frame {
+    .kz-thumbnail-frame {
+      display: none;
+    }
+
+    .kz-thumbnail-image {
+      padding: 0;
     }
   }
 

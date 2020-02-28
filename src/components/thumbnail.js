@@ -6,9 +6,19 @@ import Frame from "@images/thumbnail/frame.png";
 
 import "@styles/thumbnail.scss";
 
-const Thumbnail = ({ src, fluid, alt = "", reverse, removeBg }) => {
+const Thumbnail = ({
+  src,
+  fluid,
+  alt = "",
+  reverse,
+  frameSize,
+  removeBg,
+  removeFrame
+}) => {
   const thumbnailClass = classNames("kz-thumbnail", {
     reverse,
+    "frame-small": frameSize === "small",
+    "remove-frame": removeFrame,
     "remove-bg": removeBg
   });
 
