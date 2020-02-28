@@ -1,0 +1,88 @@
+.with-symbol-bg {
+  background: center left / 350px no-repeat
+    url("../../images/brand/symbol-bg.svg");
+}
+
+.kz-school-page {
+  .kz-section {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 48, 107, 1) 50%,
+      rgba(255, 255, 255, 1) 50%
+    );
+
+    .container {
+      padding: 0 1.25rem;
+    }
+  }
+
+  .kz-school-footer {
+    position: absolute;
+    left: 64px;
+    bottom: 0;
+
+    .kz-button {
+      display: block;
+
+      &:not(:last-child) {
+        margin-bottom: 18px;
+      }
+    }
+  }
+
+  .kz-center {
+    position: relative;
+
+    svg {
+      position: absolute;
+      left: -24px;
+      bottom: -24px;
+      z-index: 5;
+    }
+  }
+
+  .kz-right-side,
+  .kz-left-side {
+    h3 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 48px;
+    }
+  }
+
+  .kz-right-side,
+  .kz-left-side {
+    ul {
+      display: block;
+
+      li {
+        &:not(:last-child) {
+          margin-bottom: 28px;
+        }
+      }
+    }
+  }
+
+  .kz-right-side {
+    ul li {
+      h4 {
+        font-size: 18px;
+        color: #5ba3f6;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .kz-left-side {
+    color: white;
+
+    ul li {
+      h4 {
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 500;
+      }
+    }
+  }
+}
