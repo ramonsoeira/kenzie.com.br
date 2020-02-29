@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 import { graphql } from "gatsby";
+
 import Layout from "@layout/default";
 import Thumbnail from "@components/thumbnail";
+import LeadFormButton from "@components/lead-form-button";
 import BrandSymbol from "@icons/k";
+
 import "@styles/pages/school.scss";
 
 const School = props => {
@@ -15,7 +18,7 @@ const School = props => {
       <div className="kz-section">
         <div className="container with-symbol-bg">
           <div className="columns is-justified-between is-gapless">
-            <div className="column is-3 has-text-left">
+            <div className="column is-3">
               <div className="kz-left-side">
                 <h3>Aulas presenciais na Kenzie</h3>
 
@@ -50,7 +53,7 @@ const School = props => {
               </div>
             </div>
 
-            <div className="column is-4 has-text-right">
+            <div className="column is-4">
               <div className="kz-right-side">
                 <h3>Apresentando o desenvolvimento web, a maneira Kenzie</h3>
                 <ul>
@@ -85,13 +88,15 @@ const School = props => {
 
           <div className="kz-school-footer">
             <Link
-              to="/#como-funciona-nossa-escola"
-              className="kz-button is-primary is-outlined"
+              to="/v2/#como-funciona-nossa-escola"
+              className="kz-button reverse-mobile is-primary is-outlined"
             >
               Voltar
             </Link>
 
-            <button className="kz-button is-primary">Inscrever-se</button>
+            <LeadFormButton className="kz-button reverse-mobile is-primary">
+              Inscrever-se
+            </LeadFormButton>
           </div>
         </div>
       </div>

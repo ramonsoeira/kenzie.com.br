@@ -17,7 +17,7 @@ import "@styles/partner-list.scss";
 
 const PartnerList = () => {
   return (
-    <div class="kz-partner-list">
+    <div className="kz-partner-list">
       <div className="container">
         <Slider>
           <div>

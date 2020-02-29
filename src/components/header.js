@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import LeadFormButton from "@components/lead-form-button";
 import NavLink from "@components/nav-link";
 import Symbol from "@images/brand/symbol.svg";
 import "@styles/header.scss";
 
-const Header = ({ onOpenLeadForm }) => {
+const Header = () => {
   return (
     <div className="kz-header is-hidden-mobile">
       <div className="container">
@@ -41,12 +42,9 @@ const Header = ({ onOpenLeadForm }) => {
               </div>
 
               <div className="column is-narrow">
-                <button
-                  onClick={onOpenLeadForm}
-                  className="kz-button with-shadow"
-                >
+                <LeadFormButton className="kz-button with-shadow">
                   Quero participar
-                </button>
+                </LeadFormButton>
               </div>
             </div>
           </div>

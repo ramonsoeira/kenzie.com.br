@@ -1,16 +1,23 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useContext } from "react";
+import { LeadFormContext } from "@context/lead-form";
+
 import classNames from "classnames";
 import CloseIcon from "@icons/close";
 import windowGlobal from "@utils/window";
 
 import "@styles/lead-form.scss";
 
-const LeadForm = ({ isOpen, onClose }) => {
+const LeadForm = () => {
+  const [state, dispatch] = useContext(LeadFormContext);
   const form = useRef();
 
   const leadFormClass = classNames("kz-lead-form", {
-    "is-open": isOpen
+    "is-open": state.open
   });
+
+  const closeLeadForm = () => {
+    return dispatch({ type: "close" });
+  };
 
   const loadScript = () => {
     return global.hbspt.forms.create({
@@ -38,9 +45,9 @@ const LeadForm = ({ isOpen, onClose }) => {
   }, []);
 
   return (
-    <div className={leadFormClass} onClick={onClose} role="dialog">
+    <div className={leadFormClass} onClick={closeLeadForm} role="dialog">
       <div className="kz-lead-form-overlay">
-        <button className="kz-lead-form-close" onClick={onClose}>
+        <button className="kz-lead-form-close" onClick={closeLeadForm}>
           <CloseIcon />
         </button>
 

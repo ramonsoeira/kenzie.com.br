@@ -1,7 +1,9 @@
 import React from "react";
+import LeadFormButton from "@components/lead-form-button";
+
 import "@styles/cta-bar.scss";
 
-const CTABar = ({ onOpenLeadForm }) => {
+const CTABar = () => {
   return (
     <div className="kz-cta-bar">
       <div className="container">
@@ -10,13 +12,9 @@ const CTABar = ({ onOpenLeadForm }) => {
             Preparado para começar uma nova carreira?
           </h3>
 
-          <button
-            data-ga="bottom-bar-cta-btn"
-            className="kz-button"
-            onClick={onOpenLeadForm}
-          >
+          <LeadFormButton data-ga="bottom-bar-cta-btn" className="kz-button">
             Tenho interesse
-          </button>
+          </LeadFormButton>
         </div>
       </div>
     </div>

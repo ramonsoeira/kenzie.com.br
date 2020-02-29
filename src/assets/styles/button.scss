@@ -25,10 +25,25 @@
 
     &.is-outlined {
       background: transparent;
-      padding-top: 16px;
-      padding-bottom: 16px;
+      padding-top: 14px;
+      padding-bottom: 14px;
       border: solid 4px #ffffff;
       color: white;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &.reverse-mobile {
+      &.is-primary {
+        color: white;
+        background: #00306b;
+
+        &.is-outlined {
+          background: transparent;
+          border: solid 4px #00306b;
+          color: #00306b;
+        }
+      }
     }
   }
 }

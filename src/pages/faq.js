@@ -17,11 +17,11 @@ const FAQ = props => {
   return (
     <React.Fragment>
       <Layout className="kz-faq-page" title="FAQ | Kenzie Academy Brazil">
-        <div class="kz-section">
-          <div class="container">
-            <div class="columns">
-              <div class="column has-text-centered">
-                <h3 class="kz-section-head-title">Perguntas frequentes</h3>
+        <div className="kz-section">
+          <div className="container">
+            <div className="columns">
+              <div className="column has-text-centered">
+                <h3 className="kz-section-head-title">Perguntas frequentes</h3>
               </div>
             </div>
 

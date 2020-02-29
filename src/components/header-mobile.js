@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import classNames from "classnames";
 
+import LeadFormButton from "@components/lead-form-button";
 import NavLink from "@components/nav-link";
 import Symbol from "@images/brand/symbol.svg";
 import CloseIcon from "@icons/close";
@@ -25,9 +26,9 @@ const HeaderMobile = ({ onOpenLeadForm }) => {
           </div>
 
           <div className="column is-narrow">
-            <button onClick={onOpenLeadForm} className="kz-button with-shadow">
+            <LeadFormButton className="kz-button with-shadow">
               Quero participar
-            </button>
+            </LeadFormButton>
           </div>
 
           <div className="column is-narrow">

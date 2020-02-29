@@ -83,7 +83,7 @@ const Index = props => {
                   2. QUAIS SERVIÇOS OFERECEMOS?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   2.1 O nosso website, kenzie.com.br (“Website”), oferece
                   diversas informações sobre quem somos, o currículo de nossos
                   cursos e, também, nossa diferenciada forma de pagamento.
@@ -102,7 +102,7 @@ const Index = props => {
                   3. QUAIS SÃO AS CATEGORIAS DE USUÁRIOS?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   3.1 O Usuário pode ser assim considerado em 3 (três)
                   situações:
                   <br></br>
@@ -132,7 +132,7 @@ const Index = props => {
                   4. COMO É REALIZADO O CADASTRO EM NOSSO PROCESSO SELETIVO?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   4.1 O nosso processo seletivo (“Processo Seletivo”) é composto
                   de pelo menos 3 (três) fases, que podem ser compostas das
                   seguintes etapas ou outras, escolhidas a nosso exclusivo
@@ -232,7 +232,7 @@ const Index = props => {
                   5. QUAIS SÃO AS NOSSAS REGRAS DE USO?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   5.1 Você deverá utilizar o Website e a Plataforma Kenzie
                   unicamente na forma e nos limites autorizados por este Termos
                   de Uso e na legislação aplicável, sendo estritamente vedado:
@@ -337,7 +337,7 @@ const Index = props => {
                   KENZIE BRASIL?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   6.1 O encerramento da relação de determinado Usuário com a
                   Kenzie Brasil dependerá de sua categoria, sendo que:
                   <br></br>
@@ -375,7 +375,7 @@ const Index = props => {
                   7. PROPRIEDADE INTELECTUAL
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   7.1 A Kenzie Brasil é legal e contratualmente autorizada a
                   disponibilizar todos os materiais e conteúdo que fazem parte
                   do Website e da Plataforma Kenzie, bem como é detentora de
@@ -411,7 +411,7 @@ const Index = props => {
                   8. LIMITAÇÃO DE RESPONSABILIDADE
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   8.1 A Kenzie Brasil, inclusive todo e qualquer de seus sócios,
                   acionistas, funcionários e demais pessoais e sociedades
                   relacionadas, não se responsabilizará por quaisquer danos,
@@ -458,7 +458,7 @@ const Index = props => {
                   9. QUAIS SÃO AS REGRAS DE NOSSA POLÍTICA DE PRIVACIDADE?
                 </p>
                 <br></br>
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   9.1 Nossa Política de Privacidade (“Política de Privacidade”),
                   parte integrante de nossos Termos de Uso, traz informações
                   referentes ao tratamento dos dados pessoais que são
@@ -622,7 +622,7 @@ const Index = props => {
 
                 <br></br>
 
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   10.1 O Usuário não poderá ceder ou transferir os direitos e
                   obrigações decorrentes do seu cadastro no Website e/ou na
                   Plataforma Kenzie a qualquer terceiro, sendo seu Usuário e sua
@@ -686,13 +686,13 @@ const Index = props => {
 
                 <br></br>
 
-                <p class="kz-section-text">
+                <p className="kz-section-text">
                   O aceite aos Termos de Uso e à Política de Privacidade se dará
                   mediante a marcação do box correspondente à opção “Aceito os
                   Termos de Uso e a Política de Privacidade da Kenzie Brasil”.
                   <br></br>
                   <br></br>
-                  <span class="is-bold">
+                  <span className="is-bold">
                     FRISAMOS QUE, AO ACEITAR OS TERMOS DE USO E A POLÍTICA DE
                     PRIVACIDADE, O USUÁRIO ESTÁ CONCEDENDO SEU CONSENTIMENTO À
                     INTEGRALIDADE DAS DISPOSIÇÕES AQUI CONTIDAS, SENDO O ACEITE
