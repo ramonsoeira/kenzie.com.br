@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { LeadFormProvider } from "@context/lead-form";
 
 import SEO from "@components/seo";

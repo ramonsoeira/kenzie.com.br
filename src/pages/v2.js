@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { Link } from "gatsby";
 import Layout from "@layout/default";
+import Fade from "react-reveal/Fade";
 
 //Components
 import Box from "@components/box";
@@ -32,7 +33,9 @@ const Index = props => {
           <div className="container">
             <div className="columns is-vcentered reverse-columns-tablet">
               <div className="column">
-                <h1 className="kz-hero-title">Comece aqui sua carreira</h1>
+                <Fade top>
+                  <h1 className="kz-hero-title">Comece aqui sua carreira</h1>
+                </Fade>
 
                 <div className="kz-hero-content">
                   {/* prettier-ignore */}
@@ -72,58 +75,63 @@ const Index = props => {
         <div className="kz-section with-blue-bg">
           <div className="container">
             <div className="kz-section-head">
-              <h3 className="kz-section-featured-title">
-                Curso de programação
-              </h3>
+              <Fade top>
+                <h3 className="kz-section-featured-title">
+                  Curso de programação
+                </h3>
+              </Fade>
+
               <p className="kz-section-subtitle">
                 Mais de 2.000 mil horas de curso
               </p>
             </div>
 
-            <div className="columns is-justified-between">
-              <div className="column">
-                <Card
-                  icon={<TechHandsIcon />}
-                  title="O que você vai aprender aqui?"
-                  buttonLabel="Saiba mais"
-                  buttonTo="/curriculo"
-                  align="left"
-                >
-                  Linguagens de programação modernas e muito utilizadas no
-                  mercado. <br />
-                  <span className="is-bold">Front-end:</span> HTML, CSS,
-                  JavaScript e React. <br />
-                  <span className="is-bold">Back-end:</span> Python e Node.jS.
-                </Card>
-              </div>
+            <Fade left>
+              <div className="columns is-justified-between">
+                <div className="column">
+                  <Card
+                    icon={<TechHandsIcon />}
+                    title="O que você vai aprender aqui?"
+                    buttonLabel="Saiba mais"
+                    buttonTo="/curriculo"
+                    align="left"
+                  >
+                    Linguagens de programação modernas e muito utilizadas no
+                    mercado. <br />
+                    <span className="is-bold">Front-end:</span> HTML, CSS,
+                    JavaScript e React. <br />
+                    <span className="is-bold">Back-end:</span> Python e Node.jS.
+                  </Card>
+                </div>
 
-              <div className="column">
-                <Card
-                  icon={<ComputerWithToolsIcon />}
-                  title="Aprenda na prática"
-                  buttonLabel="Saiba mais"
-                  buttonTo="/curriculo"
-                >
-                  Nossos alunos criam um amplo portfólio de projetos realizados,
-                  se preparando para o dia a dia de um programador e facilitando
-                  sua entrada no mercado de trabalho.
-                </Card>
-              </div>
+                <div className="column">
+                  <Card
+                    icon={<ComputerWithToolsIcon />}
+                    title="Aprenda na prática"
+                    buttonLabel="Saiba mais"
+                    buttonTo="/curriculo"
+                  >
+                    Nossos alunos criam um amplo portfólio de projetos
+                    realizados, se preparando para o dia a dia de um programador
+                    e facilitando sua entrada no mercado de trabalho.
+                  </Card>
+                </div>
 
-              <div className="column">
-                <Card
-                  icon={<MethodologyIcon />}
-                  title="Metodologia comprovada"
-                  buttonLabel="Saiba mais"
-                  buttonTo="/curriculo"
-                  align="right"
-                >
-                  A combinação de aulas, ensino baseado em projetos,
-                  acompanhamento do nosso time e currículo validado nos Estados
-                  Unidos vai acelerar sua carreira para o sucesso.
-                </Card>
+                <div className="column">
+                  <Card
+                    icon={<MethodologyIcon />}
+                    title="Metodologia comprovada"
+                    buttonLabel="Saiba mais"
+                    buttonTo="/curriculo"
+                    align="right"
+                  >
+                    A combinação de aulas, ensino baseado em projetos,
+                    acompanhamento do nosso time e currículo validado nos
+                    Estados Unidos vai acelerar sua carreira para o sucesso.
+                  </Card>
+                </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
 
@@ -131,10 +139,12 @@ const Index = props => {
           <div className="columns">
             <div className="column">
               <div className="kz-section-head">
-                <h3 className="kz-section-featured-title">
-                  Conheça os nossos parceiros que podem dar início a sua
-                  carreira de sucesso.
-                </h3>
+                <Fade top>
+                  <h3 className="kz-section-featured-title">
+                    Conheça os nossos parceiros que podem dar início a sua
+                    carreira de sucesso.
+                  </h3>
+                </Fade>
               </div>
 
               <PartnerList />
@@ -146,9 +156,11 @@ const Index = props => {
           <div className="container">
             <div className="columns reverse-columns-tablet is-vcentered">
               <div className="column">
-                <h3 className="kz-section-title">
-                  Nós acreditamos em seu potencial!
-                </h3>
+                <Fade top>
+                  <h3 className="kz-section-title">
+                    Nós acreditamos em seu potencial!
+                  </h3>
+                </Fade>
 
                 <div className="kz-hero-content">
                   {/* prettier-ignore */}
@@ -184,7 +196,11 @@ const Index = props => {
             <div className="columns">
               <div className="column">
                 <div className="kz-section-head">
-                  <h3 className="kz-section-featured-title">#kenzienamídia</h3>
+                  <Fade top>
+                    <h3 className="kz-section-featured-title">
+                      #kenzienamídia
+                    </h3>
+                  </Fade>
                 </div>
 
                 <NewsList />
@@ -198,9 +214,11 @@ const Index = props => {
             <div className="columns">
               <div className="column">
                 <div className="kz-section-head">
-                  <h3 className="kz-section-featured-title">
-                    Como funciona nossa escola?
-                  </h3>
+                  <Fade top>
+                    <h3 className="kz-section-featured-title">
+                      Como funciona nossa escola?
+                    </h3>
+                  </Fade>
 
                   <p className="kz-section-subtitle">
                     Agora iniciamos nosso trabalho no{" "}
@@ -215,25 +233,27 @@ const Index = props => {
               </div>
             </div>
 
-            <div className="columns">
-              <div className="column">
-                <Box
-                  title="Aulas ao vivo <br /> e remoto"
-                  image={BoyImage}
-                  buttonLabel="Saiba mais"
-                  buttonTo="/como-funciona-nossa-escola"
-                />
-              </div>
+            <Fade left>
+              <div className="columns">
+                <div className="column">
+                  <Box
+                    title="Aulas ao vivo <br /> e remoto"
+                    image={BoyImage}
+                    buttonLabel="Saiba mais"
+                    buttonTo="/como-funciona-nossa-escola"
+                  />
+                </div>
 
-              <div className="column">
-                <Box
-                  title="Aulas presenciais <br /> na Kenzie"
-                  image={GirlImage}
-                  buttonLabel="Saiba mais"
-                  buttonTo="/como-funciona-nossa-escola"
-                />
+                <div className="column">
+                  <Box
+                    title="Aulas presenciais <br /> na Kenzie"
+                    image={GirlImage}
+                    buttonLabel="Saiba mais"
+                    buttonTo="/como-funciona-nossa-escola"
+                  />
+                </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </Layout>
