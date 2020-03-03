@@ -123,16 +123,18 @@ const Index = props => {
         </div>
 
         <div className="kz-section">
-          <div className="columns">
-            <div className="column">
-              <div className="kz-section-head">
-                <h3 className="kz-section-featured-title">
-                  Conheça os nossos parceiros que podem dar início a sua
-                  carreira de sucesso.
-                </h3>
-              </div>
+          <div className="container">
+            <div className="columns">
+              <div className="column">
+                <div className="kz-section-head">
+                  <h3 className="kz-section-featured-title">
+                    Conheça os nossos parceiros que podem dar início a sua
+                    carreira de sucesso.
+                  </h3>
+                </div>
 
-              <PartnerList />
+                <PartnerList />
+              </div>
             </div>
           </div>
         </div>

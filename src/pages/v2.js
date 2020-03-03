@@ -191,24 +191,6 @@ const Index = props => {
           </div>
         </div>
 
-        <div className="kz-section">
-          <div className="kz-container">
-            <div className="columns">
-              <div className="column">
-                <div className="kz-section-head">
-                  <Fade top>
-                    <h3 className="kz-section-featured-title">
-                      #kenzienamídia
-                    </h3>
-                  </Fade>
-                </div>
-
-                <NewsList />
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="kz-section" id="como-funciona-nossa-escola">
           <div className="container">
             <div className="columns">
@@ -254,6 +236,24 @@ const Index = props => {
                 </div>
               </div>
             </Fade>
+          </div>
+        </div>
+
+        <div className="kz-section">
+          <div className="kz-container">
+            <div className="columns">
+              <div className="column">
+                <div className="kz-section-head">
+                  <Fade top>
+                    <h3 className="kz-section-featured-title">
+                      #kenzienamídia
+                    </h3>
+                  </Fade>
+                </div>
+
+                <NewsList />
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
