@@ -20,7 +20,7 @@ const School = props => {
           <div className="columns is-justified-between is-gapless">
             <div className="column is-3">
               <div className="kz-left-side">
-                <h3>Aulas presenciais na Kenzie</h3>
+                <h3>Aulas ao vivo</h3>
 
                 <ul>
                   <li>
@@ -29,13 +29,8 @@ const School = props => {
                   </li>
 
                   <li>
-                    <h4>LIVES</h4>
+                    <h4>Demos</h4>
                     <p>Todos os dias</p>
-                  </li>
-
-                  <li>
-                    <p>No conforto de</p>
-                    <h4>Sua casa</h4>
                   </li>
                 </ul>
               </div>
@@ -58,10 +53,10 @@ const School = props => {
                 <h3>Apresentando o desenvolvimento web, a maneira Kenzie</h3>
                 <ul>
                   <li>
-                    <h4>Cursos ao vivo</h4>
+                    <h4>Aula presencial</h4>
                     <p>
-                      Aprenda a codificar no seu próprio tempo e no conforto de
-                      casa.
+                      Participe presencialmente em Curitiba das aulas e conte
+                      com o apoio da nossa equipe.
                     </p>
                   </li>
 
@@ -75,7 +70,7 @@ const School = props => {
                   </li>
 
                   <li>
-                    <h4>Soft skills</h4>
+                    <h4>Apoio para o sucesso profissional</h4>
                     <p>
                       Conte com mentores para ajudar você com temas técnicos e
                       no desenvolvimento da sua carreira profissional.
