@@ -219,7 +219,7 @@ const Index = props => {
               <div className="columns">
                 <div className="column">
                   <Box
-                    title="Aulas ao vivo <br /> e remoto"
+                    title="Aulas ao vivo"
                     image={BoyImage}
                     buttonLabel="Saiba mais"
                     buttonTo="/como-funciona-nossa-escola"
@@ -228,7 +228,7 @@ const Index = props => {
 
                 <div className="column">
                   <Box
-                    title="Aulas presenciais <br /> na Kenzie"
+                    title="Aula presencial"
                     image={GirlImage}
                     buttonLabel="Saiba mais"
                     buttonTo="/como-funciona-nossa-escola"
