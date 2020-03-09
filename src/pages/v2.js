@@ -222,16 +222,16 @@ const Index = props => {
                     title="Aulas ao vivo"
                     image={BoyImage}
                     buttonLabel="Saiba mais"
-                    buttonTo="/como-funciona-nossa-escola"
+                    buttonTo="/aulas-ao-vivo"
                   />
                 </div>
 
                 <div className="column">
                   <Box
-                    title="Aula presencial"
+                    title="Aulas presenciais"
                     image={GirlImage}
                     buttonLabel="Saiba mais"
-                    buttonTo="/como-funciona-nossa-escola"
+                    buttonTo="/aulas-presenciais"
                   />
                 </div>
               </div>
