@@ -22,7 +22,7 @@ const LeadForm = () => {
   const loadScript = () => {
     return global.hbspt.forms.create({
       portalId: "6600573",
-      formId: "5eb291f0-d4b8-4229-8583-8745a7dddc56",
+      formId: "27e4657e-0561-4003-bf8e-20c8c5b78450",
       target: `#form`,
       onFormSubmitted: function() {
         if (process.env.NODE_ENV !== "development" && windowGlobal) {
