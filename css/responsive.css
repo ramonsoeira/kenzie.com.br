@@ -1,0 +1,1151 @@
+                    @media all and (max-width: 1450px) {
+                        .sm-carousel .owl-prev {
+                            left: -6%;
+                        }
+                        .sm-carousel .owl-next {
+                            right: -4%;
+                        }
+                        .owl-next {
+                            right: -8%;
+                        }
+                        .owl-prev {
+                            left: -8%;
+                        }
+                    }
+                    
+                    @media all and (max-width: 1370px) {
+                        .banner h3 {
+                            color: #fff;
+                            font-size: 40px;
+                        }
+                    }
+                    
+                    @media all and (max-width: 1350px) {
+                        .owl-prev {
+                            left: -5%;
+                        }
+                        .owl-next {
+                            right: -5%;
+                        }
+                    }
+                    
+                    @media all and (max-width: 1300px) {
+                        .sm-carousel {
+                            padding-left: 3% !important;
+                        }
+                    }
+                    
+                    @media all and (max-width: 1200px) {
+                        .owl-next {
+                            right: -3%;
+                        }
+                        .owl-prev {
+                            left: 0%;
+                        }
+                        .sm-carousel {
+                            padding-left: 5% !important;
+                        }
+                        .kenzie {
+                            position: absolute;
+                            top: -150px;
+                            left: -20px;
+                            width: 130px;
+                        }
+                        .apr-heading {
+                            font-size: 24px;
+                        }
+                        img.banner-sticker {
+                            position: absolute;
+                            width: 14vw;
+                            right: 1vw;
+                            bottom: -24vh;
+                            z-index: 10;
+                        }
+                        .seja-cover {
+                            height: 360px;
+                        }
+                        #rowpaddingo {
+                            padding: 0px 3%;
+                        }
+                        .lagblue {
+                            right: 1vw
+                        }
+                    }
+                    
+                    @media all and (max-width: 991px) {
+                        .btn-navbar {
+                            color: #fff;
+                            display: block;
+                            margin: 0 auto;
+                            position: absolute;
+                            left: 5%;
+                            right: 0px;
+                            width: 181.96px;
+                            margin-top: -10px;
+                            /* margin-left: 2%; */
+                        }
+                        .btn-purple {
+                            background-color: #6d0c91;
+                            font-size: 16px;
+                            padding: 10px 25px;
+                        }
+                        #mbl-none {
+                            display: none;
+                        }
+                        .dont {
+                            display: block;
+                        }
+                        .multi-lines {
+                            display: none;
+                        }
+                        .ka-sticker {
+                            position: absolute;
+                            right: 0px;
+                            margin-top: -10px;
+                            width: 137px;
+                            left: unset;
+                        }
+                        .quer-torner h3 {
+                            font-size: 24px;
+                            margin-bottom: 20px;
+                        }
+                        .depo-sticker {
+                            width: auto;
+                            height: 55px;
+                        }
+                        .depoi-para {
+                            font-size: 18px;
+                        }
+                        .nine-none {
+                            display: none;
+                        }
+                        .desktop-none {
+                            display: block;
+                        }
+                        .no3:before {
+                            top: 0px;
+                        }
+                        .curso-heading {
+                            font-size: 32px;
+                        }
+                        .apr-heading {
+                            font-size: 24px;
+                        }
+                        .saiba-para {
+                            font-size: 15px;
+                        }
+                        .curso {
+                            padding: 50px 0px;
+                        }
+                        .sm-purple {
+                            width: 140px;
+                        }
+                        img.d-block.mx-auto.sticker-funciona {
+                            height: 25%;
+                        }
+                        .como-funciona {
+                            padding: 50px 0px;
+                        }
+                        .funciona-para {
+                            color: #00013c;
+                            font-size: 20px;
+                            padding-bottom: 0px;
+                        }
+                        .kenzie {
+                            position: absolute;
+                            top: -175px;
+                            left: -20px;
+                            width: 120px;
+                        }
+                        .preparado-cover h3 {
+                            font-size: 19px;
+                        }
+                        .preparado-cover .list-inline-item {
+                            display: block;
+                            padding-right: 0px;
+                            text-align: center;
+                            padding-top: 6%;
+                        }
+                        .arrowendo {
+                            transform: rotate(90deg);
+                            height: 50px;
+                            width: auto;
+                        }
+                        .preparado-cover {
+                            padding-left: 15px;
+                        }
+                        .iloveimg {
+                            position: absolute;
+                            right: 0px;
+                            bottom: -76px;
+                            width: 125px;
+                        }
+                        .sm-carousel {
+                            padding-left: 8% !important;
+                        }
+                        .sm-carousel .owl-prev {
+                            left: 0%;
+                        }
+                        .sm-carousel .owl-next {
+                            right: 0%;
+                        }
+                        /* .sm-carousel .owl-prev,
+    .sm-carousel .owl-next {
+        top: 40%;
+    } */
+                        .conheca-img {
+                            width: 65%!important;
+                        }
+                        .sm-carousel .owl-prev img,
+                        .sm-carousel .owl-next img {
+                            width: 40px;
+                        }
+                        .conheca-heading {
+                            font-size: 24px;
+                            margin-bottom: 50px;
+                        }
+                        footer {
+                            padding: 50px 0px 20px;
+                            text-align: center;
+                        }
+                        footer img {
+                            width: 80px;
+                            margin-bottom: 20px;
+                        }
+                        .footer-head {
+                            color: #007aff;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 16px;
+                            height: 20px;
+                            font-weight: bold;
+                            margin-top: 20px;
+                        }
+                        .navbar-expand-lg .navbar-nav .nav-link {
+                            font-size: 14px;
+                        }
+                        ul.navbar-nav.ml-auto {
+                            background-color: #00013C;
+                            padding: 20px 10px;
+                        }
+                        span.breko {
+                            display: none;
+                        }
+                        a.card-title {
+                            font-size: 16px;
+                            padding-right: 22px;
+                        }
+                        .card-body p {
+                            padding-right: 10%;
+                        }
+                        .sub-header ul.navbar-nav.ml-auto {
+                            background-color: #fff !important;
+                            padding: 20px 10px;
+                        }
+                        .vidmat {
+                            margin-top: 50px;
+                        }
+                        .m-hide {
+                            display: none;
+                        }
+                        .m-show {
+                            display: block;
+                            margin-bottom: 70px;
+                        }
+                        .st-svg {
+                            position: absolute;
+                            z-index: 10;
+                            width: 13.5vw;
+                            left: -4.7vw;
+                            bottom: -7vh;
+                        }
+                        img.banner-sticker {
+                            right: 0vw;
+                            bottom: -20vh;
+                        }
+                        span.for-break {
+                            display: none;
+                        }
+                        p.isa {
+                            font-size: 30vw;
+                            line-height: 0.8;
+                            font-weight: bold;
+                            color: #f9f9f9;
+                            position: absolute;
+                            top: -15vw;
+                            right: -14vw;
+                            z-index: -10;
+                        }
+                        .forma-arrow {
+                            width: 177px;
+                            transform: scaleX(-1)rotate(90deg);
+                        }
+                        .paga-inner1 {
+                            padding: 50px 0px;
+                        }
+                        .paga-inner {
+                            padding: 50px 0px;
+                        }
+                        .seja-text {
+                            transform: translateY(0px);
+                        }
+                        .seja-cover {
+                            height: 170px;
+                            margin-top: 30px;
+                        }
+                        .pagmento-inside {
+                            position: absolute;
+                            left: 4vw;
+                            top: 17.5vw;
+                            height: 60px;
+                            width: 60px;
+                            line-height: 60px;
+                        }
+                        .marg-150 {
+                            margin-top: 40px;
+                        }
+                        .seja-cover {
+                            display: flex;
+                            align-items: center;
+                        }
+                        .seja-cover {
+                            margin-left: 8vw;
+                            padding-left: 10vw;
+                        }
+                        span.seja-none {
+                            display: none;
+                        }
+                        .seja-text h2,
+                        .seja-text p {
+                            text-align: left !important;
+                        }
+                        .pagmento-inside img {
+                            height: 50px;
+                        }
+                        img.banner-sticker.ilovestickero {
+                            bottom: -17vh !important;
+                            width: 150px;
+                        }
+                        .curriculo-after {
+                            padding: 25px 0px 50px;
+                        }
+                        span.front-none {
+                            display: none;
+                        }
+                        p.curriculo-para {
+                            margin-top: 30px;
+                        }
+                        .dimage {
+                            margin-top: 30px;
+                        }
+                        #rowpaddingo {
+                            padding: 0px;
+                        }
+                        .nosses-head {
+                            font-size: 20px;
+                        }
+                        .nosses-para {
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            font-size: 13px;
+                            padding-top: 15px;
+                        }
+                        .dif-title {
+                            height: 75px;
+                        }
+                        .comosera-cover {
+                            margin-top: 30px;
+                            padding: 20px 30px;
+                        }
+                        .sechudle-list li {
+                            font-size: 2.5vw;
+                            font-weight: bold;
+                            margin-right: 6.65vw !important;
+                        }
+                    }
+                    
+                    @media all and (max-width: 768px) {
+                        .depoi-para {
+                            font-size: 16px;
+                        }
+                        .depo-sticker {
+                            width: auto;
+                            height: 45px;
+                        }
+                        .conheca-img {
+                            width: 65%!important;
+                        }
+                        .sm-carousel {
+                            padding-left: 10.5% !important;
+                        }
+                        .conheca-heading {
+                            font-size: 18px;
+                        }
+                        .kenzie {
+                            position: absolute;
+                            top: -149px;
+                            left: -20px;
+                            width: 100px;
+                        }
+                        .pagemento-head {
+                            color: #fff;
+                            font-size: 40px;
+                        }
+                        .pagemento-subhead {
+                            font-size: 20px;
+                        }
+                        .pagemento-para {
+                            font-size: 16px;
+                        }
+                        p.isa {
+                            font-size: 37vw;
+                            line-height: 0.8;
+                            font-weight: bold;
+                            color: #f9f9f9;
+                            position: absolute;
+                            top: -19vw;
+                            right: -14vw;
+                            z-index: -10;
+                        }
+                        .forma-arrow {
+                            width: 134px;
+                            transform: scaleX(-1)rotate(90deg);
+                            margin-right: 27vw;
+                        }
+                        .pagmento-inside {
+                            top: 153px;
+                            left: 5.5vw;
+                        }
+                        .seja-cover {
+                            padding-left: 7vw;
+                        }
+                        .sechudle-list li:last-child {
+                            margin-right: 0px !important;
+                        }
+                        .sechudle p {
+                            font-size: 13.2px;
+                        }
+                        p.hfull {
+                            padding: 83px 0px;
+                        }
+                        .accordion .card-header.headero:after {
+                            top: -2px !important;
+                            right: 25% !important;
+                        }
+                        .headero-pa {
+                            padding: 10px 0px 0px !important;
+                            font-size: 16px !important;
+                        }
+                        .coverto {
+                            display: none;
+                        }
+                        .coverto-mbl {
+                            display: flex;
+                        }
+                    }
+                    
+                    @media all and (max-width: 576px) {
+                        .banner {
+                            background: url("../images/mbl-banner.png") repeat scroll center center / cover;
+                            background-size: 100% 100%;
+                        }
+                        .down-scroll {
+                            bottom: 10px;
+                            height: 25px;
+                        }
+                        .banner h3 {
+                            text-shadow: 2px 2px 2px #000;
+                        }
+                        .btn-purple {
+                            border-radius: 5px;
+                        }
+                        .quer-torner {
+                            padding: 50px 0px;
+                        }
+                        .ka-sticker {
+                            position: absolute;
+                            right: 20px;
+                            margin-top: -15px;
+                            width: 80px;
+                            left: unset;
+                        }
+                        .col-lg-6.ninty-nine {
+                            padding-left: 25px;
+                        }
+                        .no1::before,
+                        .no2::before,
+                        .no3::before,
+                        .no4::before,
+                        .no5::before {
+                            height: 30px;
+                            width: 30px;
+                            line-height: 30px;
+                            left: -16px;
+                        }
+                        .curso-heading {
+                            font-size: 20px;
+                        }
+                        .como-funciona {
+                            padding: 50px 0px 50px;
+                        }
+                        .kenzie {
+                            top: -120px;
+                            left: 20px;
+                            width: 75px;
+                        }
+                        img.d-block.mx-auto.sticker-funciona {
+                            width: 100%;
+                            height: auto;
+                        }
+                        .mbl-no {
+                            display: none;
+                        }
+                        .mbl-yes {
+                            display: block;
+                            width: 100%;
+                        }
+                        .kenzienamidia {
+                            padding: 50px 0px;
+                        }
+                        .carousel-padd {
+                            margin-left: 30px;
+                            margin-top: 70px !important;
+                            width: 300px;
+                            display: block;
+                            margin: 0 auto;
+                        }
+                        .below-spara {
+                            margin-top: 10px !important;
+                            width: 300px;
+                            display: block;
+                            margin: 0 auto;
+                            font-size: 14px;
+                        }
+                        .owl-next {
+                            right: 6%;
+                        }
+                        .owl-prev {
+                            left: 6%;
+                        }
+                        .owl-next img,
+                        .owl-prev img {
+                            width: 30px;
+                        }
+                        .detail-para {
+                            font-size: 15px;
+                        }
+                        .depoi-para {
+                            font-size: 12px;
+                        }
+                        .depo-sticker {
+                            width: auto;
+                            height: 40px;
+                        }
+                        .que-heading {
+                            font-size: 16px;
+                        }
+                        .card-header.headero {
+                            padding: 10px 0px 0px !important;
+                        }
+                        .top-50 {
+                            margin-top: 20px;
+                        }
+                        .iloveimg {
+                            right: 20px;
+                        }
+                        span.conheca-none {
+                            display: none;
+                        }
+                        a.card-title {
+                            font-size: 14px;
+                        }
+                        .card-header {
+                            padding: 0.5rem !important;
+                            height: auto;
+                        }
+                        .accordion .card-header:after {
+                            position: absolute;
+                            right: 10px;
+                            top: 20%;
+                            transform: translateY(0px);
+                            padding-left: 40px;
+                        }
+                        .card-body p {
+                            padding-left: 0.8rem;
+                            padding-right: 10%;
+                            font-size: 14px;
+                        }
+                        .faq-head {
+                            font-size: 25px;
+                        }
+                        .faq-para {
+                            font-size: 12px;
+                            color: #fff;
+                            padding: 30px 0px;
+                        }
+                        .m-show {
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            margin-bottom: 50px;
+                        }
+                        .st-svg {
+                            position: absolute;
+                            z-index: 10;
+                            width: 18.5vw;
+                            left: -2.7vw;
+                            bottom: -5vh;
+                        }
+                        h2.quem-head {
+                            font-size: 36px;
+                        }
+                        p.quem-para {
+                            font-size: 16px;
+                        }
+                        p.temos-para {
+                            font-size: 16px;
+                        }
+                        h2.temos-head {
+                            font-size: 30px;
+                        }
+                        img.banner-sticker {
+                            right: 2vw;
+                            bottom: -18vh;
+                            width: 18vw;
+                        }
+                        p.isa {
+                            font-size: 42vw;
+                            line-height: 0.8;
+                            font-weight: bold;
+                            color: #f9f9f9;
+                            position: absolute;
+                            top: -21vw;
+                            right: -3vw;
+                            z-index: -10;
+                        }
+                        .seja-cover {
+                            padding-left: 9vw;
+                        }
+                        .seja-head {
+                            margin-bottom: 10px;
+                        }
+                        .seja-title {
+                            height: 70px;
+                        }
+                        img.seja-blue {
+                            width: 70px;
+                            left: 28px;
+                            top: -84px;
+                            transform: rotate(17deg);
+                        }
+                        .front-head {
+                            font-size: 20px;
+                        }
+                        .bullet-para p {
+                            font-size: 13px;
+                        }
+                        .lagblue {
+                            right: 1vw;
+                            width: 65px;
+                            top: 35px;
+                        }
+                        img.nosses-kenzie {
+                            width: 70px;
+                            position: absolute;
+                            top: -85px;
+                        }
+                        .dif-title {
+                            height: 65px;
+                        }
+                        .sechudle-list li {
+                            font-size: 4.5vw;
+                        }
+                        .accordion .card-header.headero:after {
+                            top: 15px !important;
+                            right: 27% !important;
+                        }
+                    }
+                    
+                    @media all and (max-width: 505px) {
+                        p.hfull {
+                            padding: 68px 0px;
+                        }
+                        .cfull {
+                            padding: 71.5px 0px;
+                        }
+                        .comosuer {
+                            font-size: 20px;
+                        }
+                        .sechudle-list li {
+                            font-size: 4vw;
+                        }
+                    }
+                    
+                    @media all and (max-width: 480px) {
+                        .seja-cover {
+                            padding-left: 12vw;
+                            margin-right: 3vw;
+                        }
+                        .seja-head {
+                            font-size: 16px;
+                        }
+                        .seja-para {
+                            font-size: 11px;
+                        }
+                        .nosses-head {
+                            font-size: 16px;
+                        }
+                        .nosses-para {
+                            font-size: 11.5px;
+                        }
+                        .showbr {
+                            display: inline;
+                        }
+                        .sechudle p {
+                            font-size: 11.5px;
+                        }
+                        p.thalf {
+                            padding: 7px 0px;
+                        }
+                        p.hfull {
+                            padding: 72px 0px;
+                        }
+                        .accordion .card-header.headero:after {
+                            top: 15px !important;
+                            right: 15% !important;
+                            font-size: unset !important;
+                        }
+                    }
+                    
+                    @media all and (max-width: 415px) {
+                        .apr-heading {
+                            font-size: 14px;
+                            font-weight: bold;
+                            padding-top: 5px;
+                        }
+                        .saiba-para {
+                            font-size: 12px;
+                        }
+                        .saiba-para a,
+                        .saiba-para i {
+                            font-size: 12px;
+                        }
+                        .sm-purple {
+                            width: 130px;
+                        }
+                        #imnedo {
+                            padding-left: 3%;
+                            padding-right: 8%;
+                        }
+                        .kenzie {
+                            position: absolute;
+                            top: -95px;
+                            left: 15px;
+                            width: 70px;
+                        }
+                        .funciona-para {
+                            font-size: 16px;
+                            padding-bottom: 15px;
+                            margin-bottom: 0px;
+                        }
+                        .kenzienamidia h3 {
+                            font-size: 16px;
+                            margin-bottom: 20px;
+                        }
+                        .preparado {
+                            padding: 30px 0px;
+                        }
+                        .arrowendo {
+                            height: 20px;
+                        }
+                        .preparado-cover h3 {
+                            font-size: 16px;
+                        }
+                        .carousel-padd {
+                            width: 200px;
+                        }
+                        .below-spara {
+                            width: 200px;
+                            font-size: 10px;
+                        }
+                        .detail-para {
+                            font-size: 12px;
+                            margin-top: 10px;
+                            padding: 10px 0px 0px;
+                            margin-bottom: 0px;
+                        }
+                        .owl-next {
+                            right: 6%;
+                        }
+                        .owl-prev {
+                            left: 6%;
+                        }
+                        .imgizer {
+                            width: 80px !important;
+                        }
+                        .owl-next img,
+                        .owl-prev img {
+                            width: 20px;
+                        }
+                        .depoi-para {
+                            font-size: 10px;
+                            padding-left: 7%;
+                            padding-right: 7%;
+                        }
+                        .depo-sticker {
+                            width: auto;
+                            height: 35px;
+                        }
+                        span.depoi-none {
+                            display: none;
+                        }
+                        .sm-carousel .owl-prev img,
+                        .sm-carousel .owl-next img {
+                            width: 30px;
+                        }
+                        .conheca {
+                            padding: 50px 0px;
+                        }
+                        a.card-title {
+                            font-size: 11px;
+                        }
+                        .accordion .card-header:after {
+                            position: absolute;
+                            right: 10px;
+                            top: 23%;
+                            transform: translateY(0px);
+                            padding-left: 40px;
+                            font-size: 12px;
+                        }
+                        .card-body p {
+                            font-size: 11px;
+                        }
+                        img.banner-sticker {
+                            right: 20px;
+                            bottom: -90px;
+                            width: 95px;
+                        }
+                        .voce-para {
+                            font-size: 11px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                        .voce-head {
+                            font-size: 16px;
+                        }
+                        .voce-cover {
+                            height: 170px;
+                        }
+                        .voce-header {
+                            font-size: 18px;
+                        }
+                        .timings p {
+                            width: 60px;
+                            height: 45px;
+                            font-size: 13px;
+                        }
+                        .cfull {
+                            padding: 73.5px 0px;
+                        }
+                        .comosera-head {
+                            font-size: 12px;
+                            margin-bottom: 10px;
+                        }
+                        .souli-cover img {
+                            width: 15px;
+                        }
+                        .souli-text p {
+                            font-size: 11px;
+                        }
+                        .souli-cover img {
+                            width: 11px;
+                            margin-top: -9px;
+                        }
+                        .comosera-cover {
+                            margin-top: 30px;
+                            padding: 13px 20px 0px;
+                        }
+                    }
+                    
+                    @media all and (max-width: 375px) {
+                        .banner h3 {
+                            color: #fff;
+                            font-size: 30px;
+                        }
+                        .btn-purple {
+                            background-color: #6d0c91;
+                            font-size: 12px;
+                            padding: 7px 19px;
+                            border-radius: 5px;
+                        }
+                        .quer-torner h3 {
+                            font-size: 16px;
+                        }
+                        .curso-heading {
+                            font-size: 16px;
+                        }
+                        .funciona-para {
+                            font-size: 14px;
+                            margin-bottom: 0px;
+                        }
+                        .iloveimg {
+                            bottom: -62px;
+                            width: 100px;
+                        }
+                        .depoimentos {
+                            padding: 50px 0px 30px;
+                        }
+                        .conheca-img {
+                            width: 50%!important;
+                        }
+                        .sm-carousel .owl-prev img,
+                        .sm-carousel .owl-next img {
+                            width: 20px;
+                        }
+                        .sm-carousel {
+                            padding-left: 13% !important;
+                        }
+                        .conheca-heading {
+                            font-size: 16px;
+                            padding: 0px 20px;
+                            margin-bottom: 25px;
+                        }
+                        .footer-head {
+                            font-size: 11px;
+                        }
+                        footer .list-unstyled li a {
+                            font-size: 11px;
+                            line-height: 20px;
+                        }
+                        footer p {
+                            font-size: 11px;
+                            color: #000;
+                            padding: 0px 22%;
+                            margin-bottom: 0.5rem;
+                        }
+                        footer .list-unstyled {
+                            font-size: 11px;
+                        }
+                        footer img {
+                            width: 60px;
+                            margin-bottom: 0px;
+                        }
+                        .btn-navbar {
+                            width: 124.7px;
+                            margin-top: -3px;
+                        }
+                        a.card-title {
+                            font-size: 9px;
+                            padding-right: 25px;
+                        }
+                        .card-body p {
+                            padding-left: 0.5rem;
+                            padding-right: 10%;
+                            font-size: 9px;
+                        }
+                        .faq-para {
+                            font-size: 10px;
+                        }
+                        .st-svg {
+                            width: 18.5vw;
+                            left: -2.7vw;
+                            bottom: -4vh;
+                        }
+                        p.quem-para {
+                            font-size: 13px;
+                            margin: 30px 0px;
+                        }
+                        h2.quem-head {
+                            font-size: 30px;
+                        }
+                        p.temos-para {
+                            font-size: 11.7px;
+                        }
+                        h2.temos-head {
+                            font-size: 17px;
+                        }
+                        .pagemento-head {
+                            color: #fff;
+                            font-size: 25px;
+                        }
+                        .pagemento-subhead {
+                            font-size: 16px;
+                        }
+                        .pagemento-para {
+                            font-size: 10px;
+                            padding-right: 40px;
+                        }
+                        .paga-head {
+                            color: #007aff;
+                            font-size: 16px;
+                        }
+                        .paga-para {
+                            color: #00013c;
+                            font-size: 11px;
+                            padding-right: 19px;
+                            margin-bottom: 0px;
+                        }
+                        .paga-inner1 {
+                            padding-top: 30px;
+                        }
+                        .paga-inner {
+                            padding-bottom: 0px;
+                        }
+                        .forma-arrow {
+                            width: 83px;
+                            transform: scaleX(-1)rotate(60deg);
+                            margin-right: 28vw;
+                            margin-top: 20px;
+                        }
+                        p.isa {
+                            font-size: 38vw;
+                        }
+                        .seja-cover {
+                            padding-left: 11vw;
+                            height: 115px;
+                            margin-right: 0vw;
+                            padding-right: 20px;
+                        }
+                        .seja-head {
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                        .seja-para {
+                            font-size: 9.5px;
+                            margin-bottom: 0px;
+                        }
+                        .pagmento-inside {
+                            top: 131px;
+                            left: 4.5vw;
+                            height: 50px;
+                            width: 50px;
+                            line-height: 50px;
+                        }
+                        .pagmento-inside img {
+                            height: 40px;
+                        }
+                        img.seja-blue {
+                            width: 50px;
+                            left: 18px;
+                            top: -73px;
+                        }
+                        .seja-title {
+                            height: 55px;
+                        }
+                        .marg-150 {
+                            margin-top: 15px;
+                        }
+                        .voce-cover {
+                            height: 160px;
+                        }
+                        .voce-header {
+                            font-size: 15px;
+                        }
+                        img.banner-sticker.ilovestickero {
+                            bottom: -16vh !important;
+                            width: 125px;
+                            right: 5px;
+                        }
+                        p.curriculo-para {
+                            font-size: 11.5px;
+                        }
+                        .bullet-para p {
+                            font-size: 10px;
+                        }
+                        .bullet-img {
+                            margin-right: 15px;
+                        }
+                        .bullet-img img {
+                            width: 20px;
+                        }
+                        .tech-cover {
+                            height: 120px;
+                        }
+                        .technology {
+                            font-size: 10px;
+                            line-height: 14px;
+                        }
+                        .tech-img {
+                            height: 60px;
+                        }
+                        .dimage .col-4 {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                        .dimage {
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                        .curriculo-after {
+                            padding: 25px 0px 35px;
+                        }
+                        .criar-bullet {
+                            margin-top: 20px;
+                        }
+                        .front-head {
+                            font-size: 16px;
+                        }
+                        .bottom-50 {
+                            margin-bottom: 35px;
+                        }
+                        .nosses-para {
+                            font-size: 9px;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                        .nosses-head {
+                            font-size: 12px;
+                        }
+                        .nosses-cover {
+                            height: 215px;
+                        }
+                        .sechudle p {
+                            font-size: 9px;
+                        }
+                        p.thalf {
+                            padding: 15px 0px;
+                        }
+                        p.hfull {
+                            padding: 76px 0px;
+                        }
+                        .cfull {
+                            padding: 77px 0px;
+                        }
+                        .sechudle-list li {
+                            font-size: 3.9vw;
+                        }
+                        .timings {
+                            margin-top: 39px;
+                        }
+                        .sechudle-list {
+                            height: 30px;
+                        }
+                    }
+                    
+                    @media all and (max-width: 320px) {
+                        .saiba-para {
+                            font-size: 10px;
+                        }
+                        .saiba-para a,
+                        .saiba-para i {
+                            font-size: 10px;
+                        }
+                        .funciona-para {
+                            font-size: 10px;
+                            margin-bottom: 0px;
+                        }
+                        .sm-carousel .owl-next {
+                            right: 2%;
+                        }
+                        .sm-carousel .owl-prev {
+                            left: 2%;
+                        }
+                        .sm-carousel .owl-prev,
+                        .sm-carousel .owl-next {
+                            top: 24%;
+                        }
+                        .conheca-img {
+                            width: 60%!important;
+                        }
+                        .sm-carousel {
+                            padding-left: 11% !important;
+                        }
+                    }
