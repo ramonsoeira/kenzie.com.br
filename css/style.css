@@ -1477,13 +1477,20 @@ iframe.pop-up-cadastro{
         width: 100%;
         height: 966.594px;
     }
-}
-@media(max-width: 555px){
-    iframe.pop-up-cadastro{
-        width: 100%;    
+    #standalone-form form {
+        padding-top:0!important;
     }
     .kz-lead-form-overlay{
         padding: 0;
         height: 90%;
     }
+    #form-container{
+        margin-top: 0!important;
+    }
+}
+@media(max-width: 555px){
+    iframe.pop-up-cadastro{
+        width: 100%;    
+    }
+    
 }
