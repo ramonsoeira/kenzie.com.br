@@ -1469,3 +1469,12 @@ iframe.pop-up-cadastro{
         padding: 0;
     }
 }
+@media(max-width: 600px){
+       #overlayClose {
+     
+        width: 10vw;
+    }
+    .kz-lead-form-overlay{
+        padding: 0;
+    }
+}
