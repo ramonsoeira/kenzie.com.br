@@ -1,0 +1,292 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+div.pg-curriculo{
+	font-family: 'Montserrat', sans-serif;
+    box-sizing: inherit;
+    padding-top: 90px;
+}
+	div.pg-curriculo section{
+	    box-sizing: inherit;
+	}
+	div.pg-curriculo section:nth-child(1){
+		background: -webkit-gradient(linear,left top,right top,color-stop(50%,#00306b),color-stop(50%,#fff));
+		background: linear-gradient(90deg,#00306b 50%,#fff 0);
+	    padding: 48px 0;
+	}
+		div.pg-curriculo section:nth-child(1) div div{
+			width: 50%;
+		    box-sizing: inherit;
+		}
+		div.pg-curriculo section:nth-child(1) div div:nth-child(1){}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(1)>h2{
+				font-size: 30px;
+				font-weight: 700;
+				margin-bottom: 48px;
+				color: #fff;
+				text-align: left;
+			}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul{
+			    justify-content: space-between;
+		        list-style: none;
+			}
+				div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul li{
+				    margin-bottom: 28px;
+				    color:#fff;
+				}
+					div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul li h4{
+						font-size: 24px;
+						font-weight: 500;
+						line-height: 1;
+					}
+					div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul li p{
+					    font-size: 16px;
+				        font-weight: 400;
+					}
+						
+			div.pg-curriculo section:nth-child(1) div div > div{
+				flex-wrap: wrap;
+				justify-content: space-around;
+				margin-top: 102px;
+				width: 100%;
+				max-width: 234px;
+				padding-left: 40px;
+			}
+				div.pg-curriculo section:nth-child(1) div div > div a{
+				    margin-bottom: 18px;
+				    display: block;
+					font-size: 16px;
+					text-align: center;
+					font-weight: 600;
+					border-radius: 25px;
+					cursor: pointer;
+				    background: transparent;
+					padding-top: 14px;
+					padding-bottom: 14px;
+					border: 4px solid #fff;
+					color: #fff;
+					text-decoration: none;
+				}
+				div.pg-curriculo section:nth-child(1) div div > div button{
+					background: #fff;
+					color: #00306b;
+					width: 100%;
+					margin-bottom: 18px;
+					font-size: 16px;
+					padding: 18px 24px;
+					text-align: center;
+					font-weight: 600;
+					border-radius: 25px;
+					cursor: pointer;
+					display: block;
+					border-color: #fff;
+					outline: none;
+					border:none;
+
+				}
+		div.pg-curriculo section:nth-child(1) div div:nth-child(2){
+			text-align: right;
+		}
+		div.pg-curriculo section:nth-child(1) div div:nth-child(2) div{
+			display: none;
+		}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(2) div button{
+				background: #00306b;
+				color: #fff;
+				width: 100%;
+				display: inline-block;
+				max-width: 184px;
+				margin: 0 9%;
+			}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(2) div a{
+				border:solid;
+				color: #00306b;
+				width: 100%;
+				display: inline-block;
+				max-width: 184px;
+				margin: 10px 3%;
+			}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(2) h2{
+				font-size: 30px;
+				margin: 0 0 48px;
+				font-weight: 700;
+			    text-align: right;
+				color: #30334a;
+				max-width: 345px;
+				display: inline-block;
+			}
+			div.pg-curriculo section:nth-child(1) div div:nth-child(2) article{
+				text-align: right;
+			}
+				div.pg-curriculo section:nth-child(1) div div:nth-child(2) article h3{
+					font-size: 18px;
+					color: #5ba3f6;
+					margin-bottom: 8px;
+					font-weight: 700;
+				}
+				div.pg-curriculo section:nth-child(1) div div:nth-child(2) article p{
+					color: #30334a;
+					font-size: 1em;
+					font-weight: 400;
+					line-height: 1.5;
+					max-width: 345px;
+					display: inline-block;
+				    margin-bottom: 28px;
+				}
+	div.pg-curriculo section:nth-child(2){
+		text-align: center;
+		width: 100%;
+		background-color: #f6f7fb;
+		padding: 70px 0;
+	}
+		div.pg-curriculo section:nth-child(2) p{
+    		font-family: Montserrat,sans-serif;	
+			display: inline-block;
+			font-size: 24px;
+			font-weight: 500;
+			color: #1c3869;
+		}
+			div.pg-curriculo section:nth-child(2) p button{
+				display: inline-block;
+				min-width: 184px;
+				font-size: 16px;
+				padding: 18px 24px;
+				text-align: center;
+				font-weight: 600;
+				border-radius: 25px;
+				cursor: pointer;
+				background-image: linear-gradient(105deg,#5ba3f5,#3c86e1 100%);
+				color: #fff;
+				border: 0;
+				margin-left: 64px;
+			}
+
+.pg .ka_container{
+	max-width: 1152px;
+	margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MC4zNTkiIGhlaWdodD0iNzQuNjk4IiB2aWV3Qm94PSIwIDAgNzAuMzU5IDc0LjY5OCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiAjMDA0MTkxO30gLmNscy0xe29wYWNpdHk6IDAuMjt9PC9zdHlsZT48L2RlZnM+PHBhdGggaWQ9IkNhbWluaG9fMSIgZD0iTTM4NC4wMzYgMTU3LjU2MnYtMTIuOTc0YS4xMTEuMTExIDAgMCAwLS4xLS4xaC0yMC43MjFhLjEuMSAwIDAgMC0uMDg2LjA1MmwtMTMuMDc4IDE4LjUxNWEuMTE1LjExNSAwIDAgMS0uMTcyIDBsLTMuNzE3LTUuMzE3YS4xNDcuMTQ3IDAgMCAxIDAtLjEybDE5LjczNy0yOC41YS4wMTcuMDE3IDAgMCAxIC4wMTctLjAxN2MuNTMzLTEuMDg0LS41NTEtMS4wODQtLjU1MS0xLjA4NGgtMTMuMThhMi40IDIuNCAwIDAgMC0xLjYzNS41NTFsLS4wMTcuMDE3LTE3LjM4IDI0Ljk4NWEuMTA1LjEwNSAwIDAgMS0uMTg5LS4wNTJWMTI5LjFhMS4wNzkgMS4wNzkgMCAwIDAtMS4xLTEuMWgtMTcuMDM2Yy0xLjEgMC0xLjEuNTUxLTEuMS41NTFzLS4wMzQgMTIuMDggMCAxMy4xODFjLjAxNy4zNDQuMDg2Ljk2NC40ODIgMS4wODRhLjY0NS42NDUgMCAwIDAgLjE4OS4wMTdoMy42MTRhLjExMS4xMTEgMCAwIDEgLjEuMVYxNzIuNGEuMTExLjExMSAwIDAgMS0uMS4xaC0zLjczNGEuNTM5LjUzOSAwIDAgMC0uNTUxLjU1MXYxNC4xNzlhLjExMS4xMTEgMCAwIDAgLjEuMWgxOC45MjhhLjEuMSAwIDAgMSAuMDg2LjE1NWwtMTAuNzU1IDE1LjA1N2EuMS4xIDAgMCAwIC4wODYuMTU1aDE0LjU3N2EuMS4xIDAgMCAwIC4wODYtLjA1MmwxMi41MjctMTcuOTY1YS4xMTUuMTE1IDAgMCAxIC4xNzIgMGwyLjA4MiAyLjZhLjEzMS4xMzEgMCAwIDAgLjA4Ni4wMzRoMTQuMTI3YS4xMTEuMTExIDAgMCAxIC4xLjF2MTUuMTc3YS4xMTEuMTExIDAgMCAwIC4xLjFoMTcuOTNhLjExMS4xMTEgMCAwIDAgLjEtLjF2LTEzLjUwNWEuMTExLjExMSAwIDAgMC0uMS0uMWgtMy42NDhhLjExMS4xMTEgMCAwIDEtLjEtLjF2LTMxLjExN2EuMTExLjExMSAwIDAgMSAuMS0uMWgzLjY0OGMuMDQtLjAwMy4wNzYtLjA1NS4wNzYtLjEwN3ptLTUxLjA4OSAyOC45MDlWMTYyLjM4YS4xLjEgMCAwIDEgLjE4OS0uMDUybDguNTY5IDEyLjNhLjE0Ny4xNDcgMCAwIDEgMCAuMTJsLTguNTY5IDExLjc3YS4xMDUuMTA1IDAgMCAxLS4xODktLjA0N3ptMzIuNzgtMS42bC04LjAxOS0xMS4yMTljLS4wMzQtLjAzNC0uMDE3LS4wODYgMC0uMTJsOC4wMTktMTAuNjg2Yy4wNTItLjA4Ni4xODktLjAzNC4xODkuMDY5VjE4NC44Yy4wMDEuMTA1LS4xMzcuMTU3LS4xODkuMDcxeiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IkNhbWluaG8gMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMxMy43MTEgLTEyOCkiLz48L3N2Zz4=);
+	background-size: 200px;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	background-position: 0;
+	padding: 0 1.25rem;
+	position: relative;
+}
+	.pg .ka_container figure{
+		position: absolute;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		top: 50%;
+		display: block;
+		width: 100%;
+		max-width: 370px;
+	}
+		.pg .ka_container figure svg{
+			position: absolute;
+			left: -24px;
+			bottom: -24px;
+		}
+		.pg .ka_container img{
+			width: 100%;
+		}	
+
+@media(max-width: 1124px){
+	.pg .ka_container figure {
+	    max-width: 30%;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2) article p{
+	    max-width: 60%;
+	}
+}
+@media(max-width: 768px){
+	.pg .ka_container{
+		display: block;
+		flex-wrap: initial;
+	}
+	div.pg-curriculo section:nth-child(1) div div{
+		width: 100%;
+	}
+	div.pg-curriculo section:nth-child(1){
+		background: -webkit-gradient(linear,left top,left bottom,color-stop(30%,#00306b),color-stop(30%,#fff));
+    	background: linear-gradient(180deg,#00306b 30%,#fff 0);
+	}
+	.pg .ka_container{
+		background-size: 200px;
+		background-position: 100% 0;
+		background-repeat: no-repeat;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul {
+	    justify-content: space-between;
+	    list-style: none;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1) div{
+		display: none;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2) div{
+		display: block;
+	}
+	.pg .ka_container figure {
+	    max-width: 90%;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1) {
+	    padding-bottom: 400px;
+	}
+	.pg .ka_container figure {
+	    transform: translateX(-50%);
+	    top: 15%;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2) {
+	    text-align: left;
+	    padding-top: 120px;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2) h2 {
+	    text-align: left;
+	    max-width: 100%;
+	    display: block;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2) article{
+		text-align: left;
+	}
+	.pg .ka_container figure svg{
+		width: 100px;
+		right: -8px;
+		bottom: -24px;
+		z-index: 5;
+	}
+	div.pg-curriculo section:nth-child(2) p button {
+	    display: block;
+	    margin: 42px auto 0;
+	}
+	div.pg-curriculo section:nth-child(1) div div > div {
+	    flex-wrap: initial;
+	    justify-content: initial;
+	    padding-left: initial;
+	    text-align: center;
+	    max-width: 100%;
+	}
+}
+@media(max-width: 555px){
+	div.pg-curriculo section:nth-child(1) div div:nth-child(2){
+		    padding-top: 0;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1) {
+	    padding-bottom: 275px;
+	}
+	div.pg-curriculo section:nth-child(1) div div:nth-child(1)>ul {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.aulas-ao-vivo.pg .ka_container figure {
+	    transform: translateX(-50%);
+	    top: 20%;
+	}
+}

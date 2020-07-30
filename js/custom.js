@@ -34,14 +34,21 @@ $(document).ready(function() {
     });
    
 
-    $( ".overlay-form" ).click(function(e) {
-      e.preventDefault();
-        $(".kz-lead-form").addClass("is-open")
-    });
+     $( ".overlay-form" ).click(function(e) {
+          e.preventDefault();
+            $(".kz-lead-form").addClass("is-open")
+            $("body").addClass("scroll-body")
+        });
 
-    $( ".kz-lead-form-close" ).click(function(e) {
-      e.preventDefault();
-        $(".kz-lead-form").removeClass("is-open")
-    });
+        $( ".kz-lead-form-close" ).click(function(e) {
+          e.preventDefault();
+            $(".kz-lead-form").removeClass("is-open")
+              $("body").removeClass("scroll-body")
+        });
+         $( "#overlayClose" ).click(function(e) {
+          e.preventDefault();
+            $(".kz-lead-form").removeClass("is-open")
+              $("body").removeClass("scroll-body")
+        });
 
 });
