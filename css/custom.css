@@ -1,0 +1,89 @@
+.imgvideo {
+  cursor: pointer;
+}
+
+.playbutton {
+  /*background: url(https://cdn0.iconfinder.com/data/icons/vector-basic-tab-bar-icons/48/play_button-128.png) center center no-repeat;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 74px;
+  height: 74px;
+  margin: -37px 0 0 -37px;
+  z-index: 10;
+  opacity: .6;
+}
+
+.video {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width:440px;
+height:280px; 
+background-image:url(../images/vid-image.png);
+}
+
+.video iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video .seo {
+  display: none;
+}
+
+.entenda-div-arrow{
+        font-size: 31px;
+    color: #6D0C91;
+    font-weight: bold;
+}
+
+
+.accor-head{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.accor-p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.accor-p2{
+    font-size: 10px;
+        margin-top: 22px;
+}
+.accor-main{
+    text-align: center;
+    display: none;
+}
+.accor-content{
+    width: 18%;
+    display: inline-block;
+}
+.accor-plus{
+    float: right;
+    margin-right: 35px;
+    cursor: pointer;
+    font-size: 36px;
+}
+
+
+span.accor-plus{
+    color: #007AFF;
+}
+
+.accord-box, .accor{
+    /*height: 290px;*/
+    transition: height 0.5s ease-out;
+}
