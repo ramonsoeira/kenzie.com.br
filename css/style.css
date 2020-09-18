@@ -284,7 +284,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 }
 
 .headero a.card-title {
-  color: #fff;
+  color: #00013c;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   display: block;
@@ -818,7 +818,7 @@ footer p {
 
 .faq-head {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   color: #00013c;
 }
 
@@ -870,7 +870,7 @@ footer p {
 }
 
 .card-body {
-  border: 1px solid #007aff;
+  border: 2px solid #00013c;
   border-top: 0px !important;
   border-radius: 5px;
   border-top-left-radius: 0px !important;
@@ -885,9 +885,10 @@ footer p {
   border-bottom: 0px !important;
 }
 
-.card-body p {
+.card-body p,
+h5 {
   padding-left: 30px;
-  color: #fff;
+  color: #00013c;
   padding-right: 20%;
   padding-bottom: 5px;
 }
@@ -896,11 +897,17 @@ a.card-title {
   font-size: 18px;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
+  color: #00013c;
 }
 /* Sub header  */
 
 .sub-header nav {
   background-color: #fff;
+}
+
+.subtopic {
+  color: #00013c;
+  font-weight: 500;
 }
 
 .sub-header .navbar-expand-lg .navbar-nav .nav-link {
