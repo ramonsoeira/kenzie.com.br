@@ -300,7 +300,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #00dbff;
+  color: #6d0c91;
   margin-left: 14px;
   font-size: 16px;
   margin-top: 2px;
@@ -311,7 +311,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
-  color: #00dbff;
+  color: #6d0c91;
 }
 
 .headero:after {
@@ -822,22 +822,17 @@ footer p {
   color: #00013c;
 }
 
-.faq-para {
-  font-size: 16px;
-  color: #fff;
-}
-
 .accordion .card-header:after {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #00dbff;
+  color: #6d0c91;
 }
 
 .accordion .card-header.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
-  color: #00dbff;
+  color: #6d0c91;
 }
 
 .accordion .card-header:after {
@@ -858,7 +853,7 @@ footer p {
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
-  border: 1px solid #007aff;
+  border: 2px solid #00013c;
   height: 90px;
   color: #fff;
   display: flex;
@@ -870,7 +865,7 @@ footer p {
 }
 
 .numberi {
-  color: #00dbff;
+  color: #6d0c91;
   font-weight: 500;
 }
 
