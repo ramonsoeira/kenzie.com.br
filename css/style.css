@@ -812,7 +812,7 @@ footer p {
 
 .faq {
   background-color: #fff;
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -934,6 +934,12 @@ a.card-title {
 
 .faq-banner-head {
   font-size: 60px;
+  color: #00013c;
+}
+
+.faq-banner {
+  background-color: #fff;
+  padding: 150px 0px 50px;
 }
 
 h2.quem-head {
