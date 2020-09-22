@@ -817,6 +817,7 @@ footer p {
 }
 
 .faq-head {
+  margin-top: 1em;
   font-size: 40px;
   font-weight: 600;
   color: #00013c;
