@@ -811,7 +811,7 @@ footer p {
     *                                                                                      */
 
 .faq {
-  background-color: #a7a7aa;
+  background-color: #fff;
   padding-top: 150px;
   padding-bottom: 50px;
 }
@@ -925,6 +925,15 @@ a.card-title {
 .sub-banner {
   background-color: #00013c;
   padding: 150px 0px 50px;
+}
+
+.faq-banner {
+  background-color: #fff;
+  padding: 150px 0px 50px;
+}
+
+.faq-banner-head {
+  font-size: 60px;
 }
 
 h2.quem-head {
