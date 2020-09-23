@@ -815,6 +815,16 @@ footer p {
   padding-top: 80px;
   padding-bottom: 50px;
 }
+.faq-img-container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; /* to center the container */
+}
+
+.faq-img-container__img {
+  width: 100%;
+  height: auto;
+}
 
 .faq-head {
   margin-top: 1em;
@@ -880,7 +890,7 @@ footer p {
   border-radius: 5px;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
-  padding: -1rem 0 0 1.66rem !important;
+  padding: 0 !important;
 }
 
 .card-header[aria-expanded="true"] {
@@ -894,7 +904,7 @@ footer p {
 h5 {
   padding-left: 30px;
   color: #00013c;
-  padding-right: 20%;
+  padding-right: 3%;
   padding-bottom: 5px;
 }
 
