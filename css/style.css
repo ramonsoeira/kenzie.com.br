@@ -823,6 +823,15 @@ footer p {
   color: #00013c;
 }
 
+.curriculo-head {
+  margin-top: 1em;
+  margin-left: 405px;
+  margin-right: 225px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #00013C;
+}
+
 .accordion .card-header:after {
   font-family: "FontAwesome";
   content: "\f068";
@@ -935,6 +944,29 @@ a.card-title {
 .faq-banner-head {
   font-size: 60px;
   color: #00013c;
+}
+
+.curriculo-banner {
+  background-color: #fff;
+  padding: 182px 0px 50px;
+}
+
+.curriculo-banner-head {
+  font-size: 48px;
+  font-family: 'Montserrat';
+  color: #00013C;
+}
+
+.curriculo-banner-h3 {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  color: #00013C;
+}
+
+.curriculo-banner-p {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: #00013C;
 }
 
 .faq-banner {
