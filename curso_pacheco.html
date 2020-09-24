@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+ <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -235,32 +235,53 @@
  *                                                                                      */
 //========================================================================================
  -->
- <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item active" role="presentation">
-    <a class="nav-link" id="1modulo" data-toggle="tab" href="#home" role="tab" aria-controls="1modulo" aria-selected="true">1º Módulo</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" id="2modulo" data-toggle="tab" href="#profile" role="tab" aria-controls="2modulo" aria-selected="false">2º Módulo</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" id="3modulo" data-toggle="tab" href="#contact" role="tab" aria-controls="3modulo" aria-selected="false">3º Módulo</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" id="4modulo" data-toggle="tab" href="#contact" role="tab" aria-controls="4modulo" aria-selected="false">4º Módulo</a>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show" id="1modulo" role="tabpanel" aria-labelledby="1modulo">
-    <div>Hard Skills1</div>
+<div class="percurso-curso">
+  <div class="nav-tabs-head">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-linka active" id="1modulo-tab" data-toggle="tab" href="#modulo1" role="tab" aria-controls="modulo1" aria-selected="true"><strong>1º</strong>&nbsp;Módulo</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-linka" id="2modulo-tab" data-toggle="tab" href="#modulo2" role="tab" aria-controls="modulo2" aria-selected="false"><strong>2º</strong>&nbsp;Módulo</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-linka" id="3modulo-tab" data-toggle="tab" href="#modulo3" role="tab" aria-controls="modulo3" aria-selected="false"><strong>3º</strong>&nbsp;Módulo</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-linka" id="4modulo-tab" data-toggle="tab" href="#modulo4" role="tab" aria-controls="modulo4" aria-selected="false"><strong>4º</strong>&nbsp;Módulo</a>
+      </li>
+    </ul>
   </div>
-  <div class="tab-pane fade" id="2modulo" role="tabpanel" aria-labelledby="2modulo">
-    <div>Hard Skills2</div>
-  </div>
-  <div class="tab-pane fade" id="3modulo" role="tabpanel" aria-labelledby="3modulo">
-    <div>Hard Skills3</div>
-  </div>
-  <div class="tab-pane fade" id="4modulo" role="tabpanel" aria-labelledby="4modulo">
-    <div>Hard Skills4</div>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="modulo1" role="tabpanel" aria-labelledby="1modulo-tab">
+      <h4>Hard Skills</h4>
+      <p>&#x2714; Lógica de programação</p>
+      <p>&#x2714; Paradigmas de Programação</p>
+      <p>&#x2714; Terminal</p>
+      <p>&#x2714; Controle de Versão com git</p>
+    </div>
+    <div class="tab-pane fade" id="modulo2" role="tabpanel" aria-labelledby="2modulo-tab">
+      <h4>Hard Skills</h4>
+      <p>&#x2714; React</p>
+      <p>&#x2714; Redux</p>
+      <p>&#x2714; Desenvolvimento de sistemas completos</p>
+      <p>&#x2714; Trabalho em equipe utilizando</p> 
+      <p> ágeis e suas cerimônias</p>
+    </div>
+    <div class="tab-pane fade" id="modulo3" role="tabpanel" aria-labelledby="3modulo-tab">
+      <h4>Hard Skills</h4>
+      <p>&#x2714; Python</p>
+      <p>&#x2714; Flask</p>
+      <p>&#x2714; Arquitetura Back-end</p>
+      <p>&#x2714; SQL, Bancos de Dados e ORMs</p>
+    </div>
+    <div class="tab-pane fade" id="modulo4" role="tabpanel" aria-labelledby="4modulo-tab">
+      <h4>Hard Skills</h4>
+      <p>&#x2714; Django Framework</p>
+      <p>&#x2714; Controle de Banco de Dados</p>
+      <p>&#x2714; Versionamento de Dados</p>
+      <p>&#x2714; Segurança de Informação</p>
+    </div>
   </div>
 </div>
 
@@ -271,6 +292,9 @@
 //========================================================================================
  -->
 
+<div>
+  </br>
+</div>
 
 <!-- //===================================================================================
 /*                                                                                      *
@@ -528,5 +552,8 @@
     ></iframe
   ></noscript>
   <!-- End Google Tag Manager (noscript) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

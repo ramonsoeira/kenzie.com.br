@@ -832,6 +832,56 @@ footer p {
   color: #00013C;
 }
 
+.percurso-curso {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 0 62px 400px 348px;
+  width: 100%;
+  color: #ffffff;
+  /* background-color: #3697FF; */
+}
+
+.nav-tabs-head {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-content {
+  width: 958px;
+  height: 858px;
+  background-color: #3697FF;
+}
+
+.nav-linka.active {
+  /* width: 240px;
+  height: 109px; */
+  display: flex;
+  background-color: #3697FF;
+  border: 1px solid #3697FF;
+}
+
+.nav-linka {
+  display: flex;
+  width: 240px;
+  height: 109px;
+  background-color: #ffffff;
+  align-items: center;
+  border: 1px solid #70707026;
+  justify-content: center;
+}
+
+.percurso-curso a.active {
+  color: #FFFFFF;
+}
+
+.percurso-curso a {
+  color: #CBCBD7;
+}
+
 .accordion .card-header:after {
   font-family: "FontAwesome";
   content: "\f068";
