@@ -838,7 +838,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 0 62px 400px 348px;
+  padding: 0 62px 40px 348px;
   width: 100%;
   color: #ffffff;
 }
@@ -907,6 +907,22 @@ footer p {
 
 .percurso-curso a {
   color: #CBCBD7;
+}
+
+.head-title-day-to-day {
+  margin-left: 405px;
+}
+
+.head-title-curriculum {
+  margin-left: 405px;
+  margin-bottom: 50px;
+  margin-top: 88px;
+}
+
+.title-day-to-day {
+  display: flex;
+  align-content: left;
+  flex-direction: column;
 }
 
 .accordion .card-header:after {
