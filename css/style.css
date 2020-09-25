@@ -836,13 +836,11 @@ footer p {
   margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: row;
   padding: 0 62px 400px 348px;
   width: 100%;
   color: #ffffff;
-  /* background-color: #3697FF; */
 }
 
 .nav-tabs-head {
@@ -852,7 +850,6 @@ footer p {
 
 .tab-content {
   width: 958px;
-  /* height: 509px; */
   background-color: #3697FF;
   border: 1px solid #3697ff;
 }
@@ -889,8 +886,6 @@ footer p {
 }
 
 .nav-linka.active {
-  /* width: 240px;
-  height: 109px; */
   display: flex;
   background-color: #3697FF;
   border: 1px solid #3697FF;
