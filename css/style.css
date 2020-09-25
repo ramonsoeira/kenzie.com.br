@@ -852,8 +852,40 @@ footer p {
 
 .tab-content {
   width: 958px;
-  height: 858px;
+  /* height: 509px; */
   background-color: #3697FF;
+  border: 1px solid #3697ff;
+}
+
+.hard-skills {
+  padding: 3%;
+}
+
+.points-hard-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soft-skills {
+  padding: 3%;
+}
+
+.points-soft-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.students-skills {
+  padding: 3%;
+}
+
+.points-students-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav-linka.active {
