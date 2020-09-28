@@ -843,6 +843,17 @@ footer p {
   color: #ffffff;
 }
 
+.day-to-day {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 62px 40px 348px;
+  /* width: 100%; */
+  color: #ffffff;
+}
+
 .nav-tabs-head {
   display: flex;
   flex-direction: row;
@@ -854,8 +865,40 @@ footer p {
   border: 1px solid #3697ff;
 }
 
+.tab-content2 {
+  width: 900px;
+  background-color: #ffffff;
+  color: #00013C;
+  border: 1px solid #7070701A;
+}
+
 .hard-skills {
   padding: 3%;
+}
+
+.descricao-day-to-day {
+  padding: 3%;
+}
+
+.content-daily-title {
+  width: 124px;
+  height: 73px;
+  margin: 3%;
+}
+
+.text-daily {
+  width: 465px;
+  height: 265px;
+  text-align: left;
+  color: #00013C;
+  margin: 3%;
+  padding-top: 50px;
+}
+
+.content-demo-title {
+  width: 180px;
+  height: 73px;
+  margin: 3%;
 }
 
 .points-hard-skills {
@@ -899,6 +942,53 @@ footer p {
   align-items: center;
   border: 1px solid #70707026;
   justify-content: center;
+}
+
+.nav2-linka.active {
+  display: flex;
+  background-color: #6D0C91;
+  color: #FFFFFF;
+}
+
+.nav2-linka.active,#daily-tab {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.nav2-linka.active,#demo-tab {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav2-linka.active,#pausa-tab {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav2-linka.active,#projetos-tab {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav2-linka.active,#softskills-tab {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav2-linka {
+  display: flex;
+  width: 108px;
+  height: 57px;
+  background-color: #FAFAFA;
+  color: #CBCBD7;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav2-linka, #eventos-lives-tab {
+  width: 150px;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.myTab {
+  display: flex;
+  width: 869px;
+  justify-content: space-between;
 }
 
 .percurso-curso a.active {
