@@ -876,6 +876,19 @@ footer p {
   padding: 3%;
 }
 
+.flex-a {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-b {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
 .descricao-day-to-day {
   padding: 3%;
 }
@@ -986,10 +999,10 @@ footer p {
   border-radius: 0px 10px 0px 0px;
 }
 
-.myTab {
+.arrows-day-to-day {
   display: flex;
-  width: 869px;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-bottom: 38px;
 }
 
 .percurso-curso a.active {
