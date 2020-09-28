@@ -891,8 +891,9 @@ footer p {
   height: 265px;
   text-align: left;
   color: #00013C;
-  margin: 3%;
-  padding-top: 50px;
+  /* margin: 3%; */
+  padding-top: 30px;
+  font-size: 18px;
 }
 
 .content-demo-title {
