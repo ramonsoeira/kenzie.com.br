@@ -849,9 +849,8 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 0 62px 40px 348px;
-  /* width: 100%; */
-  color: #ffffff;
+  padding: 0 62px 40px 360px;
+  height: auto;
 }
 
 .nav-tabs-head {
@@ -859,17 +858,22 @@ footer p {
   flex-direction: row;
 }
 
-.tab-content {
+.tab-content,#myTabContent {
   width: 958px;
   background-color: #3697FF;
   border: 1px solid #3697ff;
+  color: #FFFFFF;
 }
 
-.tab-content2 {
+.tab-content,#myTabContent2 {
   width: 900px;
   background-color: #ffffff;
   color: #00013C;
   border: 1px solid #7070701A;
+}
+
+#myTabContent2 {
+  height: 600px;
 }
 
 .hard-skills {
@@ -887,6 +891,7 @@ footer p {
   flex-wrap: wrap;
   flex-direction: column;
   margin-right: 30px;
+  width: 100%;
 }
 
 .descricao-day-to-day {
@@ -901,11 +906,9 @@ footer p {
 
 .text-daily {
   width: 465px;
-  height: 265px;
+  height: 280px;
   text-align: left;
   color: #00013C;
-  /* margin: 3%; */
-  padding-top: 30px;
   font-size: 18px;
 }
 
@@ -1003,6 +1006,7 @@ footer p {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 38px;
+  margin-right: 38px;
 }
 
 .percurso-curso a.active {
@@ -1014,7 +1018,8 @@ footer p {
 }
 
 .head-title-day-to-day {
-  margin-left: 405px;
+  margin-left: -230px;
+  margin-top: 3%;
 }
 
 .head-title-curriculum {
@@ -1023,11 +1028,11 @@ footer p {
   margin-top: 88px;
 }
 
-.title-day-to-day {
+/* .title-day-to-day {
   display: flex;
   align-content: left;
   flex-direction: column;
-}
+} */
 
 .accordion .card-header:after {
   font-family: "FontAwesome";
