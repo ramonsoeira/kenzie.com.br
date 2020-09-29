@@ -849,15 +849,17 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 0 62px 40px 360px;
+  padding: 0 62px 0px 360px;
   height: auto;
 }
 
 .differentials {
-  margin-top: 1em;
-  margin-left: 465px;
+  display: flex;
   width: 958px;
-  height: 335px;
+  margin: 0px 10px 0 465px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
   background-color: #F7F7F7;
 }
 
@@ -865,16 +867,17 @@ footer p {
   font-size: 32px;
   color: #00013C;
   padding: 5%;
+
 }
 
 .carousel-differentials-text {
+  display: flex;
   width: 761px;
-  height: 100px;
+  padding: 0 0 0 100px;
   text-align: left;
   color: #707070;
   font-size: 18px;
   font-style: italic;
-  margin-left: 96px;
 }
 
 .carousel-differentials-student {
