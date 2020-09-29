@@ -853,6 +853,39 @@ footer p {
   height: auto;
 }
 
+.differentials {
+  margin-top: 1em;
+  margin-left: 465px;
+  width: 958px;
+  height: 335px;
+  background-color: #F7F7F7;
+}
+
+.nd-1 {
+  font-size: 32px;
+  color: #00013C;
+  padding: 5%;
+}
+
+.carousel-differentials-text {
+  width: 761px;
+  height: 100px;
+  text-align: left;
+  color: #707070;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 96px;
+}
+
+.carousel-differentials-student {
+  width: 220px;
+  height: 50px;
+  text-align: left;
+  color: #707070;
+  margin-left: 690px;
+  margin-top: 20px;
+}
+
 .nav-tabs-head {
   display: flex;
   flex-direction: row;
@@ -1027,12 +1060,6 @@ footer p {
   margin-bottom: 50px;
   margin-top: 88px;
 }
-
-/* .title-day-to-day {
-  display: flex;
-  align-content: left;
-  flex-direction: column;
-} */
 
 .accordion .card-header:after {
   font-family: "FontAwesome";
