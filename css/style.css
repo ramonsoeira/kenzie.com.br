@@ -853,6 +853,12 @@ footer p {
   height: auto;
 }
 
+.nd-1 {
+  font-size: 32px;
+  color: #00013C;
+  padding: 5%;
+}
+
 .differentials {
   display: flex;
   width: 958px;
@@ -863,11 +869,98 @@ footer p {
   background-color: #F7F7F7;
 }
 
-.nd-1 {
+.our_differentials {
+  display: flex;
+  width: 958px;
+  margin: 0 0 0 465px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 791px;  
+  background-color: #F7F7F7;
+}
+
+.inside_differentials {
+  display: flex;
+  width: 855px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 726px;
+  background-color: #F7F7F7;
+  margin: 5.5%;
+  justify-content: space-around;
+}
+
+.head_inside {
+  width: 327px;
+  height: 155px;
+  text-align: left;
+}
+
+.coachs {
+  display: flex;
+  width: 958px;
+  margin: 0px 0px 0 465px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+
+  /* border: 1px solid black;
+  height: 723px; */
+}
+
+.inside-coachs {
+  margin: 3% 9% 0% 5%;
+  height: 385px;
+}
+
+.coachs-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-part-coachs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.second-part-coachs2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 0 0px 30px;
+}
+
+.inside-coachs2 {
+  display: flex;
+  height: 150px;
+}
+
+.inside-coachs3 {
+  display: flex;
+  height: 150px;
+  margin-right: 40px;
+}
+
+.nd-2 {
   font-size: 32px;
   color: #00013C;
-  padding: 5%;
+}
 
+.coachs-text {
+  width: 395px;
+  height: 208px;
+  text-align: left;
+  color: #707070;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.coachs-img {
+  width: 373px;
+  height: 280px;
+  margin: 10% 0 3% 0;
 }
 
 .carousel-differentials-text {
@@ -897,7 +990,6 @@ footer p {
 .tab-content,#myTabContent {
   width: 958px;
   background-color: #3697FF;
-  border: 1px solid #3697ff;
   color: #FFFFFF;
 }
 
@@ -1059,7 +1151,7 @@ footer p {
 }
 
 .head-title-curriculum {
-  margin-left: 405px;
+  margin-left: 510px;
   margin-bottom: 50px;
   margin-top: 88px;
 }
