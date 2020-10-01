@@ -822,7 +822,7 @@ footer p {
   font-weight: 600;
   color: #00013c;
 }
-
+/* aqui */
 .curriculo-head {
   margin-top: 1em;
   margin-left: 405px;
@@ -903,10 +903,17 @@ footer p {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #FFFFFF;
-
-  /* border: 1px solid black;
-  height: 723px; */
 }
+
+.teamwork {
+  display: flex;
+  width: 958px;
+  margin: 0px 0px 0 465px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FAFAFA;
+}
+
 
 .inside-coachs {
   margin: 3% 9% 0% 5%;
@@ -935,12 +942,14 @@ footer p {
 .inside-coachs2 {
   display: flex;
   height: 150px;
+  margin-left: auto;
 }
 
 .inside-coachs3 {
   display: flex;
   height: 150px;
-  margin-right: 45px;
+  margin-right: 25px;
+  margin-left: inherit;
 }
 
 .nd-2 {
@@ -951,6 +960,15 @@ footer p {
 .coachs-text {
   width: 395px;
   height: 208px;
+  text-align: left;
+  color: #707070;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.teamwork-text {
+  width: 455px;
+  height: 209px;
   text-align: left;
   color: #707070;
   font-size: 18px;
@@ -1155,7 +1173,7 @@ footer p {
   margin-bottom: 50px;
   margin-top: 88px;
 }
-
+/* até aqui */
 .accordion .card-header:after {
   font-family: "FontAwesome";
   content: "\f068";
