@@ -929,7 +929,7 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 0 0 0px 30px;
+  margin: 0 0 0px 20px;
 }
 
 .inside-coachs2 {
@@ -940,7 +940,7 @@ footer p {
 .inside-coachs3 {
   display: flex;
   height: 150px;
-  margin-right: 40px;
+  margin-right: 45px;
 }
 
 .nd-2 {
