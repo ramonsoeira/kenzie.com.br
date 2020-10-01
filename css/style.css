@@ -838,7 +838,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 0 62px 40px 348px;
+  /* padding: 0 62px 40px 348px; */
   width: 100%;
   color: #ffffff;
 }
@@ -849,8 +849,9 @@ footer p {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 0 62px 0px 360px;
-  height: auto;
+  /* padding: 0 62px 0px 360px; */
+  width: 100%;
+  /* height: auto; */
 }
 
 .nd-1 {
@@ -862,7 +863,7 @@ footer p {
 .differentials {
   display: flex;
   width: 958px;
-  margin: 0px 10px 0 465px;
+  /* margin: 0px 10px 0 465px; */
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
@@ -872,7 +873,7 @@ footer p {
 .our_differentials {
   display: flex;
   width: 958px;
-  margin: 0 0 0 465px;
+  /* margin: 0 0 0 465px; */
   flex-direction: row;
   flex-wrap: wrap;
   height: 791px;  
@@ -899,7 +900,7 @@ footer p {
 .coachs {
   display: flex;
   width: 958px;
-  margin: 0px 0px 0 465px;
+  /* margin: 0px 0px 0 465px; */
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #FFFFFF;
@@ -908,16 +909,66 @@ footer p {
 .teamwork {
   display: flex;
   width: 958px;
-  margin: 0px 0px 0 465px;
+  /* margin: 0px 0px 0 465px; */
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #FAFAFA;
 }
 
+.teaching-team {
+  display: flex;
+  width: 958px;
+  height: 577px;
+  margin-bottom: 45px;
+  /* margin: 0px 0px 0 465px; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #00DBFF;
+}
 
 .inside-coachs {
   margin: 3% 9% 0% 5%;
   height: 385px;
+}
+
+.inside-teaching-team {
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  color: #ffffff;
+  /* border: 1px solid black; */
+}
+
+#carouselExampleInterval {
+  width: 660px;
+  /* height: 287px; */
+  /* border: 1px solid black; */
+  margin-left: 120px;
+  /* margin-right: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.team-inside {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 249px;
+  height: 408px;
+  border-radius: 10px;
+  color: #707070;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+}
+
+.rown {
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  /* margin-right: -15px; */
+  /* margin-left: -15px; */
 }
 
 .coachs-1 {
@@ -955,6 +1006,12 @@ footer p {
 .nd-2 {
   font-size: 32px;
   color: #00013C;
+}
+
+.nd-3 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 5% 3%;
 }
 
 .coachs-text {
@@ -1164,8 +1221,8 @@ footer p {
 }
 
 .head-title-day-to-day {
-  margin-left: -230px;
-  margin-top: 3%;
+  /* margin-left: -230px; */
+  margin: 3%;
 }
 
 .head-title-curriculum {
@@ -1290,7 +1347,8 @@ a.card-title {
 
 .curriculo-banner {
   background-color: #fff;
-  padding: 182px 0px 50px;
+  margin-top: 8em;;
+  /* padding: 182px 0px 50px; */
 }
 
 .curriculo-banner-head {
