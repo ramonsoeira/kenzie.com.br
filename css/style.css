@@ -1187,6 +1187,15 @@ footer p {
   justify-content: space-around;
 }
 
+.nav-linkb {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.nav-linkb,a {
+  color: #00013C34;
+}
+
 .nav-linka.active {
   display: flex;
   background-color: #3697FF;
