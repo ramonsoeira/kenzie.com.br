@@ -829,7 +829,7 @@ footer p {
   margin-right: 225px;
   font-size: 32px;
   font-weight: 600;
-  color: #00013C;
+  color: #00013c;
 }
 
 .percurso-curso {
@@ -856,7 +856,7 @@ footer p {
 
 .nd-1 {
   font-size: 32px;
-  color: #00013C;
+  color: #00013c;
   padding: 5%;
 }
 
@@ -867,7 +867,7 @@ footer p {
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .our_differentials {
@@ -876,8 +876,8 @@ footer p {
   /* margin: 0 0 0 465px; */
   flex-direction: row;
   flex-wrap: wrap;
-  height: 791px;  
-  background-color: #F7F7F7;
+  height: 791px;
+  background-color: #f7f7f7;
 }
 
 .inside_differentials {
@@ -886,7 +886,7 @@ footer p {
   flex-direction: row;
   flex-wrap: wrap;
   height: 726px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   margin: 5.5%;
   justify-content: space-around;
 }
@@ -906,14 +906,14 @@ footer p {
 
 .navbar-brander {
   display: inline-block;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   padding-left: 6%;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  color: #00013C;
+  color: #00013c;
   font-size: 24px;
   font-weight: 600;
 }
@@ -922,7 +922,7 @@ footer p {
   max-width: 200px;
   position: fixed;
   top: 100px;
-  margin-left: 10%;
+  margin-left: 2%;
 }
 
 .scroll-spy__bar {
@@ -932,7 +932,7 @@ footer p {
   position: absolute;
   align-items: center;
   padding: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .coachs {
@@ -941,7 +941,7 @@ footer p {
   /* margin: 0px 0px 0 465px; */
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .teamwork {
@@ -950,7 +950,7 @@ footer p {
   /* margin: 0px 0px 0 465px; */
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .teaching-team {
@@ -961,7 +961,7 @@ footer p {
   /* margin: 0px 0px 0 465px; */
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #00DBFF;
+  background-color: #00dbff;
 }
 
 .inside-coachs {
@@ -1044,7 +1044,7 @@ footer p {
 
 .nd-2 {
   font-size: 32px;
-  color: #00013C;
+  color: #00013c;
 }
 
 .nd-3 {
@@ -1101,17 +1101,19 @@ footer p {
   flex-direction: row;
 }
 
-.tab-content,#myTabContent {
+.tab-content,
+#myTabContent {
   width: 958px;
-  background-color: #3697FF;
-  color: #FFFFFF;
+  background-color: #3697ff;
+  color: #ffffff;
 }
 
-.tab-content,#myTabContent2 {
+.tab-content,
+#myTabContent2 {
   width: 900px;
   background-color: #ffffff;
-  color: #00013C;
-  border: 1px solid #7070701A;
+  color: #00013c;
+  border: 1px solid #7070701a;
 }
 
 #myTabContent2 {
@@ -1150,7 +1152,7 @@ footer p {
   width: 465px;
   height: 280px;
   text-align: left;
-  color: #00013C;
+  color: #00013c;
   font-size: 18px;
 }
 
@@ -1189,17 +1191,18 @@ footer p {
 
 .nav-linkb {
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
-.nav-linkb,a {
-  color: #00013C34;
+.nav-linkb,
+a {
+  color: #00013c34;
 }
 
 .nav-linka.active {
   display: flex;
-  background-color: #3697FF;
-  border: 1px solid #3697FF;
+  background-color: #3697ff;
+  border: 1px solid #3697ff;
 }
 
 .nav-linka {
@@ -1214,27 +1217,32 @@ footer p {
 
 .nav2-linka.active {
   display: flex;
-  background-color: #6D0C91;
-  color: #FFFFFF;
+  background-color: #6d0c91;
+  color: #ffffff;
 }
 
-.nav2-linka.active,#daily-tab {
+.nav2-linka.active,
+#daily-tab {
   border-radius: 10px 0px 0px 0px;
 }
 
-.nav2-linka.active,#demo-tab {
+.nav2-linka.active,
+#demo-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,#pausa-tab {
+.nav2-linka.active,
+#pausa-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,#projetos-tab {
+.nav2-linka.active,
+#projetos-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,#softskills-tab {
+.nav2-linka.active,
+#softskills-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1242,13 +1250,14 @@ footer p {
   display: flex;
   width: 108px;
   height: 57px;
-  background-color: #FAFAFA;
-  color: #CBCBD7;
+  background-color: #fafafa;
+  color: #cbcbd7;
   align-items: center;
   justify-content: center;
 }
 
-.nav2-linka, #eventos-lives-tab {
+.nav2-linka,
+#eventos-lives-tab {
   width: 150px;
   border-radius: 0px 10px 0px 0px;
 }
@@ -1261,11 +1270,11 @@ footer p {
 }
 
 .percurso-curso a.active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .percurso-curso a {
-  color: #CBCBD7;
+  color: #cbcbd7;
 }
 
 .head-title-day-to-day {
@@ -1275,7 +1284,7 @@ footer p {
 
 .head-title-curriculum {
   /* margin-left: 510px; */
-  margin: 3%
+  margin: 3%;
 }
 /* até aqui */
 .accordion .card-header:after {
@@ -1394,26 +1403,26 @@ a.card-title {
 
 .curriculo-banner {
   background-color: #fff;
-  margin-top: 8em;;
+  margin-top: 8em;
   /* padding: 182px 0px 50px; */
 }
 
 .curriculo-banner-head {
   font-size: 48px;
-  font-family: 'Montserrat';
-  color: #00013C;
+  font-family: "Montserrat";
+  color: #00013c;
 }
 
 .curriculo-banner-h3 {
   font-size: 24px;
-  font-family: 'Montserrat';
-  color: #00013C;
+  font-family: "Montserrat";
+  color: #00013c;
 }
 
 .curriculo-banner-p {
   font-size: 18px;
-  font-family: 'Montserrat';
-  color: #00013C;
+  font-family: "Montserrat";
+  color: #00013c;
 }
 
 .faq-banner {
