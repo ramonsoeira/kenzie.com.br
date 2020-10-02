@@ -897,6 +897,28 @@ footer p {
   text-align: left;
 }
 
+.spy-line {
+  width: 132px;
+  height: 2px;
+  margin-left: 15px;
+  background-color: #3697ff;
+}
+
+.scroll-spy {
+  max-width: 200px;
+  position: fixed;
+  top: 100px;
+  margin-left: 10%;
+}
+
+.scroll-spy__bar {
+  border-radius: 10px;
+  box-shadow: 0 0 6 0px lightgray;
+  position: absolute;
+  align-items: center;
+  padding: 10px;
+}
+
 .coachs {
   display: flex;
   width: 958px;
