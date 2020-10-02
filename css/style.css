@@ -1227,9 +1227,8 @@ footer p {
 }
 
 .head-title-curriculum {
-  margin-left: 510px;
-  margin-bottom: 50px;
-  margin-top: 88px;
+  /* margin-left: 510px; */
+  margin: 3%
 }
 /* até aqui */
 .accordion .card-header:after {
