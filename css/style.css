@@ -1024,8 +1024,10 @@ footer p {
 .second-part-coachs {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 15px;
+  flex-wrap: wrap;
+  /* justify-content: space-around;
+  margin-right: 15px; */
+  margin-left: 5%;
 }
 
 .second-part-coachs2 {
@@ -1038,25 +1040,33 @@ footer p {
 .inside-coachs2 {
   display: flex;
   height: 150px;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .inside-coachs3 {
   display: flex;
   height: 150px;
-  margin-right: 25px;
-  margin-left: inherit;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 
 .nd-2 {
   font-size: 32px;
   color: #00013c;
+  top: 6%
 }
 
 .nd-3 {
   font-size: 32px;
   color: #ffffff;
   margin: 3%;
+}
+
+.nd-4 {
+  font-size: 24px;
+  color: #00013C;
+  margin-bottom: 5%;
+  margin-left: 4%;
 }
 
 .coachs-text {
@@ -1078,9 +1088,15 @@ footer p {
 }
 
 .coachs-img {
-  width: 373px;
-  height: 280px;
-  margin: 10% 0 3% 0;
+  /* width: 373px;
+  height: 280px; */
+  margin: 10% 0px 3% 5%;
+}
+
+.teamwork-img {
+  /* width: 373px;
+  height: 280px; */
+  margin: 8% 0% 3% -8%;
 }
 
 .carousel-differentials-text {
