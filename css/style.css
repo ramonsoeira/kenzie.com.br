@@ -988,14 +988,9 @@ footer p {
   /* border: 1px solid black; */
 }
 
-#carouselExampleInterval {
-  width: 756px;
-  height: 287px;
+.teaching-team-carousel {
   /* border: 1px solid black; */
-  margin-left: 78px;
-  /* margin-right: 20px; */
-  display: flex;
-  flex-direction: column;
+  margin-left: 4%;
 }
 
 .team-inside {
@@ -1006,7 +1001,7 @@ footer p {
   width: 249px;
   height: 515px;
   border-radius: 10px;
-  margin: 0% 2% 0% 0%;
+  margin: 0% 0% 0% 4.2%;
   color: #707070;
   background-color: #ffffff;
   /* border: 1px solid red; */
