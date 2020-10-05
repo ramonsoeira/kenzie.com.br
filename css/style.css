@@ -935,6 +935,17 @@ footer p {
   background-color: #ffffff;
 }
 
+.scroll-spy__navlink.active {
+  color: black !important;
+  font-weight: bold;
+  background-color: unset !important ;
+  font-size: 17px;
+}
+
+.scroll-spy__navlink:hover {
+  color: black !important;
+}
+
 .coachs {
   display: flex;
   width: 958px;
