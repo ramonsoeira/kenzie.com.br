@@ -881,21 +881,21 @@ footer p {
 }
 
 .inside_differentials {
-  display: flex;
-  width: 855px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 726px;
-  background-color: #f7f7f7;
+  /*display: flex; */
+  /* width: 855px; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* height: 726px; */
+  /* background-color: #f7f7f7; */
   margin: 5.5%;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
-.head_inside {
+/* .head_inside {
   width: 327px;
   height: 155px;
   text-align: left;
-}
+} */
 
 .spy-line {
   width: 132px;
@@ -1053,7 +1053,8 @@ footer p {
 .nd-2 {
   font-size: 32px;
   color: #00013c;
-  top: 6%
+  top: 6%;
+  display: flex;
 }
 
 .nd-3 {
@@ -1066,7 +1067,7 @@ footer p {
   font-size: 24px;
   color: #00013C;
   margin-bottom: 5%;
-  margin-left: 4%;
+  /* margin-left: 4%; */
 }
 
 .coachs-text {
@@ -1301,12 +1302,14 @@ a {
 
 .head-title-day-to-day {
   /* margin-left: -230px; */
-  margin: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .head-title-curriculum {
   /* margin-left: 510px; */
-  margin: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 /* até aqui */
 .accordion .card-header:after {
