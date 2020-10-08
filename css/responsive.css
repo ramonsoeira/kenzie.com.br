@@ -806,7 +806,7 @@
     padding: 50px 0px;
   }
   a.card-title {
-    font-size: 11px;
+    font-size: 14px;
   }
   .accordion .card-header:after {
     position: absolute;
@@ -871,6 +871,7 @@
     color: #fff;
     font-size: 30px;
   }
+
   .btn-purple {
     background-color: #6d0c91;
     font-size: 12px;
@@ -934,13 +935,13 @@
     margin-top: -3px;
   }
   a.card-title {
-    font-size: 9px;
+    font-size: 1.2em;
     padding-right: 25px;
   }
   .card-body p {
     padding-left: 0.5rem;
     padding-right: 10%;
-    font-size: 9px;
+    font-size: 0.9em;
   }
   .faq-para {
     font-size: 10px;
