@@ -221,13 +221,13 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 
 .owl-prev {
   position: absolute;
-  left: -10%;
+  left: 0%;
   top: 50%;
 }
 
 .owl-next {
   position: absolute;
-  right: -10%;
+  right: 0%;
   top: 50%;
 }
 
@@ -334,7 +334,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   margin-bottom: 50px;
 }
 
-.paddingnize {
+.paddingize {
   padding: 0px 8%;
   padding-bottom: 10% !important;
 }
@@ -815,16 +815,6 @@ footer p {
   padding-top: 80px;
   padding-bottom: 50px;
 }
-.faq-img-container {
-  width: 96%;
-  max-width: 960px;
-  margin: 0 auto; /* to center the container */
-}
-
-.faq-img-container__img {
-  width: 100%;
-  height: auto;
-}
 
 .faq-head {
   margin-top: 1em;
@@ -975,13 +965,13 @@ footer p {
 }
 
 .teaching-team {
-  display: flex;
+  /* display: flex; */
   width: 958px;
-  height: 645px;
+  height: 620px;
   margin-bottom: 45px;
   /* margin: 0px 0px 0 465px; */
-  flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
   background-color: #00dbff;
 }
 
@@ -1004,17 +994,16 @@ footer p {
 }
 
 .team-inside {
-  display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
   width: 249px;
-  height: 515px;
+  height: 480px;
   border-radius: 10px;
-  margin: 0% 0% 0% 4.2%;
+  margin: 0% 15%;
   color: #707070;
   background-color: #ffffff;
-  /* border: 1px solid red; */
+  display: flex;
 }
 
 .rown {
@@ -1195,11 +1184,21 @@ footer p {
   margin: 3%;
 }
 
+.points-team-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.points-team-skills-inside {
+  display: flex;
+  flex-direction: row;
+}
+
 .points-hard-skills {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  /* justify-content: space-around;
+  align-items: center; */
 }
 
 .soft-skills {
@@ -1344,7 +1343,7 @@ a {
 }
 
 .card-header {
-  padding: 1.66rem 1.25rem;
+  padding: 1rem 1.25rem;
   background-color: transparent;
   border-bottom: 0px;
   margin-bottom: 0px !important;
@@ -1358,10 +1357,6 @@ a {
   color: #fff;
   display: flex;
   align-items: center;
-}
-
-.card-header:hover {
-  cursor: pointer;
 }
 
 .card.mb-0 {
@@ -1379,7 +1374,7 @@ a {
   border-radius: 5px;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
-  padding: 0 !important;
+  padding: 0px !important;
 }
 
 .card-header[aria-expanded="true"] {
@@ -1393,7 +1388,7 @@ a {
 h5 {
   padding-left: 30px;
   color: #00013c;
-  padding-right: 3%;
+  padding-right: 20%;
   padding-bottom: 5px;
 }
 
@@ -1824,6 +1819,14 @@ img.nosses-kenzie {
   right: 95px;
   top: 30px;
   transform: rotate(25deg);
+}
+
+.lagblue2 {
+  position: absolute;
+  width: 128px;
+  right: 95px;
+  top: -90px;
+  transform: rotate(-15deg);
 }
 /*                                                                                      *
     *                                       como sera                                          *
