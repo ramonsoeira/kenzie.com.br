@@ -1146,6 +1146,11 @@ footer p {
   padding: 3%;
 }
 
+.hard-skills.show {
+  background-color: #3697FF;
+  color: #ffffff;
+}
+
 .flex-a {
   padding: 2%;
   display: flex;
