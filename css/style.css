@@ -823,6 +823,7 @@ footer p {
   color: #00013c;
 }
 /* aqui */
+
 .curriculo-head {
   margin-top: 1em;
   margin-left: 405px;
@@ -1442,7 +1443,7 @@ a.card-title {
 
 .curriculo-banner {
   background-color: #fff;
-  margin-top: 8em;
+  margin-top: 5em;
   /* padding: 182px 0px 50px; */
 }
 
