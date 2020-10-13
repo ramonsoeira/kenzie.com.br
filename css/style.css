@@ -1120,6 +1120,26 @@ footer p {
   color: #fff;
 }
 
+#collapseNine {
+  background-color: #00DBFF;
+  color: #fff;
+}
+
+#collapseTen {
+  background-color: #00DBFF;
+  color: #fff;
+}
+
+#collapseEleven {
+  background-color: #00DBFF;
+  color: #fff;
+}
+
+#collapseTwelve {
+  background-color: #00DBFF;
+  color: #fff;
+}
+
 .carousel-differentials-text {
   display: flex;
   width: 761px;
