@@ -1100,6 +1100,26 @@ footer p {
   margin: 8% 0% 3% -8%;
 }
 
+#collapseFive {
+  background-color: #6D0C91;
+  color: #fff;
+}
+
+#collapseSix {
+  background-color: #6D0C91;
+  color: #fff;
+}
+
+#collapseSeven {
+  background-color: #6D0C91;
+  color: #fff;
+}
+
+#collapseEight {
+  background-color: #6D0C91;
+  color: #fff;
+}
+
 .carousel-differentials-text {
   display: flex;
   width: 761px;
