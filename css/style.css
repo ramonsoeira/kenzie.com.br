@@ -800,6 +800,11 @@ footer p {
   width: 250px;
 }
 
+.righta,
+.lefta{
+  width: 55px;
+}
+
 .righti,
 .lefti,
 .arrowendo {
@@ -923,7 +928,7 @@ footer p {
   max-width: 200px;
   position: fixed;
   top: 100px;
-  margin-left: 2%;
+  margin-left: -15%;
 }
 
 .scroll-spy__bar {
