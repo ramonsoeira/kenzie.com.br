@@ -827,6 +827,18 @@ footer p {
   font-weight: 600;
   color: #00013c;
 }
+
+.faq-img-container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; /* to center the container */
+}
+
+.faq-img-container__img {
+  width: 100%;
+  height: auto;
+}
+
 /* aqui */
 
 .curriculo-head {
