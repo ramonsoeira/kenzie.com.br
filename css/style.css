@@ -1561,6 +1561,14 @@ h2.temos-head {
   bottom: -6vh;
 }
 
+.st-svg-mobile {
+  position: absolute;
+  z-index: 10;
+  width: 25.5vw;
+  left: 57.3vw;
+  bottom: -3vh;
+}
+
 .m-show {
   display: none;
 }
