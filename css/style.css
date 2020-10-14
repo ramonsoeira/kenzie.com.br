@@ -283,6 +283,21 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   right: 5px !important;
 }
 
+.accordion-modules .card-header.headero:after {
+  top: -4px !important;
+  right: 5px !important;
+}
+
+.accordion-day .card-header.headero:after {
+  top: -4px !important;
+  right: 5px !important;
+}
+
+.accordion-team .card-header.headero:after {
+  top: -4px !important;
+  right: 5px !important;
+}
+
 .headero a.card-title {
   color: #00013c;
   font-size: 20px;
@@ -307,11 +322,65 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   display: none;
 }
 
+.accordion-modules .card-header .card-title:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #CBCBD7;
+  margin-left: 14px;
+  font-size: 16px;
+  margin-top: 2px;
+  display: none;
+}
+
+.accordion-day .card-header .card-title:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #00013C;
+  margin-left: 14px;
+  font-size: 16px;
+  margin-top: 2px;
+  display: none;
+}
+
+.accordion-team .card-header .card-title:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #00013C;
+  margin-left: 14px;
+  font-size: 16px;
+  margin-top: 2px;
+  display: none;
+}
+
 .accordion .card-header.collapsed .card-title:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
   color: #6d0c91;
+}
+
+.accordion-modules .card-header.collapsed .card-title:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  display: none;
+  color: #CBCBD7;
+}
+
+.accordion-day .card-header.collapsed .card-title:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  display: none;
+  color: #00013C;
+}
+
+.accordion-team .card-header.collapsed .card-title:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  display: none;
+  color: #00013C;
 }
 
 .headero:after {
@@ -1409,6 +1478,69 @@ a {
   padding-left: 40px;
 }
 
+.accordion-modules .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #CBCBD7;
+}
+
+.accordion-modules .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  color: #CBCBD7;
+}
+
+.accordion-modules .card-header:after {
+  position: absolute;
+  right: 30px;
+  top: 10%;
+  transform: translateY(30%);
+  padding-left: 40px;
+}
+
+.accordion-day .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #00DBFF;
+}
+
+.accordion-day .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  color: #00013C;
+}
+
+.accordion-day .card-header:after {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  transform: translateY(30%);
+  padding-left: 40px;
+}
+
+.accordion-team .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  float: right;
+  color: #007AFF;
+}
+
+.accordion-team .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067";
+  color: #00013C;
+}
+
+.accordion-team .card-header:after {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  transform: translateY(30%);
+  padding-left: 40px;
+}
+
 .card-header {
   padding: 1rem 1.25rem;
   background-color: transparent;
@@ -1420,6 +1552,57 @@ a {
   border-radius: 5px !important;
   position: relative;
   border: 2px solid #00013c;
+  height: 90px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.card-header-modules {
+  padding: 1rem 1.25rem;
+  background-color: transparent;
+  border-bottom: 0px;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+  /* padding-top: 20px; */
+  padding-left: 30px;
+  border-radius: 5px !important;
+  position: relative;
+  border: 2px solid #70707026;
+  height: 90px;
+  color: #CBCBD7;
+  display: flex;
+  align-items: center;
+}
+
+.card-header-day {
+  padding: 1rem 1.25rem;
+  background-color: #FAFAFA;
+  border-bottom: 0px;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+  /* padding-top: 20px; */
+  padding-left: 30px;
+  border-radius: 5px !important;
+  position: relative;
+  border: 2px solid #FAFAFA;
+  height: 90px;
+  color: #FAFAFA;
+  display: flex;
+  align-items: center;
+}
+
+.card-header-team {
+  padding: 1rem 1.25rem;
+  background-color: #FAFAFA;
+  border-bottom: 0px;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+  /* padding-top: 20px; */
+  padding-left: 30px;
+  border-radius: 5px !important;
+  position: relative;
+  border: 2px solid #FAFAFA;
   height: 90px;
   color: #fff;
   display: flex;
@@ -1444,11 +1627,53 @@ a {
   padding: 0px !important;
 }
 
+.card-body-modules {
+  border: 2px solid #3697FF !important;
+  border-top: 0px !important;
+  border-radius: 5px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  padding: 0px !important;
+}
+
+.card-body-day {
+  border: 2px solid #6D0C91 !important;
+  border-top: 0px !important;
+  border-radius: 5px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  padding: 0px !important;
+}
+
+.card-body-team {
+  border: 2px solid #00DBFF !important;
+  border-top: 0px !important;
+  border-radius: 5px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  padding: 0px !important;
+}
+
 .card-header[aria-expanded="true"] {
   /* background-color: #42DCA3; */
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom: 0px !important;
+}
+
+.card-header-modules[aria-expanded="true"] {
+  background-color: #3697FF;
+  border: 2px solid #3697FF;
+}
+
+.card-header-day[aria-expanded="true"] {
+  background-color: #6D0C91;
+  border: 2px solid #6D0C91;
+}
+
+.card-header-team[aria-expanded="true"] {
+  background-color: #00DBFF;
+  border: 2px solid #00DBFF;
 }
 
 .card-body p,
@@ -1465,6 +1690,14 @@ a.card-title {
   margin-bottom: 0px;
   color: #00013c;
 }
+
+a.card-title-modules {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  color: #CBCBD7 !important;
+}
+
 /* Sub header  */
 
 .sub-header nav {
@@ -1473,6 +1706,11 @@ a.card-title {
 
 .subtopic {
   color: #00013c;
+  font-weight: 500;
+}
+
+.subtopic-modules {
+  color: #CBCBD7;
   font-weight: 500;
 }
 
