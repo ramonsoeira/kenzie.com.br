@@ -981,6 +981,10 @@ footer p {
   background-color: #00dbff;
 }
 
+.container-sm {
+  width: 880px;
+}
+
 .inside-coachs {
   margin: 3% 9% 0% 5%;
   height: 385px;
