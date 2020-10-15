@@ -1107,6 +1107,13 @@ footer p {
   /* margin-left: -15px; */
 }
 
+span.text-coachs-items {
+  color: #707070;
+  font-size: 18px;
+  width: 212px;
+  height: 95px;
+}
+
 .coachs-1 {
   display: flex;
   flex-direction: row;
@@ -1120,7 +1127,7 @@ footer p {
   flex-wrap: wrap;
   /* justify-content: space-around;
   margin-right: 15px; */
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 .second-part-coachs2 {
@@ -1146,7 +1153,7 @@ footer p {
 .nd-2 {
   font-size: 32px;
   color: #00013c;
-  top: 6%;
+  margin-top: 5%;
   display: flex;
 }
 
@@ -1159,7 +1166,7 @@ footer p {
 .nd-4 {
   font-size: 24px;
   color: #00013C;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   /* margin-left: 4%; */
 }
 
@@ -1583,7 +1590,7 @@ a {
   position: relative;
   border: 2px solid #70707026;
   height: 90px;
-  color: #CBCBD7;
+  color: #70707026;
   display: flex;
   align-items: center;
 }
@@ -1677,6 +1684,13 @@ a {
 .card-header-modules[aria-expanded="true"] {
   background-color: #3697FF;
   border: 2px solid #3697FF;
+  color: #fff;
+}
+
+.card-header-modules[aria-expanded="false"] {
+  background-color: #fff;
+  border: 2px solid #AEAEBA;
+  color: #AEAEBA
 }
 
 .card-header-day[aria-expanded="true"] {
@@ -1687,6 +1701,10 @@ a {
 .card-header-team[aria-expanded="true"] {
   background-color: #00DBFF;
   border: 2px solid #00DBFF;
+}
+
+#alinhamento {
+  margin-left: 15%;
 }
 
 .card-body p,
@@ -1723,7 +1741,7 @@ a.card-title-modules {
 }
 
 .subtopic-modules {
-  color: #CBCBD7;
+  color: #AEAEBA;
   font-weight: 500;
 }
 
