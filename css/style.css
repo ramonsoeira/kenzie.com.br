@@ -583,8 +583,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 .sm-purple {
   width: 200px;
 }
-.conheca .item {
-}
+
 .conheca .item figure {
   background: #fff;
   width: 162px;
@@ -1010,11 +1009,7 @@ footer p {
   max-width: 200px;
   position: fixed;
   top: 100px;
-<<<<<<< HEAD
   margin-left: -10%;
-=======
-  margin-left: -2%;
->>>>>>> origin/release_issue_25
 }
 
 .scroll-spy__bar {
@@ -1175,13 +1170,8 @@ span.text-coachs-items {
 
 .nd-4 {
   font-size: 24px;
-<<<<<<< HEAD
   color: #00013C;
   /* margin-bottom: 5%; */
-=======
-  color: #00013c;
-  margin-bottom: 5%;
->>>>>>> origin/release_issue_25
   /* margin-left: 4%; */
 }
 
