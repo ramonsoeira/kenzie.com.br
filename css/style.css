@@ -1517,6 +1517,10 @@ a {
   color: #CBCBD7;
 }
 
+.accordion-modules .card-header.collapsed:before {
+  color: red;
+}
+
 .accordion-modules .card-header:after {
   position: absolute;
   right: 30px;
@@ -1690,13 +1694,10 @@ a {
 .card-header-modules[aria-expanded="true"] {
   background-color: #3697FF;
   border: 2px solid #3697FF;
-  color: #fff;
 }
 
-.card-header-modules[aria-expanded="false"] {
-  background-color: #fff;
-  border: 2px solid #AEAEBA;
-  color: #AEAEBA
+.card-header-modules[aria-expanded="true"] .card-title-modules .subtopic-modules {
+  color: #fff;
 }
 
 .card-header-day[aria-expanded="true"] {
@@ -1704,9 +1705,17 @@ a {
   border: 2px solid #6D0C91;
 }
 
+.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day {
+  color: #fff;
+}
+
 .card-header-team[aria-expanded="true"] {
   background-color: #00DBFF;
   border: 2px solid #00DBFF;
+}
+
+.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
+  color: #fff;
 }
 
 #alinhamento {
@@ -1748,6 +1757,16 @@ a.card-title-modules {
 
 .subtopic-modules {
   color: #AEAEBA;
+  font-weight: 500;
+}
+
+.subtopic-day {
+  color: #00013c;
+  font-weight: 500;
+}
+
+.subtopic-team {
+  color: #00013c;
   font-weight: 500;
 }
 

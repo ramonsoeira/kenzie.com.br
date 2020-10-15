@@ -31,3 +31,13 @@
     /* margin-left: 15%; */
   }
 }
+@media(min-width:1024px) {
+  #scroll-spy-section {
+    display: block;
+  }
+}
+@media(max-width:1024px) {
+  #scroll-spy-section {
+    display: none;
+  }
+}
