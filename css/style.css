@@ -944,7 +944,7 @@ footer p {
 .nd-1 {
   font-size: 32px;
   color: #00013c;
-  padding: 5%;
+  margin-top: 5%;
 }
 
 .differentials {
@@ -1010,7 +1010,7 @@ footer p {
   max-width: 200px;
   position: fixed;
   top: 100px;
-  margin-left: -15%;
+  margin-left: -10%;
 }
 
 .scroll-spy__bar {
@@ -1110,6 +1110,8 @@ footer p {
 .coachs-1 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-top: 8%;
 }
 
 .second-part-coachs {
