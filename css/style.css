@@ -1331,10 +1331,20 @@ footer p {
   flex-direction: row;
 }
 
+.check-module-items {
+  margin-right: 7px;
+  padding-top: 3px;
+}
+
+.col.diferenciais__items {
+  text-align: justify;
+  width: 380px;
+}
+
 .points-hard-skills {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 5%;
 }
 
