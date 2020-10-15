@@ -1055,7 +1055,7 @@ footer p {
 .teaching-team {
   /* display: flex; */
   width: 958px;
-  height: 620px;
+  height: 655px;
   margin-bottom: 45px;
   /* margin: 0px 0px 0 465px; */
   /* flex-direction: column; */
@@ -1090,7 +1090,7 @@ footer p {
   /* justify-content: center; */
   align-items: center;
   width: 249px;
-  height: 480px;
+  height: 520px;
   border-radius: 10px;
   margin: 0% 15%;
   color: #707070;
@@ -1119,6 +1119,12 @@ span.text-coachs-items {
   flex-direction: row;
   margin-bottom: 5%;
   margin-top: 8%;
+}
+
+.coachs-1-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
 }
 
 .second-part-coachs {
