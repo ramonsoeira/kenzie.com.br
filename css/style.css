@@ -919,14 +919,43 @@ footer p {
 }
 
 .percurso-curso {
-  margin-top: 1em;
+  margin-top: 8em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  align-content: center;
   /* padding: 0 62px 40px 348px; */
   width: 100%;
   color: #ffffff;
+}
+
+h3.title-persurso-items {
+  color: #00013C;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+h3.title-day-to-day {
+  color: #00013C;
+  font-size: 32px;
+  margin-left: 27.1%;
+}
+
+p.title-day-to-day {
+  color: #00013C;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 2%;
+}
+
+p.clique-aqui {
+  display: flex;
+  justify-content: center;
+  margin-left: -9%;
 }
 
 .day-to-day {
@@ -934,7 +963,8 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  align-content: center;
+  flex-direction: column;
   /* padding: 0 62px 0px 360px; */
   width: 100%;
   /* height: auto; */
@@ -1474,10 +1504,13 @@ a {
   /* margin-left: -230px; */
   margin-top: 3%;
   margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
 }
 
 .head-title-curriculum {
   /* margin-left: 510px; */
+  color: #00013C;
   margin-top: 3%;
   margin-bottom: 3%;
 }
