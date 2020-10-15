@@ -1334,8 +1334,8 @@ footer p {
 .points-hard-skills {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around;
-  align-items: center; */
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .soft-skills {
