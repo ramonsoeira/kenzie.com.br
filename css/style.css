@@ -221,13 +221,13 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 
 .owl-prev {
   position: absolute;
-  left: 0%;
+  left: -4%;
   top: 50%;
 }
 
 .owl-next {
   position: absolute;
-  right: 0%;
+  right: -7%;
   top: 50%;
 }
 
@@ -933,29 +933,34 @@ footer p {
 h3.title-persurso-items {
   color: #00013C;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 32px;
   margin-bottom: 2%;
+  margin-left: 55px;
 }
 
 h3.title-day-to-day {
   color: #00013C;
+  display: flex;
+  /* justify-content: center; */
   font-size: 32px;
-  margin-left: 33%;
+  margin-bottom: 25px;
+  margin-left: 55px;
 }
 
 p.title-day-to-day {
   color: #00013C;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 18px;
-  margin-bottom: 2%;
+  margin-bottom: 25px;
+  margin-left: 55px;
 }
 
 p.clique-aqui {
   display: flex;
   justify-content: center;
-  margin-left: -9%;
+  /* margin-left: -20%; */
 }
 
 .day-to-day {
@@ -1756,10 +1761,10 @@ a {
 .card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
   color: #fff;
 }
-
+/* 
 #alinhamento {
   margin-left: 15%;
-}
+} */
 
 .card-body p,
 h5 {

@@ -34,10 +34,17 @@
 @media(min-width:1024px) {
   #scroll-spy-section {
     display: none;
+    /* ativar esse quando menu spy estiver funcionando */
+  }
+  .alinhamento {
+    margin-left: 15%;
   }
 }
 @media(max-width:1024px) {
   #scroll-spy-section {
     display: none;
+  }
+  .alinhamento {
+    margin-left: 0%;
   }
 }
