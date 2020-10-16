@@ -1175,6 +1175,7 @@ span.text-coachs-items {
 .inside-coachs2 {
   display: flex;
   height: 150px;
+  justify-content: center;
   /* margin-left: auto; */
 }
 
@@ -1380,9 +1381,15 @@ span.text-coachs-items {
   padding-top: 3px;
 }
 
-.col.diferenciais__items {
+.col-lg-auto.diferenciais__items {
+  display: flex;
   text-align: justify;
-  width: 380px;
+  /* width: 380px; */
+}
+
+.container.center-block {
+  display: flex;
+  justify-content: center;
 }
 
 .points-hard-skills {
