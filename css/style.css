@@ -991,6 +991,10 @@ p.clique-aqui {
   background-color: #f7f7f7;
 }
 
+.differentials-mobile {
+  background-color: #f7f7f7;
+}
+
 .our_differentials {
   display: flex;
   width: 958px;
@@ -1761,10 +1765,6 @@ a {
 .card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
   color: #fff;
 }
-/* 
-#alinhamento {
-  margin-left: 15%;
-} */
 
 .card-body p,
 h5 {
