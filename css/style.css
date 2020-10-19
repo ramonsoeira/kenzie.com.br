@@ -328,7 +328,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   float: right;
   color: #CBCBD7;
   margin-left: 14px;
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 2px;
   display: none;
 }
@@ -367,6 +367,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   content: "\f067";
   display: none;
   color: #CBCBD7;
+  font-size: 12px;
 }
 
 .accordion-day .card-header.collapsed .card-title:after {
@@ -960,7 +961,15 @@ p.title-day-to-day {
 p.clique-aqui {
   display: flex;
   justify-content: center;
-  /* margin-left: -20%; */
+  font-size: 18px;
+}
+
+p.clique-aqui-mobile {
+  font-size: 14px;
+}
+
+a.clique-aqui-mobile {
+  color: #3697FF;
 }
 
 .day-to-day {
@@ -993,6 +1002,8 @@ p.clique-aqui {
 
 .differentials-mobile {
   background-color: #f7f7f7;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .our_differentials {
@@ -1390,10 +1401,26 @@ span.text-coachs-items {
   padding-top: 3px;
 }
 
+.check-module-items-mobile {
+  margin-right: 7px;
+  padding-top: 3px;
+}
+
 .col-lg-auto.diferenciais__items {
   display: flex;
   text-align: justify;
+  color: #707070;
   /* width: 380px; */
+}
+
+.img__differentals {
+  width: 58px; 
+  height: 32px
+}
+
+.autor__differentals {
+  text-align: right;
+  color: #707070;
 }
 
 .container.center-block {
@@ -1406,6 +1433,22 @@ span.text-coachs-items {
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 5%;
+}
+
+.points-hard-skills-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.points-differentals-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .soft-skills {
@@ -1721,6 +1764,7 @@ a {
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   padding: 0px !important;
+  font-size: 14px;
 }
 
 .card-body-team {
@@ -1754,6 +1798,10 @@ a {
 }
 
 .card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day {
+  color: #fff;
+}
+
+.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day-sub {
   color: #fff;
 }
 
@@ -1802,11 +1850,19 @@ a.card-title-modules {
 .subtopic-modules {
   color: #AEAEBA;
   font-weight: 500;
+  font-size: 12px;
 }
 
 .subtopic-day {
   color: #00013c;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.subtopic-day-sub {
+  color: #00013c;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .subtopic-team {
@@ -1852,6 +1908,119 @@ a.card-title-modules {
   color: #00013c;
 }
 
+.h3_title_differentials {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.h3_title_curso {
+  color: #00013C; 
+  font-size: 28px; 
+  font-weight: 600;
+}
+
+.h3_subtitle_curso {
+  color: #00013C; 
+  font-size: 18px;
+}
+
+.p__subtitle_differentials_mobile {
+  margin-left: 30px; 
+  color: #707070;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.img__title_version_mobile {
+  width: 259px; 
+  height: 272px; 
+  border-radius: 10px;
+}
+
+.img__differentials_mobile {
+  width: 24px; 
+  height: 24px; 
+}
+
+.imr-3 {
+  width: 75px; 
+  height: 79px; 
+  border-radius: 5px;
+}
+
+.span_title_differentials {
+  color: #707070; 
+  font-size: 18px; 
+  font-weight: 600;
+}
+
+.span_h3_subtitle_curso {
+  background-color: #00dbff;
+}
+
+.h3_curriculum_mobile {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.h3_day-to-day_mobile {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 32px;
+}
+
+.p_day-to-day_mobile {
+  font-size: 14px;
+  color: #0B0000;
+}
+
+.h4_hardSkills_mobile {
+  font-size: 18px;
+  margin-bottom: 14px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding: 0px;
+}
+
+.h4_softSkills_mobile {
+  font-size: 18px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 18px;
+  margin-top: 24px;
+  padding: 0px;
+}
+
+.h4_studentsDevs_mobile {
+  font-size: 18px;
+  font-size: 18px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding: 0px;
+}
+
+p.p_studentsDevs_mobile {
+  color: #ffffff;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 0px;
+  font-size: 12px;
+}
+
+.container__items {
+  margin-bottom: 18px;
+}
+
+.span__hardSkills_mobile {
+  color: #ffffff;
+  font-size: 12px;
+}
+
 .curriculo-banner-h3 {
   font-size: 24px;
   font-family: "Montserrat";
@@ -1860,6 +2029,12 @@ a.card-title-modules {
 
 .curriculo-banner-p {
   font-size: 18px;
+  font-family: "Montserrat";
+  color: #00013c;
+}
+
+.curriculo-banner-p-mobile {
+  font-size: 14px;
   font-family: "Montserrat";
   color: #00013c;
 }
