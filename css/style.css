@@ -326,7 +326,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #CBCBD7;
+  color: #cbcbd7;
   margin-left: 14px;
   font-size: 12px;
   margin-top: 2px;
@@ -337,7 +337,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #00013C;
+  color: #00013c;
   margin-left: 14px;
   font-size: 16px;
   margin-top: 2px;
@@ -348,7 +348,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #00013C;
+  color: #00013c;
   margin-left: 14px;
   font-size: 16px;
   margin-top: 2px;
@@ -374,14 +374,14 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
-  color: #00013C;
+  color: #00013c;
 }
 
 .accordion-team .card-header.collapsed .card-title:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
-  color: #00013C;
+  color: #00013c;
 }
 
 .headero:after {
@@ -932,25 +932,29 @@ footer p {
 }
 
 h3.title-persurso-items {
-  color: #00013C;
+  color: #00013c;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   font-size: 32px;
   margin-bottom: 2%;
   margin-left: 55px;
 }
 
+.clique-aqui__desktop {
+  color: #3697ff;
+}
+
 h3.title-day-to-day {
-  color: #00013C;
+  color: #00013c;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   font-size: 32px;
   margin-bottom: 25px;
   margin-left: 55px;
 }
 
 p.title-day-to-day {
-  color: #00013C;
+  color: #00013c;
   display: flex;
   /* justify-content: center; */
   font-size: 18px;
@@ -1053,7 +1057,6 @@ a.clique-aqui-mobile {
   font-size: 24px;
   font-weight: 600;
 }
-
 
 .scroll-spy {
   max-width: 200px;
@@ -1277,7 +1280,7 @@ span.text-coachs-items {
 
 .nd-4 {
   font-size: 24px;
-  color: #00013C;
+  color: #00013c;
   /* margin-bottom: 5%; */
   /* margin-left: 4%; */
 }
@@ -1638,7 +1641,7 @@ a {
 
 .head-title-curriculum {
   /* margin-left: 510px; */
-  color: #00013C;
+  color: #00013c;
   margin-top: 3%;
   margin-bottom: 3%;
 }
@@ -1668,13 +1671,13 @@ a {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #CBCBD7;
+  color: #cbcbd7;
 }
 
 .accordion-modules .card-header.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
-  color: #CBCBD7;
+  color: #cbcbd7;
 }
 
 .accordion-modules .card-header.collapsed:before {
@@ -1693,13 +1696,13 @@ a {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #00DBFF;
+  color: #00dbff;
 }
 
 .accordion-day .card-header.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
-  color: #00013C;
+  color: #00013c;
 }
 
 .accordion-day .card-header:after {
@@ -1714,13 +1717,13 @@ a {
   font-family: "FontAwesome";
   content: "\f068";
   float: right;
-  color: #007AFF;
+  color: #007aff;
 }
 
 .accordion-team .card-header.collapsed:after {
   /* symbol for "collapsed" panels */
   content: "\f067";
-  color: #00013C;
+  color: #00013c;
 }
 
 .accordion-team .card-header:after {
@@ -1767,7 +1770,7 @@ a {
 
 .card-header-day {
   padding: 1rem 1.25rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
@@ -1775,16 +1778,16 @@ a {
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
-  border: 2px solid #FAFAFA;
+  border: 2px solid #fafafa;
   height: 90px;
-  color: #FAFAFA;
+  color: #fafafa;
   display: flex;
   align-items: center;
 }
 
 .card-header-team {
   padding: 1rem 1.25rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
@@ -1792,7 +1795,7 @@ a {
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
-  border: 2px solid #FAFAFA;
+  border: 2px solid #fafafa;
   height: 90px;
   color: #fff;
   display: flex;
@@ -1818,7 +1821,7 @@ a {
 }
 
 .card-body-modules {
-  border: 2px solid #3697FF !important;
+  border: 2px solid #3697ff !important;
   border-top: 0px !important;
   border-radius: 5px;
   border-top-left-radius: 0px !important;
@@ -1827,7 +1830,7 @@ a {
 }
 
 .card-body-day {
-  border: 2px solid #6D0C91 !important;
+  border: 2px solid #6d0c91 !important;
   border-top: 0px !important;
   border-radius: 5px;
   border-top-left-radius: 0px !important;
@@ -1837,7 +1840,7 @@ a {
 }
 
 .card-body-team {
-  border: 2px solid #00DBFF !important;
+  border: 2px solid #00dbff !important;
   border-top: 0px !important;
   border-radius: 5px;
   border-top-left-radius: 0px !important;
@@ -1853,20 +1856,26 @@ a {
 }
 
 .card-header-modules[aria-expanded="true"] {
-  background-color: #3697FF;
-  border: 2px solid #3697FF;
+  background-color: #3697ff;
+  border: 2px solid #3697ff;
 }
 
-.card-header-modules[aria-expanded="true"] .card-title-modules .subtopic-modules {
+.card-header-modules[aria-expanded="true"]
+  .card-title-modules
+  .subtopic-modules {
   color: #fff;
 }
 
 .card-header-day[aria-expanded="true"] {
-  background-color: #6D0C91;
-  border: 2px solid #6D0C91;
+  background-color: #6d0c91;
+  border: 2px solid #6d0c91;
 }
 
-.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day {
+.card-header-day[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-day {
   color: #fff;
 }
 
@@ -1875,11 +1884,15 @@ a {
 }
 
 .card-header-team[aria-expanded="true"] {
-  background-color: #00DBFF;
-  border: 2px solid #00DBFF;
+  background-color: #00dbff;
+  border: 2px solid #00dbff;
 }
 
-.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
+.card-header-team[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-team {
   color: #fff;
 }
 
@@ -1906,7 +1919,7 @@ a.card-title-modules {
   font-size: 18px;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
-  color: #CBCBD7 !important;
+  color: #cbcbd7 !important;
 }
 
 /* Sub header  */
@@ -1921,7 +1934,7 @@ a.card-title-modules {
 }
 
 .subtopic-modules {
-  color: #AEAEBA;
+  color: #aeaeba;
   font-weight: 500;
   font-size: 12px;
 }
