@@ -1,4 +1,12 @@
-@media(max-width:1024px) {
+@media(max-width:812px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
+@media(max-width:800px) {
   #course-version-mobile {
     display: block;
   }
@@ -22,7 +30,7 @@
     display: none;
   }
 }
-@media(min-width:1025px) {
+@media(min-width:813px) {
   #course-version-mobile {
     display: none;
   }

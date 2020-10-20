@@ -1396,6 +1396,12 @@ span.text-coachs-items {
   flex-direction: row;
 }
 
+.points-team-skills-inside-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+}
+
 .check-module-items {
   margin-right: 7px;
   padding-top: 3px;
@@ -1441,6 +1447,13 @@ span.text-coachs-items {
   align-items: flex-start;
   margin-bottom: 5px;
   margin-left: 10px;
+}
+
+.align__differentals_mobile {
+  text-align: left;
+  margin-left: 36px;
+  margin-right: 18px;
+  margin-top: -26px;
 }
 
 .points-differentals-mobile {
@@ -1868,6 +1881,8 @@ a.card-title-modules {
 .subtopic-team {
   color: #00013c;
   font-weight: 500;
+  padding: 0px;
+  font-size: 18px;
 }
 
 .sub-header .navbar-expand-lg .navbar-nav .nav-link {
@@ -1927,7 +1942,7 @@ a.card-title-modules {
 }
 
 .p__subtitle_differentials_mobile {
-  margin-left: 30px; 
+  /* margin-left: 30px;  */
   color: #707070;
   font-size: 14px;
   margin-top: 10px;
