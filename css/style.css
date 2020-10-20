@@ -1211,11 +1211,19 @@ span.text-coachs-items {
   /* background-color: #FAFAFA; */
 }
 
+.teaching-1-mobile {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+  /* background-color: #FAFAFA; */
+}
+
 .img__coachs_mobile {
   border-radius: 10px;
 }
 
-.cor_fundo_teaching_mobile {
+.cor_fundo_team_mobile {
   background-color: #FAFAFA;
 }
 
@@ -1875,6 +1883,10 @@ a {
   color: #fff;
 }
 
+.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team-sub {
+  color: #fff;
+}
+
 .card-body p,
 h5 {
   padding-left: 30px;
@@ -1932,8 +1944,20 @@ a.card-title-modules {
   padding: 0px;
   font-size: 18px;
 }
+.subtopic-team-sub {
+  color: #00013c;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 14px;
+}
 
 .h3__coachs_title {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.h3__teaching_title {
   color: #00013C; 
   font-size: 20px; 
   font-weight: 600;
@@ -2011,6 +2035,14 @@ a.card-title-modules {
 .img__differentials_mobile {
   width: 24px; 
   height: 24px; 
+}
+
+.img__icone_teaching_mobile {
+  margin-left: 24px; 
+  width: 28px; 
+  height: 25px; 
+  margin-right: 18px; 
+  margin-top: 3px;
 }
 
 .imr-3 {
