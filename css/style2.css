@@ -1,3 +1,11 @@
+@media(max-width:812px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
 @media(max-width:800px) {
   #course-version-mobile {
     display: block;
@@ -22,12 +30,29 @@
     display: none;
   }
 }
-@media(min-width:801px) {
+@media(min-width:813px) {
   #course-version-mobile {
     display: none;
   }
   #course-version-web {
     display: block;
-    margin-left: 15%;
+  }
+}
+@media(min-width:1024px) {
+  #scroll-spy-section {
+    display: none;
+    /* ativar esse quando menu spy estiver funcionando */
+  }
+  #alinhamento {
+    margin-left: 0%;
+    /* trocar para 15% quando scroll-spy funcionar */
+  }
+}
+@media(max-width:1024px) {
+  #scroll-spy-section {
+    display: none;
+  }
+  #alinhamento {
+    margin-left: 0%;
   }
 }

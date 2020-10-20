@@ -221,13 +221,13 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 
 .owl-prev {
   position: absolute;
-  left: 0%;
+  left: -4%;
   top: 50%;
 }
 
 .owl-next {
   position: absolute;
-  right: 0%;
+  right: -7%;
   top: 50%;
 }
 
@@ -328,7 +328,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   float: right;
   color: #cbcbd7;
   margin-left: 14px;
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 2px;
   display: none;
 }
@@ -366,7 +366,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
-  color: #cbcbd7;
+  color: #CBCBD7;
+  font-size: 12px;
 }
 
 .accordion-day .card-header.collapsed .card-title:after {
@@ -583,8 +584,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 .sm-purple {
   width: 200px;
 }
-.conheca .item {
-}
+
 .conheca .item figure {
   background: #fff;
   width: 162px;
@@ -920,14 +920,60 @@ footer p {
 }
 
 .percurso-curso {
-  margin-top: 1em;
+  margin-top: 8em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  align-content: center;
   /* padding: 0 62px 40px 348px; */
   width: 100%;
   color: #ffffff;
+}
+
+h3.title-persurso-items {
+  color: #00013c;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 2%;
+  margin-left: 55px;
+}
+
+.clique-aqui__desktop {
+  color: #3697ff;
+}
+
+h3.title-day-to-day {
+  color: #00013c;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+  margin-left: 55px;
+}
+
+p.title-day-to-day {
+  color: #00013c;
+  display: flex;
+  /* justify-content: center; */
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-left: 55px;
+}
+
+p.clique-aqui {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+p.clique-aqui-mobile {
+  font-size: 14px;
+}
+
+a.clique-aqui-mobile {
+  color: #3697FF;
 }
 
 .day-to-day {
@@ -935,7 +981,8 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
+  align-content: center;
+  flex-direction: column;
   /* padding: 0 62px 0px 360px; */
   width: 100%;
   /* height: auto; */
@@ -944,7 +991,7 @@ footer p {
 .nd-1 {
   font-size: 32px;
   color: #00013c;
-  padding: 5%;
+  margin-top: 5%;
 }
 
 .differentials {
@@ -955,6 +1002,12 @@ footer p {
   flex-wrap: wrap;
   height: auto;
   background-color: #f7f7f7;
+}
+
+.differentials-mobile {
+  background-color: #f7f7f7;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .our_differentials {
@@ -1009,7 +1062,7 @@ footer p {
   max-width: 200px;
   position: fixed;
   top: 100px;
-  margin-left: -3%;
+  margin-left: -10%;
 }
 
 .scroll-spy__bar {
@@ -1054,7 +1107,7 @@ footer p {
 .teaching-team {
   /* display: flex; */
   width: 958px;
-  height: 620px;
+  height: 655px;
   margin-bottom: 45px;
   /* margin: 0px 0px 0 465px; */
   /* flex-direction: column; */
@@ -1089,7 +1142,7 @@ footer p {
   /* justify-content: center; */
   align-items: center;
   width: 249px;
-  height: 480px;
+  height: 520px;
   border-radius: 10px;
   margin: 0% 15%;
   color: #707070;
@@ -1106,9 +1159,80 @@ footer p {
   /* margin-left: -15px; */
 }
 
+span.text-coachs-items {
+  color: #707070;
+  font-size: 18px;
+  width: 212px;
+  height: 95px;
+}
+
 .coachs-1 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-top: 8%;
+}
+
+.coachs-1-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+}
+
+.p__div__subtitle_coachs {
+  color: #00013C; 
+  font-size: 18px; 
+  font-weight: 500; 
+  margin-bottom: 30px;
+}
+
+.span__coachs_team {
+  color: #707070;
+}
+
+.span__inline_icone_coachs_team {
+  color: #707070;
+  font-size: 18px;
+  width: 207px;
+  height: 95px;
+}
+
+.img__icone_coachs_team {
+  width: 48px; 
+  height: 48px; 
+  margin-right: 40px
+}
+
+.team-1-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+  /* background-color: #FAFAFA; */
+}
+
+.teaching-1-mobile {
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+  /* background-color: #FAFAFA; */
+}
+
+.img__coachs_mobile {
+  border-radius: 10px;
+}
+
+.cor_fundo_team_mobile {
+  background-color: #FAFAFA;
+}
+
+.div__subtitle_coachs {
+  margin-left: 30px;
+  margin-right: 28px;
 }
 
 .second-part-coachs {
@@ -1117,7 +1241,7 @@ footer p {
   flex-wrap: wrap;
   /* justify-content: space-around;
   margin-right: 15px; */
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 .second-part-coachs2 {
@@ -1130,6 +1254,7 @@ footer p {
 .inside-coachs2 {
   display: flex;
   height: 150px;
+  justify-content: center;
   /* margin-left: auto; */
 }
 
@@ -1143,7 +1268,7 @@ footer p {
 .nd-2 {
   font-size: 32px;
   color: #00013c;
-  top: 6%;
+  margin-top: 5%;
   display: flex;
 }
 
@@ -1156,7 +1281,7 @@ footer p {
 .nd-4 {
   font-size: 24px;
   color: #00013c;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   /* margin-left: 4%; */
 }
 
@@ -1330,11 +1455,72 @@ footer p {
   flex-direction: row;
 }
 
+.points-team-skills-inside-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+}
+
+.check-module-items {
+  margin-right: 7px;
+  padding-top: 3px;
+}
+
+.check-module-items-mobile {
+  margin-right: 7px;
+  padding-top: 3px;
+}
+
+.col-lg-auto.diferenciais__items {
+  display: flex;
+  text-align: justify;
+  color: #707070;
+  /* width: 380px; */
+}
+
+.img__differentals {
+  width: 58px; 
+  height: 32px
+}
+
+.autor__differentals {
+  text-align: right;
+  color: #707070;
+}
+
+.container.center-block {
+  display: flex;
+  justify-content: center;
+}
+
 .points-hard-skills {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around;
-  align-items: center; */
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.points-hard-skills-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.align__differentals_mobile {
+  text-align: left;
+  margin-left: 36px;
+  margin-right: 18px;
+  margin-top: -26px;
+}
+
+.points-differentals-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .soft-skills {
@@ -1449,10 +1635,13 @@ a {
   /* margin-left: -230px; */
   margin-top: 3%;
   margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
 }
 
 .head-title-curriculum {
   /* margin-left: 510px; */
+  color: #00013c;
   margin-top: 3%;
   margin-bottom: 3%;
 }
@@ -1489,6 +1678,10 @@ a {
   /* symbol for "collapsed" panels */
   content: "\f067";
   color: #cbcbd7;
+}
+
+.accordion-modules .card-header.collapsed:before {
+  color: red;
 }
 
 .accordion-modules .card-header:after {
@@ -1570,7 +1763,7 @@ a {
   position: relative;
   border: 2px solid #70707026;
   height: 90px;
-  color: #cbcbd7;
+  color: #70707026;
   display: flex;
   align-items: center;
 }
@@ -1643,6 +1836,7 @@ a {
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
   padding: 0px !important;
+  font-size: 14px;
 }
 
 .card-body-team {
@@ -1666,14 +1860,44 @@ a {
   border: 2px solid #3697ff;
 }
 
+.card-header-modules[aria-expanded="true"]
+  .card-title-modules
+  .subtopic-modules {
+  color: #fff;
+}
+
 .card-header-day[aria-expanded="true"] {
   background-color: #6d0c91;
   border: 2px solid #6d0c91;
 }
 
+.card-header-day[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-day {
+  color: #fff;
+}
+
+.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day-sub {
+  color: #fff;
+}
+
 .card-header-team[aria-expanded="true"] {
   background-color: #00dbff;
   border: 2px solid #00dbff;
+}
+
+.card-header-team[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-team {
+  color: #fff;
+}
+
+.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team-sub {
+  color: #fff;
 }
 
 .card-body p,
@@ -1710,8 +1934,46 @@ a.card-title-modules {
 }
 
 .subtopic-modules {
-  color: #cbcbd7;
+  color: #aeaeba;
   font-weight: 500;
+  font-size: 12px;
+}
+
+.subtopic-day {
+  color: #00013c;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.subtopic-day-sub {
+  color: #00013c;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.subtopic-team {
+  color: #00013c;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 18px;
+}
+.subtopic-team-sub {
+  color: #00013c;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.h3__coachs_title {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.h3__teaching_title {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
 }
 
 .sub-header .navbar-expand-lg .navbar-nav .nav-link {
@@ -1752,6 +2014,127 @@ a.card-title-modules {
   color: #00013c;
 }
 
+.h3_title_differentials {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.h3_title_curso {
+  color: #00013C; 
+  font-size: 28px; 
+  font-weight: 600;
+}
+
+.h3_subtitle_curso {
+  color: #00013C; 
+  font-size: 18px;
+}
+
+.p__subtitle_differentials_mobile {
+  /* margin-left: 30px;  */
+  color: #707070;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.img__title_version_mobile {
+  width: 259px; 
+  height: 272px; 
+  border-radius: 10px;
+}
+
+.img__differentials_mobile {
+  width: 24px; 
+  height: 24px; 
+}
+
+.img__icone_teaching_mobile {
+  margin-left: 24px; 
+  width: 28px; 
+  height: 25px; 
+  margin-right: 18px; 
+  margin-top: 3px;
+}
+
+.imr-3 {
+  width: 75px; 
+  height: 79px; 
+  border-radius: 5px;
+}
+
+.span_title_differentials {
+  color: #707070; 
+  font-size: 18px; 
+  font-weight: 600;
+}
+
+.span_h3_subtitle_curso {
+  background-color: #00dbff;
+}
+
+.h3_curriculum_mobile {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.h3_day-to-day_mobile {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 32px;
+}
+
+.p_day-to-day_mobile {
+  font-size: 14px;
+  color: #0B0000;
+}
+
+.h4_hardSkills_mobile {
+  font-size: 18px;
+  margin-bottom: 14px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding: 0px;
+}
+
+.h4_softSkills_mobile {
+  font-size: 18px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 18px;
+  margin-top: 24px;
+  padding: 0px;
+}
+
+.h4_studentsDevs_mobile {
+  font-size: 18px;
+  font-size: 18px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding: 0px;
+}
+
+p.p_studentsDevs_mobile {
+  color: #ffffff;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 0px;
+  font-size: 12px;
+}
+
+.container__items {
+  margin-bottom: 18px;
+}
+
+.span__hardSkills_mobile {
+  color: #ffffff;
+  font-size: 12px;
+}
+
 .curriculo-banner-h3 {
   font-size: 24px;
   font-family: "Montserrat";
@@ -1760,6 +2143,12 @@ a.card-title-modules {
 
 .curriculo-banner-p {
   font-size: 18px;
+  font-family: "Montserrat";
+  color: #00013c;
+}
+
+.curriculo-banner-p-mobile {
+  font-size: 14px;
   font-family: "Montserrat";
   color: #00013c;
 }
