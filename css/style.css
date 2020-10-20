@@ -1174,6 +1174,54 @@ span.text-coachs-items {
   display: flex;
   flex-direction: row;
   margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+}
+
+.p__div__subtitle_coachs {
+  color: #00013C; 
+  font-size: 18px; 
+  font-weight: 500; 
+  margin-bottom: 30px;
+}
+
+.span__coachs_team {
+  color: #707070;
+}
+
+.span__inline_icone_coachs_team {
+  color: #707070;
+  font-size: 18px;
+  width: 207px;
+  height: 95px;
+}
+
+.img__icone_coachs_team {
+  width: 48px; 
+  height: 48px; 
+  margin-right: 40px
+}
+
+.team-1-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 30px;
+  margin-right: 28px;
+  /* background-color: #FAFAFA; */
+}
+
+.img__coachs_mobile {
+  border-radius: 10px;
+}
+
+.cor_fundo_teaching_mobile {
+  background-color: #FAFAFA;
+}
+
+.div__subtitle_coachs {
+  margin-left: 30px;
+  margin-right: 28px;
 }
 
 .second-part-coachs {
@@ -1883,6 +1931,12 @@ a.card-title-modules {
   font-weight: 500;
   padding: 0px;
   font-size: 18px;
+}
+
+.h3__coachs_title {
+  color: #00013C; 
+  font-size: 20px; 
+  font-weight: 600;
 }
 
 .sub-header .navbar-expand-lg .navbar-nav .nav-link {
