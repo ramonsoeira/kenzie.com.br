@@ -1746,7 +1746,6 @@ a {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1763,7 +1762,6 @@ a {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1780,7 +1778,6 @@ a {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1838,7 +1835,6 @@ a {
 }
 
 .card-header[aria-expanded="true"] {
-  /* background-color: #42DCA3; */
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom: 0px !important;
@@ -1994,7 +1990,6 @@ a.card-title-modules {
 .curriculo-banner {
   background-color: #fff;
   margin-top: 5em;
-  /* padding: 182px 0px 50px; */
 }
 
 .curriculo-banner-head {
@@ -2022,14 +2017,12 @@ a.card-title-modules {
 }
 
 .p__subtitle_differentials_mobile {
-  /* margin-left: 30px;  */
   color: #707070;
   font-size: 14px;
   margin-top: 10px;
 }
 
 .p__subtitle_differentials {
-  /* margin-left: 30px;  */
   color: #707070;
   font-size: 18px;
   margin-top: 10px;
@@ -2160,7 +2153,7 @@ p.p_studentsDevs_mobile {
   padding: 150px 0px 50px;
 }
 
-h2.quem-head {
+h1.quem-head {
   font-size: 60px;
   font-weight: bold;
   color: #fff;
@@ -2532,9 +2525,9 @@ img.nosses-kenzie {
   top: -90px;
   transform: rotate(-15deg);
 }
-/*                                                                                      *
-    *                                       como sera                                          *
-    *                                                                                      */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+*                 como sera
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 .como-sera {
   padding: 50px 0px;
