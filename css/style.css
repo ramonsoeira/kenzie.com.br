@@ -1071,8 +1071,8 @@ a.clique-aqui-mobile {
 
 .scroll-spy {
   max-width: 200px;
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  top: 850px;
   margin-left: -10%;
 }
 

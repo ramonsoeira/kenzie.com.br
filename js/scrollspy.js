@@ -1,6 +1,7 @@
 var navWrap = $("#floating-navbar"),
   nav = $("nav"),
-  startPosition = $("#startHere").offset().top,
+  scrollSpy = $(".scroll-spy"),
+  startPosition = navWrap.offset().top,
   stopPosition = $("#stopHere").offset().top - nav.outerHeight();
 
 $(document).scroll(function () {
@@ -9,6 +10,8 @@ $(document).scroll(function () {
 
   if (y > startPosition) {
     nav.addClass("sticky-spy");
+    scrollSpy.css({"position" : "fixed"});
+    scrollSpy.css({"top" : "50px"});
     if (y > stopPosition) {
       nav.css("top", stopPosition - y);
     } else {
@@ -16,19 +19,7 @@ $(document).scroll(function () {
     }
   } else {
     nav.removeClass("sticky-spy");
+    scrollSpy.css({"position" : "absolute"});
+      scrollSpy.css({"top" : "20000px"});
   }
 });
-
-// $(window).on("scroll", function() {
-
-//   var scrollSpy = $('#floating-navbar');
-//   //obtem a posição da div com relação ao scroll
-//   var posicao = scrollSpy.offset();
-
-//   //define se o scroll atual é maior ou igual a posição da div
-//   if($(window).scrollTop() >= posicao.top) {
-//     $(".scroll-spy").css({"position" : "fixed"});
-//   }else{
-//      $(".scroll-spy").css({"position" : "absolute"});
-//   }
-// });
