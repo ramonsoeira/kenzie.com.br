@@ -641,6 +641,13 @@ img.seja-blue {
   margin: 0 auto;
 }
 
+h2.temba-head {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
 .temba-b {
   height: 109px;
   background: #ffffff 0% 0% no-repeat padding-box;
