@@ -84,6 +84,11 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   height: 2px;
   width: 100%;
 }
+/* 
+#floating-navbar {
+  position: -webkit-sticky;
+  top: 0px;
+} */
 
 .sticky {
   /* padding: 0.5em 0px; */
