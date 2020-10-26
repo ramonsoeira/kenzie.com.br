@@ -40,11 +40,11 @@
 }
 @media(min-width:1024px) {
   #scroll-spy-section {
-    display: none;
+    display: block;
     /* ativar esse quando menu spy estiver funcionando */
   }
   #alinhamento {
-    margin-left: 0%;
+    margin-left: 15%;
     /* trocar para 15% quando scroll-spy funcionar */
   }
 }
@@ -54,5 +54,10 @@
   }
   #alinhamento {
     margin-left: 0%;
+  }
+}
+@media(min-width: 2560px) {
+  .scroll-spy {
+    margin-left: 13%;
   }
 }

@@ -84,6 +84,11 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   height: 2px;
   width: 100%;
 }
+/* 
+#floating-navbar {
+  position: -webkit-sticky;
+  top: 0px;
+} */
 
 .sticky {
   /* padding: 0.5em 0px; */
@@ -1066,8 +1071,8 @@ a.clique-aqui-mobile {
 
 .scroll-spy {
   max-width: 200px;
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  top: 850px;
   margin-left: -10%;
 }
 
@@ -1519,7 +1524,7 @@ span.text-coachs-items {
   text-align: left;
   margin-left: 36px;
   margin-right: 18px;
-  margin-top: -26px;
+  margin-top: -23px;
 }
 
 .align__differentals {
@@ -1564,7 +1569,7 @@ span.text-coachs-items {
 
 .nav-linkb,
 a {
-  color: #00013c34;
+  color: #939393;
 }
 
 .nav-linka.active {
@@ -2162,7 +2167,7 @@ p.p_studentsDevs_mobile {
   font-size: 12px;
 }
 
-.curriculo-banner-h3 {
+.curriculo-banner-h2 {
   font-size: 24px;
   font-family: "Montserrat";
   color: #00013c;
