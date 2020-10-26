@@ -1524,7 +1524,7 @@ span.text-coachs-items {
   text-align: left;
   margin-left: 36px;
   margin-right: 18px;
-  margin-top: -26px;
+  margin-top: -23px;
 }
 
 .align__differentals {
@@ -1569,7 +1569,7 @@ span.text-coachs-items {
 
 .nav-linkb,
 a {
-  color: #00013c34;
+  color: #939393;
 }
 
 .nav-linka.active {
@@ -2167,7 +2167,7 @@ p.p_studentsDevs_mobile {
   font-size: 12px;
 }
 
-.curriculo-banner-h3 {
+.curriculo-banner-h2 {
   font-size: 24px;
   font-family: "Montserrat";
   color: #00013c;
