@@ -3,19 +3,21 @@
  * header starts here
  *
  */
+
 /* //========================================================================================
 /*                                                                                      *
  *                              to put in global style.css                              *
  *                                                                                      */
+
 /* //========================================================================================
 */
 
-html,
-body {
+html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
+
 /*                                                                                      *
  *                                     header navbar                                    *
  *            
@@ -24,6 +26,7 @@ body {
 body.scroll-body {
   overflow: hidden;
 }
+
 .logo {
   width: 50px;
 }
@@ -84,6 +87,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   height: 2px;
   width: 100%;
 }
+
 /* 
 #floating-navbar {
   position: -webkit-sticky;
@@ -102,6 +106,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   -moz-box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.75);
 }
+
 /*                                                                                      *
  *                                        BANNER                                        *
  *                                                                                      */
@@ -139,6 +144,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   display: block;
   margin: 0 auto;
 }
+
 /*                                                                                      *
  *                                        Quer se torner                                          *
  *                                                                                      */
@@ -171,6 +177,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 .dont {
   display: none;
 }
+
 /*                                                                                      *
  *                                        depoimentos                                         *
  *                                                                                      */
@@ -393,6 +400,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   position: unset !important;
   content: unset !important;
 }
+
 /*                                                                                      *
  *                                        Curso                                        *
  *                                                                                      */
@@ -426,8 +434,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "Montserrat", sans-serif;
 }
 
-.saiba-para a,
-.saiba-para i {
+.saiba-para a, .saiba-para i {
   font-size: 17px;
   color: #6d0c91;
   margin-top: 10px;
@@ -456,11 +463,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 215px;
 }
 
-.no1,
-.no2,
-.no3,
-.no4,
-.no5 {
+.no1, .no2, .no3, .no4, .no5 {
   border-left: 1px dotted #000;
   position: relative;
 }
@@ -570,6 +573,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 .desktop-none {
   display: none;
 }
+
 /*                                                                                      *
  *                                        como-funciona                                         *
  *                                                                                      */
@@ -597,6 +601,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   position: relative;
   border-radius: 10px;
 }
+
 .conheca .item figure img {
   max-width: 133px;
   position: absolute;
@@ -604,13 +609,13 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 /*                                                                                      *
  *                                        conheca                                        *
  *                                                                                      */
 
 .conheca {
-  background: url("../images/conheca-coover.png") repeat scroll center center /
-    cover;
+  background: url("../images/conheca-coover.png") repeat scroll center center / cover;
   padding: 80px 0px 100px;
 }
 
@@ -634,14 +639,14 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   position: relative;
 }
 
-.sm-carousel .owl-prev,
-.sm-carousel .owl-next {
+.sm-carousel .owl-prev, .sm-carousel .owl-next {
   top: 30%;
 }
 
 .sm-carousel .owl-prev {
   left: -13%;
 }
+
 /*                                                                                      *
  *                                        kenzie                                        *
  *                                                                                      */
@@ -681,6 +686,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 80%;
   margin-top: 40px;
 }
+
 /*                                                                                      *
     *                                        preparado                                         *
     *                                                                                      */
@@ -710,10 +716,10 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   text-decoration: none;
 }
 
-.preparado button.btn.btn-purple.btn-primary:hover,
-section.depoimentos button.btn.btn-purple.btn-primary:hover {
+.preparado button.btn.btn-purple.btn-primary:hover, section.depoimentos button.btn.btn-purple.btn-primary:hover {
   background-color: #8125a3;
 }
+
 /*                                                                                      *
     *                                        footer                                         *
     *                                                                                      */
@@ -746,10 +752,10 @@ footer p {
   font-size: 15px;
   color: #000;
 }
+
 /*  */
 
-.owl-next,
-.owl-prev {
+.owl-next, .owl-prev {
   outline: 0 !important;
 }
 
@@ -762,8 +768,7 @@ footer p {
   margin-bottom: 0px !important;
 }
 
-#imnedo a:hover,
-.top-50 a:hover {
+#imnedo a:hover, .top-50 a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -793,6 +798,7 @@ footer p {
 .t24 {
   margin-top: 24%;
 }
+
 /* svg */
 
 @media all and (max-width: 1921px) {
@@ -874,17 +880,16 @@ footer p {
   width: 250px;
 }
 
-.righta,
-.lefta {
+.righta, .lefta {
   width: 55px;
 }
 
-.righti,
-.lefti,
-.arrowendo {
+.righti, .lefti, .arrowendo {
   width: 67px;
 }
+
 /* four pages starts here */
+
 /*                                                                                      *
     *                                        FAQ Starts                                         *
     *                                                                                      */
@@ -905,7 +910,8 @@ footer p {
 .faq-img-container {
   width: 96%;
   max-width: 960px;
-  margin: 0 auto; /* to center the container */
+  margin: 0 auto;
+  /* to center the container */
 }
 
 .faq-img-container__img {
@@ -934,6 +940,88 @@ footer p {
   /* padding: 0 62px 40px 348px; */
   width: 100%;
   color: #ffffff;
+}
+
+a.modules-title {
+  text-decoration: none;
+}
+
+a.day-title {
+  text-decoration: none;
+}
+
+a.spyscroll-participar {
+  color: #fff; 
+  text-decoration: none;
+}
+
+span.students-world {
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+span.coachs-color {
+  color: #707070;
+}
+
+p.teaching-team-p {
+  font-size: 12px;
+}
+
+h2.padding-differentals {
+  padding-left: 15px;
+}
+
+h3.subtitle-coach {
+  color: #00013C; 
+  padding: inherit;
+}
+
+h3.name-teaching-team {
+  font-size: 19px;
+  margin-top: 18px;
+  margin-bottom: 5%;
+}
+
+img.day-img {
+  width: 304px;
+  height: 321px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+img.coachs-points {
+  width: 48px; 
+  height: 48px; 
+  margin-right: 15px;
+}
+
+img.coachs-img-large {
+  width: 313px; 
+  height: 220px; 
+  border-radius: 10px;
+}
+
+img.differentials-img {
+  width: 68px; 
+  height: 42px;
+}
+
+img.our-differentials-img {
+  width: 41px; 
+  height: 41px;
+}
+
+img.teaching-team-img {
+  height: 110px;
+  margin-top: 26px;
+  border-radius: 10px;
+}
+
+img.img-check-team {
+  height: 15px; 
+  margin-top: 3px; 
+  margin-right: 15px;
 }
 
 h2.title-persurso-items {
@@ -1089,7 +1177,7 @@ a.clique-aqui-mobile {
 .scroll-spy__navlink.active {
   color: black !important;
   font-weight: bold;
-  background-color: unset !important ;
+  background-color: unset !important;
   font-size: 17px;
 }
 
@@ -1193,9 +1281,9 @@ span.text-coachs-items {
 }
 
 .p__div__subtitle_coachs {
-  color: #00013C; 
-  font-size: 18px; 
-  font-weight: 500; 
+  color: #00013C;
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 30px;
 }
 
@@ -1211,8 +1299,8 @@ span.text-coachs-items {
 }
 
 .img__icone_coachs_team {
-  width: 48px; 
-  height: 48px; 
+  width: 48px;
+  height: 48px;
   margin-right: 40px
 }
 
@@ -1391,15 +1479,13 @@ span.text-coachs-items {
   flex-direction: row;
 }
 
-.tab-content,
-#myTabContent {
+.tab-content, #myTabContent {
   width: 958px;
   background-color: #3697ff;
   color: #ffffff;
 }
 
-.tab-content,
-#myTabContent2 {
+.tab-content, #myTabContent2 {
   width: 900px;
   background-color: #ffffff;
   color: #00013c;
@@ -1491,7 +1577,7 @@ span.text-coachs-items {
 }
 
 .img__differentals {
-  width: 58px; 
+  width: 58px;
   height: 32px
 }
 
@@ -1567,8 +1653,7 @@ span.text-coachs-items {
   padding: 0.5rem 1rem;
 }
 
-.nav-linkb,
-a {
+.nav-linkb, a {
   color: #939393;
 }
 
@@ -1594,28 +1679,23 @@ a {
   color: #ffffff;
 }
 
-.nav2-linka.active,
-#daily-tab {
+.nav2-linka.active, #daily-tab {
   border-radius: 10px 0px 0px 0px;
 }
 
-.nav2-linka.active,
-#demo-tab {
+.nav2-linka.active, #demo-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,
-#pausa-tab {
+.nav2-linka.active, #pausa-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,
-#projetos-tab {
+.nav2-linka.active, #projetos-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active,
-#softskills-tab {
+.nav2-linka.active, #softskills-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1629,8 +1709,7 @@ a {
   justify-content: center;
 }
 
-.nav2-linka,
-#eventos-lives-tab {
+.nav2-linka, #eventos-lives-tab {
   width: 150px;
   border-radius: 0px 10px 0px 0px;
 }
@@ -1664,7 +1743,9 @@ a {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+
 /* até aqui */
+
 .accordion .card-header:after {
   font-family: "FontAwesome";
   content: "\f068";
@@ -1879,9 +1960,7 @@ a {
   border: 2px solid #3697ff;
 }
 
-.card-header-modules[aria-expanded="true"]
-  .card-title-modules
-  .subtopic-modules {
+.card-header-modules[aria-expanded="true"] .card-title-modules .subtopic-modules {
   color: #fff;
 }
 
@@ -1890,11 +1969,7 @@ a {
   border: 2px solid #6d0c91;
 }
 
-.card-header-day[aria-expanded="true"]
-  .card-title
-  .media
-  .media-body
-  .subtopic-day {
+.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day {
   color: #fff;
 }
 
@@ -1907,11 +1982,7 @@ a {
   border: 2px solid #00dbff;
 }
 
-.card-header-team[aria-expanded="true"]
-  .card-title
-  .media
-  .media-body
-  .subtopic-team {
+.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
   color: #fff;
 }
 
@@ -1919,8 +1990,7 @@ a {
   color: #fff;
 }
 
-.card-body p,
-h5 {
+.card-body p, h5 {
   padding-left: 30px;
   color: #00013c;
   padding-right: 20%;
@@ -1976,6 +2046,7 @@ a.card-title-modules {
   padding: 0px;
   font-size: 18px;
 }
+
 .subtopic-team-sub {
   color: #00013c;
   font-weight: 500;
@@ -1984,14 +2055,14 @@ a.card-title-modules {
 }
 
 .h3__coachs_title {
-  color: #00013C; 
-  font-size: 20px; 
+  color: #00013C;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .h3__teaching_title {
-  color: #00013C; 
-  font-size: 20px; 
+  color: #00013C;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -2002,6 +2073,7 @@ a.card-title-modules {
 .sub-header .sticky {
   background-color: #fff !important;
 }
+
 /*                                                                                      *
     *                                        Sub Banner Starts                                         *
     *                                                                                      */
@@ -2034,20 +2106,20 @@ a.card-title-modules {
 }
 
 .h3_title_differentials {
-  color: #00013C; 
-  font-size: 20px; 
+  color: #00013C;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 24px;
 }
 
 .h3_title_curso {
-  color: #00013C; 
-  font-size: 28px; 
+  color: #00013C;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .h3_subtitle_curso {
-  color: #00013C; 
+  color: #00013C;
   font-size: 18px;
 }
 
@@ -2066,39 +2138,39 @@ a.card-title-modules {
 }
 
 .img__title_version_mobile {
-  width: 259px; 
-  height: 272px; 
+  width: 259px;
+  height: 272px;
   border-radius: 10px;
 }
 
 .img__differentials_mobile {
-  width: 24px; 
-  height: 24px; 
+  width: 24px;
+  height: 24px;
 }
 
 .img__icone_teaching_mobile {
-  margin-left: 24px; 
-  width: 28px; 
-  height: 25px; 
-  margin-right: 18px; 
+  margin-left: 24px;
+  width: 28px;
+  height: 25px;
+  margin-right: 18px;
   margin-top: 3px;
 }
 
 .imr-3 {
-  width: 75px; 
-  height: 79px; 
+  width: 75px;
+  height: 79px;
   border-radius: 5px;
 }
 
 .span_title_differentials {
-  color: #707070; 
-  font-size: 18px; 
+  color: #707070;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .h3_title_differentials {
-  color: #707070; 
-  font-size: 18px; 
+  color: #707070;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -2107,14 +2179,14 @@ a.card-title-modules {
 }
 
 .h3_curriculum_mobile {
-  color: #00013C; 
-  font-size: 20px; 
+  color: #00013C;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .h3_day-to-day_mobile {
-  color: #00013C; 
-  font-size: 20px; 
+  color: #00013C;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
   margin-top: 32px;
@@ -2209,6 +2281,7 @@ p.quem-para {
   border: 0px;
   margin-top: 85px;
 }
+
 /*                                                                                      *
     *                                        so-temos                                        *
     *                                                                                      */
@@ -2252,6 +2325,7 @@ h2.temos-head {
 .m-show {
   display: none;
 }
+
 /*                                                                                      *
     *                                       pagemento                                       *
     *                                                                                      */
@@ -2286,6 +2360,7 @@ img.banner-sticker {
   bottom: -19vh;
   z-index: 10;
 }
+
 /*                                                                                      *
     *                                       pagemento after                                     *
     *                                                                                      */
@@ -2320,6 +2395,7 @@ p.isa {
 .forma-arrow {
   width: 221px;
 }
+
 /*                                                                                      *
     *                                       Seja aluno                                     *
     *                                                                                      */
@@ -2385,6 +2461,7 @@ img.seja-blue {
   left: 28px;
   top: -103px;
 }
+
 /*                                                                                      *
     *                                       Voce                                     *
     *                                                                                      */
@@ -2424,6 +2501,7 @@ img.seja-blue {
   padding-right: 20px;
   height: 60px;
 }
+
 /*                                                                                      *
     *                                       Curricular                                     *
     *                                                                                      */
@@ -2440,6 +2518,7 @@ p.curriculo-para {
   font-size: 17px;
   margin-bottom: 30px;
 }
+
 /*                                                                                      *
     *                                       Curricular frontend                               *
     *                                                                                      */
@@ -2499,6 +2578,7 @@ p.curriculo-para {
 .bottom-50 {
   margin-bottom: 50px;
 }
+
 /*                                                                                      *
     *                                       Nosses Diferenciais                              *
     *                                                                                      */
@@ -2562,6 +2642,7 @@ img.nosses-kenzie {
   top: -90px;
   transform: rotate(-15deg);
 }
+
 /*                                                                                      *
     *                                       como sera                                          *
     *                                                                                      */
@@ -2679,6 +2760,7 @@ p.hfull {
 .kz-lead-form.is-open {
   display: flex;
 }
+
 .kz-lead-form {
   position: fixed;
   top: 0;
@@ -2692,6 +2774,7 @@ p.hfull {
   align-items: flex-start;
   z-index: 99999;
 }
+
 .kz-lead-form-overlay {
   position: relative;
   width: 100%;
@@ -2703,6 +2786,7 @@ p.hfull {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
+
 .kz-lead-form-close {
   position: absolute;
   border: 0;
@@ -2711,31 +2795,38 @@ p.hfull {
   top: 8px;
   cursor: pointer;
 }
+
 #overlayClose {
   height: 100vh;
   display: block;
   width: 74vw;
 }
+
 .kz-lead-form-close svg {
   width: 24px;
 }
+
 .coyright {
   text-align: center;
   background: #00316b;
   padding: 20px 10px;
 }
+
 .coyright p {
   margin: 0;
   color: #fff;
 }
 
 /* Embedded Videos     */
+
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   padding-top: 35px;
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -2753,9 +2844,8 @@ p.hfull {
   margin-top: 3em;
   margin-bottom: 3em;
 }
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+
+.embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -2764,6 +2854,7 @@ p.hfull {
 }
 
 /*POP UP CADASTRO*/
+
 iframe.pop-up-cadastro {
   position: static;
   border: none;
@@ -2774,6 +2865,7 @@ iframe.pop-up-cadastro {
 }
 
 /*MEDIA QUERY*/
+
 @media (max-width: 600px) {
   #overlayClose {
     width: 0;
@@ -2782,5 +2874,80 @@ iframe.pop-up-cadastro {
     padding: 0;
   }
 }
-@media (max-width: 555px) {
+
+@media (max-width: 555px) {}
+
+/* \/ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA CURSO \/ */
+
+@media(max-width:812px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
 }
+
+@media(max-width:800px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
+
+@media(max-width:450px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
+
+@media(max-width:320px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
+
+@media(min-width:813px) {
+  #course-version-mobile {
+    display: none;
+  }
+  #course-version-web {
+    display: block;
+  }
+}
+
+@media(min-width:1024px) {
+  #scroll-spy-section {
+    display: block;
+    /* ativar esse quando menu spy estiver funcionando */
+  }
+  #alinhamento {
+    margin-left: 15%;
+    /* trocar para 15% quando scroll-spy funcionar */
+  }
+}
+
+@media(max-width:1024px) {
+  #scroll-spy-section {
+    display: none;
+  }
+  #alinhamento {
+    margin-left: 0%;
+  }
+}
+
+@media(min-width: 2560px) {
+  .scroll-spy {
+    margin-left: 13%;
+  }
+}
+
+/* /\ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA CURSO /\ */
