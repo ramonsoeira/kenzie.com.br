@@ -2950,9 +2950,27 @@ iframe.pop-up-cadastro {
   }
 }
 
+@media(min-width: 1366px) {
+  .scroll-spy {
+    margin-left: -13%;
+  }
+}
+
+@media(min-width: 1600px) {
+  .scroll-spy {
+    margin-left: -5%;
+  }
+}
+
 @media(min-width: 1680px) {
   .scroll-spy {
     margin-left: -2.5%;
+  }
+}
+
+@media(min-width: 1920px) {
+  .scroll-spy {
+    margin-left: 3%;
   }
 }
 
