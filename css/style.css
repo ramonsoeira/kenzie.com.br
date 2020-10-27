@@ -2956,6 +2956,12 @@ iframe.pop-up-cadastro {
   }
 }
 
+@media(min-width: 1440px) {
+  .scroll-spy {
+    margin-left: -10%;
+  }
+}
+
 @media(min-width: 1600px) {
   .scroll-spy {
     margin-left: -5%;
