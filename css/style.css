@@ -1894,7 +1894,14 @@ h5 {
 }
 
 a.card-title {
-  font-size: 18px;
+  font-size: 18px !important;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  color: #00013c;
+}
+
+.card-title h3 {
+  font-size: 18px !important;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
   color: #00013c;
