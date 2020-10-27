@@ -88,12 +88,6 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 100%;
 }
 
-/* 
-#floating-navbar {
-  position: -webkit-sticky;
-  top: 0px;
-} */
-
 .sticky {
   /* padding: 0.5em 0px; */
   background-color: #00013c !important;
@@ -662,7 +656,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   padding: 100px 0px;
 }
 
-.kenzienamidia h3 {
+.kenzienamidia h2 {
   font-size: 32px;
   color: #00013c;
   font-weight: 600;
@@ -1118,23 +1112,10 @@ a.clique-aqui-mobile {
 }
 
 .inside_differentials {
-  /*display: flex; */
-  /* width: 855px; */
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-  /* height: 726px; */
-  /* background-color: #f7f7f7; */
   margin-top: 50px;
   margin-bottom: 38px;
   margin-left: 0px;
-  /* justify-content: space-around; */
 }
-
-/* .head_inside {
-  width: 327px;
-  height: 155px;
-  text-align: left;
-} */
 
 .spy-line {
   width: 132px;
@@ -1208,9 +1189,6 @@ a.clique-aqui-mobile {
   width: 958px;
   height: 655px;
   margin-bottom: 45px;
-  /* margin: 0px 0px 0 465px; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
   background-color: #00dbff;
 }
 
@@ -1250,12 +1228,8 @@ a.clique-aqui-mobile {
 }
 
 .rown {
-  /* display: -ms-flexbox; */
   display: flex;
-  /* -ms-flex-wrap: wrap; */
   flex-wrap: wrap;
-  /* margin-right: -15px; */
-  /* margin-left: -15px; */
 }
 
 span.text-coachs-items {
@@ -1338,8 +1312,6 @@ span.text-coachs-items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-around;
-  margin-right: 15px; */
   margin-left: 1%;
 }
 
@@ -1365,7 +1337,6 @@ span.text-coachs-items {
 }
 
 .nd-2 {
-  /* font-size: 32px; */
   color: #00013c;
   margin-top: 5%;
   display: flex;
@@ -1730,7 +1701,6 @@ span.text-coachs-items {
 }
 
 .head-title-day-to-day {
-  /* margin-left: -230px; */
   margin-top: 3%;
   margin-bottom: 3%;
   display: flex;
@@ -1738,7 +1708,6 @@ span.text-coachs-items {
 }
 
 .head-title-curriculum {
-  /* margin-left: 510px; */
   color: #00013c;
   margin-top: 3%;
   margin-bottom: 3%;
@@ -1857,7 +1826,6 @@ span.text-coachs-items {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1874,7 +1842,6 @@ span.text-coachs-items {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1891,7 +1858,6 @@ span.text-coachs-items {
   border-bottom: 0px;
   margin-bottom: 0px !important;
   margin-top: 10px;
-  /* padding-top: 20px; */
   padding-left: 30px;
   border-radius: 5px !important;
   position: relative;
@@ -1949,7 +1915,6 @@ span.text-coachs-items {
 }
 
 .card-header[aria-expanded="true"] {
-  /* background-color: #42DCA3; */
   border-bottom-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom: 0px !important;
@@ -1998,7 +1963,14 @@ span.text-coachs-items {
 }
 
 a.card-title {
-  font-size: 18px;
+  font-size: 18px !important;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  color: #00013c;
+}
+
+.card-title h3 {
+  font-size: 18px !important;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
   color: #00013c;
@@ -2096,7 +2068,6 @@ a.card-title-modules {
 .curriculo-banner {
   background-color: #fff;
   margin-top: 5em;
-  /* padding: 182px 0px 50px; */
 }
 
 .curriculo-banner-head {
@@ -2124,14 +2095,12 @@ a.card-title-modules {
 }
 
 .p__subtitle_differentials_mobile {
-  /* margin-left: 30px;  */
   color: #707070;
   font-size: 14px;
   margin-top: 10px;
 }
 
 .p__subtitle_differentials {
-  /* margin-left: 30px;  */
   color: #707070;
   font-size: 18px;
   margin-top: 10px;
@@ -2262,7 +2231,7 @@ p.p_studentsDevs_mobile {
   padding: 150px 0px 50px;
 }
 
-h2.quem-head {
+h1.quem-head {
   font-size: 60px;
   font-weight: bold;
   color: #fff;
@@ -2642,10 +2611,9 @@ img.nosses-kenzie {
   top: -90px;
   transform: rotate(-15deg);
 }
-
-/*                                                                                      *
-    *                                       como sera                                          *
-    *                                                                                      */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+*                 como sera
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 .como-sera {
   padding: 50px 0px;
