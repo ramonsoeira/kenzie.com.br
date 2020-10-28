@@ -945,12 +945,12 @@ a.day-title {
 }
 
 a.spyscroll-participar {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
 }
 
 span.students-world {
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -967,7 +967,7 @@ h2.padding-differentals {
 }
 
 h3.subtitle-coach {
-  color: #00013C; 
+  color: #00013C;
   padding: inherit;
 }
 
@@ -985,24 +985,24 @@ img.day-img {
 }
 
 img.coachs-points {
-  width: 48px; 
-  height: 48px; 
+  width: 48px;
+  height: 48px;
   margin-right: 15px;
 }
 
 img.coachs-img-large {
-  width: 313px; 
-  height: 220px; 
+  width: 313px;
+  height: 220px;
   border-radius: 10px;
 }
 
 img.differentials-img {
-  width: 68px; 
+  width: 68px;
   height: 42px;
 }
 
 img.our-differentials-img {
-  width: 41px; 
+  width: 41px;
   height: 41px;
 }
 
@@ -1013,8 +1013,8 @@ img.teaching-team-img {
 }
 
 img.img-check-team {
-  height: 15px; 
-  margin-top: 3px; 
+  height: 15px;
+  margin-top: 3px;
   margin-right: 15px;
 }
 
@@ -2611,6 +2611,7 @@ img.nosses-kenzie {
   top: -90px;
   transform: rotate(-15deg);
 }
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 *                 como sera
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
@@ -2801,6 +2802,102 @@ p.hfull {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.video-module1-desktop {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width: 286px;
+  height: 180px;
+  background-image: url(../images/vid-image.png);
+}
+
+.video-module1-desktop iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module2-desktop {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width: 286px;
+  height: 180px;
+  background-image: url(../images/vid-image.png);
+}
+
+.video-module2-desktop iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module1-mobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width: 266px;
+  height: 180px;
+  background-image: url(../images/vid-image.png);
+}
+
+.video-module1-mobile iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module2-mobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width: 266px;
+  height: 180px;
+  background-image: url(../images/vid-image.png);
+}
+
+.video-module2-mobile iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
 }
 
 .embed-container {
