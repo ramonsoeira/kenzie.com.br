@@ -2803,6 +2803,102 @@ p.hfull {
   height: 100%;
 }
 
+.video-module1-desktop {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width:286px;
+  height:180px; 
+  background-image:url(../images/vid-image.png);
+}
+
+.video-module1-desktop iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module2-desktop {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width:286px;
+  height:180px; 
+  background-image:url(../images/vid-image.png);
+}
+
+.video-module2-desktop iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module1-mobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width:266px;
+  height:180px; 
+  background-image:url(../images/vid-image.png);
+}
+
+.video-module1-mobile iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.video-module2-mobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+  background-size: cover;
+  /* version standardisée */
+  cursor: pointer;
+  float: right;
+  width:266px;
+  height:180px; 
+  background-image:url(../images/vid-image.png);
+}
+
+.video-module2-mobile iframe {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
