@@ -96,3 +96,21 @@
 //       });
 //     </script>
 // }
+
+//SCRIPT DO PAGAMENTO // Para comparação caso haja erro
+// $( ".overlay-form" ).click(function(e) {
+//     e.preventDefault();
+//       $(".kz-lead-form").addClass("is-open")
+//       $("body").addClass("scroll-body")
+//   });
+
+//   $( ".kz-lead-form-close" ).click(function(e) {
+//     e.preventDefault();
+//       $(".kz-lead-form").removeClass("is-open")
+//         $("body").removeClass("scroll-body")
+//   });
+//    $( "#overlayClose" ).click(function(e) {
+//     e.preventDefault();
+//       $(".kz-lead-form").removeClass("is-open")
+//         $("body").removeClass("scroll-body")
+//   });
