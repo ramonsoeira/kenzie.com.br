@@ -1,1334 +1,1327 @@
+@media all and (max-width: 1200px) {
+  img.banner-sticker {
+    position: absolute;
+    width: 14vw;
+    right: 1vw;
+    bottom: -24vh;
+    z-index: 10;
+  }
+  .seja-cover {
+    height: 360px;
+  }
+}
+@media all and (max-width: 1024px) {
+  img.banner-sticker-entenda {
+    position: absolute;
+    width: 14vw;
+    right: 5vw;
+    bottom: -23vh;
+    z-index: 10;
+    display: none;
+  }
 
-                    @media all and (max-width: 1200px) {
-                        
-                        img.banner-sticker {
-                            position: absolute;
-                            width: 14vw;
-                            right: 1vw;
-                            bottom: -24vh;
-                            z-index: 10;
-                        }
-                        .seja-cover {
-                            height: 360px;
-                        }
+  .prel2 {
+    margin-bottom: 25px;
+  }
 
-                    }
-                    @media all and (max-width: 1024px) {
-                    img.banner-sticker-entenda {
-                        position: absolute;
-                        width: 14vw;
-                        right: 5vw;
-                        bottom: -23vh;
-                        z-index: 10;
-                        display: none;
-                    }
+  .video {
+    float: none !important;
+    margin: 0 auto !important;
+    margin-top: 25px !important;
+  }
+}
 
-                    .prel2 {
-                        margin-bottom: 25px;
-                    }
+@media all and (max-width: 991px) {
+  .btn-navbar {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 5%;
+    right: 0px;
+    width: 181.96px;
+    margin-top: -10px;
+    /* margin-left: 2%; */
+  }
+  .btn-purple {
+    background-color: #6d0c91;
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  .btn-blue {
+    font-size: 14px;
+    padding: 8px 25px;
+    width: 170px !important;
+  }
+  .tele {
+    padding: 0px;
+  }
+  #mbl-none {
+    display: none;
+  }
+  .dont {
+    display: block;
+  }
+  .multi-lines {
+    display: none;
+  }
+  .ka-sticker {
+    position: absolute;
+    right: 0px;
+    margin-top: -10px;
+    width: 137px;
+    left: unset;
+  }
 
-                    .video {
-                        float: none !important;
-                        margin: 0 auto !important;
-                        margin-top: 25px !important;
-                    }
-                }
+  .curso-heading {
+    font-size: 32px;
+  }
 
-                    @media all and (max-width: 991px) {
-                        .btn-navbar {
-                            color: #fff;
-                            display: block;
-                            margin: 0 auto;
-                            position: absolute;
-                            left: 5%;
-                            right: 0px;
-                            width: 181.96px;
-                            margin-top: -10px;
-                            /* margin-left: 2%; */
-                        }
-                        .btn-purple {
-                            background-color: #6d0c91;
-                            font-size: 16px;
-                            padding: 10px 25px;
-                        }
-                        .btn-blue {
-                            font-size: 14px;
-                            padding: 8px 25px;
-                            width: 170px !important;
-                        }
-                        .tele{
-                            padding: 0px;
-                        }
-                        #mbl-none {
-                            display: none;
-                        }
-                        .dont {
-                            display: block;
-                        }
-                        .multi-lines {
-                            display: none;
-                        }
-                        .ka-sticker {
-                            position: absolute;
-                            right: 0px;
-                            margin-top: -10px;
-                            width: 137px;
-                            left: unset;
-                        }
-                        
-                        
-                        .curso-heading {
-                            font-size: 32px;
-                        }
-                       
-                        .saiba-para {
-                            font-size: 15px;
-                        }
-                        
-                        
-                        .preparado-cover h3 {
-                            font-size: 19px;
-                        }
-                        .preparado-cover .list-inline-item {
-                            display: block;
-                            padding-right: 0px;
-                            text-align: center;
-                            padding-top: 6%;
-                        }
-                        .arrowendo {
-                            transform: rotate(90deg);
-                            height: 50px;
-                            width: auto;
-                        }
-                        .preparado-cover {
-                            padding-left: 15px;
-                        }
+  .saiba-para {
+    font-size: 15px;
+  }
 
-                        footer {
-                            padding: 50px 0px 20px;
-                            text-align: center;
-                        }
-                        footer img {
-                            width: 80px;
-                            margin-bottom: 20px;
-                        }
-                        .footer-head {
-                            color: #007aff;
-                            font-family: 'Montserrat', sans-serif;
-                            font-size: 16px;
-                            height: 20px;
-                            font-weight: bold;
-                            margin-top: 20px;
-                        }
-                        .navbar-expand-lg .navbar-nav .nav-link {
-                            font-size: 14px;
-                        }
-                        ul.navbar-nav.ml-auto {
-                            background-color: #00013C;
-                            padding: 20px 10px;
-                        }
-                        span.breko {
-                            display: none;
-                        }
-                        a.card-title {
-                            font-size: 16px;
-                            padding-right: 22px;
-                        }
-                      
-                        .sub-header ul.navbar-nav.ml-auto {
-                            background-color: #fff !important;
-                            padding: 20px 10px;
-                        }
-                        .vidmat {
-                            margin-top: 50px;
-                        }
-                        .m-hide {
-                            display: none;
-                        }
-                        .m-show {
-                            display: block;
-                            margin-bottom: 70px;
-                        }
-                        .st-svg {
-                            position: absolute;
-                            z-index: 10;
-                            width: 13.5vw;
-                            left: -4.7vw;
-                            bottom: -7vh;
-                        }
-                        img.banner-sticker {
-                            right: 0vw;
-                            bottom: -20vh;
-                        }
-                        span.for-break {
-                            display: none;
-                        }
-                        
-                        
-                        .seja-text {
-                            transform: translateY(0px);
-                        }
-                        .seja-cover {
-                            height: 170px;
-                            margin-top: 30px;
-                        }
-                        .pagmento-inside {
-                            position: absolute;
-                            left: 4vw;
-                            top: 17.5vw;
-                            height: 60px;
-                            width: 60px;
-                            line-height: 60px;
-                        }
-                        .marg-150 {
-                            margin-top: 40px;
-                        }
-                        .seja-cover {
-                            display: flex;
-                            align-items: center;
-                        }
-                        .seja-cover {
-                            margin-left: 8vw;
-                            padding-left: 10vw;
-                        }
-                        span.seja-none {
-                            display: none;
-                        }
-                        .seja-text h2, .seja-text p {
-                            text-align: left !important;
-                        }
-                        .pagmento-inside img {
-                            height: 50px;
-                        }
-                        
-                        .curriculo-after {
-                            padding: 25px 0px 50px;
-                        }
-                        span.front-none {
-                            display: none;
-                        }
-                        p.curriculo-para {
-                            margin-top: 30px;
-                        }
-                        .dimage {
-                            margin-top: 30px;
-                        }
-                    }
+  .preparado-cover h3 {
+    font-size: 19px;
+  }
+  .preparado-cover .list-inline-item {
+    display: block;
+    padding-right: 0px;
+    text-align: center;
+    padding-top: 6%;
+  }
+  .arrowendo {
+    transform: rotate(90deg);
+    height: 50px;
+    width: auto;
+  }
+  .preparado-cover {
+    padding-left: 15px;
+  }
 
-                    @media all and (max-width: 768px) {
-                        .accor-plus{
-                            margin-right: 10px !important;
-                        }
-                        .accor-content {
-                            width: 42% !important;
-                            margin-top: 30px;
-                        }
-                        
-                        .pagemento-head {
-                            color: #fff;
-                            font-size: 40px;
-                        }
-                        .pagemento-subhead {
-                            font-size: 20px;
-                        }
-                        .pagemento-para {
-                            font-size: 16px;
-                        }
-                        
-                        
-                        .pagmento-inside {
-                            top: 153px;
-                            left: 5.5vw;
-                        }
-                        .seja-cover {
-                            padding-left: 7vw;
-                        }
-                        .sechudle-list li:last-child {
-                            margin-right: 0px !important;
-                        }
-                        .sechudle p {
-                            font-size: 13.2px;
-                        }
-                        p.hfull {
-                            padding: 83px 0px;
-                        }
-                       
-                        .prel2 {
-                            margin-bottom: 10%;
-                        }
-                        .entenda-div5-new p {
-                            font-size: 12px;
-                        }
-                        .entenda-div4-new p {
-                            font-size: 12px;
-                            margin-top: 12px;
-                        }
-                    }
+  footer {
+    padding: 50px 0px 20px;
+    text-align: center;
+  }
+  footer img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  .footer-head {
+    color: #007aff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    height: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  ul.navbar-nav.ml-auto {
+    background-color: #00013c;
+    padding: 20px 10px;
+  }
+  span.breko {
+    display: none;
+  }
+  a.card-title {
+    font-size: 16px;
+    padding-right: 22px;
+  }
 
-                    @media all and (max-width: 576px) {
+  .sub-header ul.navbar-nav.ml-auto {
+    background-color: #fff !important;
+    padding: 20px 10px;
+  }
+  .vidmat {
+    margin-top: 50px;
+  }
+  .m-hide {
+    display: none;
+  }
+  .m-show {
+    display: block;
+    margin-bottom: 70px;
+  }
+  .st-svg {
+    position: absolute;
+    z-index: 10;
+    width: 13.5vw;
+    left: -4.7vw;
+    bottom: -7vh;
+  }
+  img.banner-sticker {
+    right: 0vw;
+    bottom: -20vh;
+  }
+  span.for-break {
+    display: none;
+  }
 
-                        .btn-purple {
-                            border-radius: 5px;
-                        }
-                        .quer-torner {
-                            padding: 50px 0px;
-                        }
-                        .ka-sticker {
-                            position: absolute;
-                            right: 20px;
-                            margin-top: -15px;
-                            width: 80px;
-                            left: unset;
-                        }
-                        
-                        .curso-heading {
-                            font-size: 20px;
-                        }
-                        
-                        .mbl-no {
-                            display: none;
-                        }
-                        .mbl-yes {
-                            display: block;
-                            width: 100%;
-                        }
-                       
-                        .que-heading {
-                            font-size: 16px;
-                        }
-                        .card-header.headero {
-                            padding: 10px 0px 0px !important;
-                        }
-                        .top-50 {
-                            margin-top: 20px;
-                        }
-                        a.card-title {
-                            font-size: 14px;
-                        }
-                        
-                        img.banner-sticker {
-                            right: 2vw;
-                            bottom: -18vh;
-                            width: 18vw;
-                        }
-                       
-                        .seja-cover {
-                            padding-left: 9vw;
-                        }
-                        .seja-head {
-                            margin-bottom: 10px;
-                        }
-                        .seja-title {
-                            height: 70px;
-                        }
-                        img.seja-blue {
-                            width: 70px;
-                            left: 28px;
-                            top: -84px;
-                            transform: rotate(17deg);
-                        }
-                        .front-head {
-                            font-size: 20px;
-                        }
-                        .bullet-para p {
-                            font-size: 13px;
-                        }
-                        .lagblue {
-                            right: 1vw;
-                            width: 65px;
-                            top: 35px;
-                        }
-                        img.nosses-kenzie {
-                            width: 70px;
-                            position: absolute;
-                            top: -85px;
-                        }
-                        .dif-title {
-                            height: 65px;
-                        }
-                        .sechudle-list li {
-                            font-size: 4.5vw;
-                        }
-                        .accordion .card-header.headero:after {
-                            top: 15px !important;
-                            right: 27% !important;
-                        }
-                        .pagemento-head-new {
-                            top: 0px;
-                            left: 0px;
-                            width: 193px;
-                            height: 39px;
-                            text-align: left;
-                            font: normal normal 600 32px/18px Montserrat;
-                            letter-spacing: 0px;
-                            color: #FFFFFF;
-                        }
-                        .pagemento-subhead-new {
-                            font-size: 24px;
-                            top: 83px;
-                            left: 0px;
-                            width: 249px;
-                            text-align: left;
-                            font: normal normal medium 24px/18px Montserrat;
-                            letter-spacing: 0px;
-                            color: #FFFFFF;
-                        }
-                        .pagemento-para-new {
-                            font-size: 16px;
-                            margin-bottom: 10%;
-                        }
+  .seja-text {
+    transform: translateY(0px);
+  }
+  .seja-cover {
+    height: 170px;
+    margin-top: 30px;
+  }
+  .pagmento-inside {
+    position: absolute;
+    left: 4vw;
+    top: 17.5vw;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .marg-150 {
+    margin-top: 40px;
+  }
+  .seja-cover {
+    display: flex;
+    align-items: center;
+  }
+  .seja-cover {
+    margin-left: 8vw;
+    padding-left: 10vw;
+  }
+  span.seja-none {
+    display: none;
+  }
+  .seja-text h2,
+  .seja-text p {
+    text-align: left !important;
+  }
+  .pagmento-inside img {
+    height: 50px;
+  }
 
-                        .pagemento-para-new {
-                            font-size: 14px;
-                            margin-bottom: 10%;
-                            top: 183px;
-                            left: 0px;
-                            height: 18px;
-                            text-align: left;
-                            letter-spacing: 0px;
-                            color: #FFFFFF;
-                        }
+  .curriculo-after {
+    padding: 25px 0px 50px;
+  }
+  span.front-none {
+    display: none;
+  }
+  p.curriculo-para {
+    margin-top: 30px;
+  }
+  .dimage {
+    margin-top: 30px;
+  }
+}
 
-                        .pagemento-para-new-bold{
-                            top: 201px;
-                            left: 179px;
-                            width: 126px;
-                            height: 18px;
-                            text-align: left;
-                            font: normal normal bold 14px/18px Montserrat;
-                            letter-spacing: 0px;
-                            color: #FFFFFF;
-                        }
+@media all and (max-width: 768px) {
+  .accor-plus {
+    margin-right: 10px !important;
+  }
+  .accor-content {
+    width: 42% !important;
+    margin-top: 30px;
+  }
 
-                        .pagemento-subhead-new {
-                            margin-top: 0px;
-                        }
+  .pagemento-head {
+    color: #fff;
+    font-size: 40px;
+  }
+  .pagemento-subhead {
+    font-size: 20px;
+  }
+  .pagemento-para {
+    font-size: 16px;
+  }
 
-                        .pagemento-subhead-new {
-                            margin-bottom: 20px;
-                            margin-top: 30px;
-                        }
-     
+  .pagmento-inside {
+    top: 153px;
+    left: 5.5vw;
+  }
+  .seja-cover {
+    padding-left: 7vw;
+  }
+  .sechudle-list li:last-child {
+    margin-right: 0px !important;
+  }
+  .sechudle p {
+    font-size: 13.2px;
+  }
+  p.hfull {
+    padding: 83px 0px;
+  }
 
-                        .pagemento-para-new-black {
-                            font-size: 16px;
-                        }
-                        .entenda-subhead {
-                            margin-left: 4%;
-                            font-size: 36px;
-                            width: 73%;
-                        }
-                        h2.temba-head {
-                            font-size: 20px;
-                        }
-                        .entenda-logo1 {
-                            width: 32%;
-                        }
-                        .entenda-logo2 {
-                            width: 32%;
-                        }
-                        .entenda-logo3 {
-                            width: 32%;
-                        }
-                        .entenda-logo1 img {
-                            height: 45px;
-                            margin-bottom: 15px;
-                        }
-                        .entenda-logo2 img {
-                            height: 65px;
-                        }
-                        .entenda-logo3 img {
-                            height: 55px;
-                            margin-bottom: 15px;
-                        }
-                        p.entenda-logos-para1 {
-                            font-size: 16px !important;
-                        }
-                        p.entenda-logos-para2 {
-                            font-size: 16px !important;
-                            width: auto !important;
-                        }
-                        p.entenda-logos-para3 {
-                            font-size: 16px !important;
-                            width: 132px !important;
-                        }
-                        .entenda-logos {
-                            margin-top: 25%;
-                        }
-                        .entenda-divs {
-                            margin-top: 2%;
-                        }
-                        .entenda-div1 {
-                            padding-left: 0px;
-                            width: 140px;
-                        }
-                        .entenda-div11 {
-                            padding-left: 0px;
-                            width: 160px;
-                        }
-                        .entenda-div1 p {
-                            font-size: 13px;
-                            width: 86px;
-                            margin-top: 28px;
-                        }
-                        .entenda-div11 p {
-                            font-size: 13px;
-                            width: 86px;
-                            margin-top: 28px;
-                        }
-                        .entenda-div3 p {
-                            font-size: 13px;
-                            width: 86px !important;
-                            margin-top: 28px;
-                        }
-                        .entenda-div5 p {
-                            font-size: 13px;
-                            width: 86px;
-                            margin-top: 28px;
-                        }
-                        .entenda-divs {
-                            height: 80px;
-                            border: 1px solid #b3b3b3;
-                            border-radius: 10px;
-                            display: flex;
-                            width: 94%;
-                            margin: 0 auto;
-                        }
-                        .entenda-div2 {
-                            padding-top: 30px;
-                            width: 50px;
-                            padding: 0px;
-                            padding-top: 30px;
-                        }
-                        .entenda-div3 {
-                            float: left;
-                            text-align: center;
-                            width: 100px;
-                            padding: 0px;
-                        }
-                        .entenda-div4 {
-                            padding: 0px;
-                            padding-top: 30px;
-                            width: 50px;
-                        }
-                        .entenda-div5 {
-                            float: left;
-                            text-align: right;
-                            width: 150px;
-                        }
-                        .entenda-div4-new {
-                            padding: 0px;
-                            width: 140px;
-                        }
-                        .entenda-div5-new {
-                            float: left;
-                            text-align: right;
-                            width: 150px;
-                        }
-                        .entenda-div5-new p {
-                            font-size: 12px;
-                            width: 111px;
-                            margin-top: 12px;
-                        }
-                        .sub-banner-entenda {
-                            height: auto;
-                            width: 100%;
-                        }
-                        .entenda-divs {
-                            margin-bottom: 10px;
-                        }
-                        .prel2 {
-                            margin-bottom: 0%;
-                        }
+  .prel2 {
+    margin-bottom: 10%;
+  }
+  .entenda-div5-new p {
+    font-size: 12px;
+  }
+  .entenda-div4-new p {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+}
 
+@media all and (max-width: 576px) {
+  .btn-purple {
+    border-radius: 5px;
+  }
+  .quer-torner {
+    padding: 50px 0px;
+  }
+  .ka-sticker {
+    position: absolute;
+    right: 20px;
+    margin-top: -15px;
+    width: 80px;
+    left: unset;
+  }
 
-                        .video-box {
-                           
-                            margin-top: 13%;
-                        }
+  .curso-heading {
+    font-size: 20px;
+  }
 
-                        .video {
-                            float: none !important;
-                            width: 282px !important;
-                            height: 178px !important;
-                            margin: 0 auto !important;
-                        }
+  .mbl-no {
+    display: none;
+  }
+  .mbl-yes {
+    display: block;
+    width: 100%;
+  }
 
-                        .sub-banner {
-                            padding: 150px 0px 60px;
-                        }
+  .que-heading {
+    font-size: 16px;
+  }
+  .card-header.headero {
+    padding: 10px 0px 0px !important;
+  }
+  .top-50 {
+    margin-top: 20px;
+  }
+  a.card-title {
+    font-size: 14px;
+  }
 
-                        .pagemento-para-new-black {
-                            margin: 0 auto;
-                            margin-top: 36px;
-                            left: 0px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: left;
-                            font: normal normal normal 14px/18px Montserrat;
-                            letter-spacing: 0px;
-                            width: 289px;
-                            color: #00013C;
-                        }
+  img.banner-sticker {
+    right: 2vw;
+    bottom: -18vh;
+    width: 18vw;
+  }
 
-                        .pagemento-para-new-black-bold {
-                                top: 36px;
-                                left: 191px;
-                                width: 103px;
-                                height: 18px;
-                                color: var(--unnamed-color-00013c);
-                                text-align: left;
-                                font: normal normal 600 14px/18px Montserrat;
-                                letter-spacing: 0px;
-                                color: #00013C;
-                        }
+  .seja-cover {
+    padding-left: 9vw;
+  }
+  .seja-head {
+    margin-bottom: 10px;
+  }
+  .seja-title {
+    height: 70px;
+  }
+  img.seja-blue {
+    width: 70px;
+    left: 28px;
+    top: -84px;
+    transform: rotate(17deg);
+  }
+  .front-head {
+    font-size: 20px;
+  }
+  .bullet-para p {
+    font-size: 13px;
+  }
+  .lagblue {
+    right: 1vw;
+    width: 65px;
+    top: 35px;
+  }
+  img.nosses-kenzie {
+    width: 70px;
+    position: absolute;
+    top: -85px;
+  }
+  .dif-title {
+    height: 65px;
+  }
+  .sechudle-list li {
+    font-size: 4.5vw;
+  }
+  .accordion .card-header.headero:after {
+    top: 15px !important;
+    right: 27% !important;
+  }
+  .pagemento-head-new {
+    top: 0px;
+    left: 0px;
+    width: 193px;
+    height: 39px;
+    text-align: left;
+    font: normal normal 600 32px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+  .pagemento-subhead-new {
+    font-size: 24px;
+    top: 83px;
+    left: 0px;
+    width: 249px;
+    text-align: left;
+    font: normal normal medium 24px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+  .pagemento-para-new {
+    font-size: 16px;
+    margin-bottom: 10%;
+  }
 
-                        .sub-banner-white {
-                            padding: 80px 0px 25px;
-                        }
+  .pagemento-para-new {
+    font-size: 14px;
+    margin-bottom: 10%;
+    top: 183px;
+    left: 0px;
+    height: 18px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
 
-                        .sub-banner-padding {
-                            padding-right: 33px;
-                            padding-left: 34px;
-                        }
+  .pagemento-para-new-bold {
+    top: 201px;
+    left: 179px;
+    width: 126px;
+    height: 18px;
+    text-align: left;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
 
-                        img.banner-sticker-entenda {
-                            display: none;
-                        }
-                        .entenda-div2 {
-                            padding-top: 5px;
-                        }
+  .pagemento-subhead-new {
+    margin-top: 0px;
+  }
 
-                        .entenda-div4 {
-                            padding-top: 5px;
-                        }
-                    }
+  .pagemento-subhead-new {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
 
-                    @media all and (max-width: 505px) {
-                        p.hfull {
-                            padding: 68px 0px;
-                        }
-                        .cfull {
-                            padding: 71.5px 0px;
-                        }
-                        .comosuer {
-                            font-size: 20px;
-                        }
-                        .sechudle-list li {
-                            font-size: 4vw;
-                        }
-                        .entenda-div5-new p {
-                            width: 136px;
-                        }
-                        .entenda-div4-new {
-                            width: 175px !important;
-                        }
-                        .entenda-div4-new p {
-                            width: 115px;
-                        }
-                    }
+  .pagemento-para-new-black {
+    font-size: 16px;
+  }
+  .entenda-subhead {
+    margin-left: 4%;
+    font-size: 36px;
+    width: 73%;
+  }
+  h2.temba-head {
+    font-size: 20px;
+  }
+  .entenda-logo1 {
+    width: 32%;
+  }
+  .entenda-logo2 {
+    width: 32%;
+  }
+  .entenda-logo3 {
+    width: 32%;
+  }
+  .entenda-logo1 img {
+    height: 45px;
+    margin-bottom: 15px;
+  }
+  .entenda-logo2 img {
+    height: 65px;
+  }
+  .entenda-logo3 img {
+    height: 55px;
+    margin-bottom: 15px;
+  }
+  p.entenda-logos-para1 {
+    font-size: 16px !important;
+  }
+  p.entenda-logos-para2 {
+    font-size: 16px !important;
+    width: auto !important;
+  }
+  p.entenda-logos-para3 {
+    font-size: 16px !important;
+    width: 132px !important;
+  }
+  .entenda-logos {
+    margin-top: 25%;
+  }
+  .entenda-divs {
+    margin-top: 2%;
+  }
+  .entenda-div1 {
+    padding-left: 0px;
+    width: 140px;
+  }
+  .entenda-div11 {
+    padding-left: 0px;
+    width: 160px;
+  }
+  .entenda-div1 p {
+    font-size: 13px;
+    width: 86px;
+    margin-top: 28px;
+  }
+  .entenda-div11 p {
+    font-size: 13px;
+    width: 86px;
+    margin-top: 28px;
+  }
+  .entenda-div3 p {
+    font-size: 13px;
+    width: 86px !important;
+    margin-top: 28px;
+  }
+  .entenda-div5 p {
+    font-size: 13px;
+    width: 86px;
+    margin-top: 28px;
+  }
+  .entenda-divs {
+    height: 80px;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+  }
+  .entenda-div2 {
+    padding-top: 30px;
+    width: 50px;
+    padding: 0px;
+    padding-top: 30px;
+  }
+  .entenda-div3 {
+    float: left;
+    text-align: center;
+    width: 100px;
+    padding: 0px;
+  }
+  .entenda-div4 {
+    padding: 0px;
+    padding-top: 30px;
+    width: 50px;
+  }
+  .entenda-div5 {
+    float: left;
+    text-align: right;
+    width: 150px;
+  }
+  .entenda-div4-new {
+    padding: 0px;
+    width: 140px;
+  }
+  .entenda-div5-new {
+    float: left;
+    text-align: right;
+    width: 150px;
+  }
+  .entenda-div5-new p {
+    font-size: 12px;
+    width: 111px;
+    margin-top: 12px;
+  }
+  .sub-banner-entenda {
+    height: auto;
+    width: 100%;
+  }
+  .entenda-divs {
+    margin-bottom: 10px;
+  }
+  .prel2 {
+    margin-bottom: 0%;
+  }
 
-                    @media all and (max-width: 480px) {
-                        .seja-cover {
-                            padding-left: 12vw;
-                            margin-right: 3vw;
-                        }
-                        .seja-head {
-                            font-size: 16px;
-                        }
-                        .seja-para {
-                            font-size: 11px;
-                        }
-                        .nosses-head {
-                            font-size: 16px;
-                        }
-                        .nosses-para {
-                            font-size: 11.5px;
-                        }
-                        .showbr {
-                            display: inline;
-                        }
-                        .sechudle p {
-                            font-size: 11.5px;
-                        }
-                        p.thalf {
-                            padding: 7px 0px;
-                        }
-                        p.hfull {
-                            padding: 72px 0px;
-                        }
-                        .accordion .card-header.headero:after {
-                            top: 15px !important;
-                            right: 15% !important;
-                            font-size: unset !important;
-                        }
-                    }
+  .video-box {
+    margin-top: 13%;
+  }
 
-                    @media all and (max-width: 415px) {
-                        .apr-heading {
-                            font-size: 14px;
-                            font-weight: bold;
-                            padding-top: 5px;
-                        }
-                        .saiba-para {
-                            font-size: 12px;
-                        }
-                        .saiba-para a, .saiba-para i {
-                            font-size: 12px;
-                        }
-                        .sm-purple {
-                            width: 130px;
-                        }
-                        #imnedo {
-                            padding-left: 3%;
-                            padding-right: 8%;
-                        }
-                        .kenzie {
-                            position: absolute;
-                            top: -95px;
-                            left: 15px;
-                            width: 70px;
-                        }
-                        .kenzienamidia h3 {
-                            font-size: 16px;
-                            margin-bottom: 20px;
-                        }
-                        .preparado {
-                            padding: 30px 0px;
-                        }
-                        .arrowendo {
-                            height: 54px;
-                            width: 55px;
-                        }
-                        .preparado-cover h3 {
-                            font-size: 20px;
-                        }
-                        .below-spara {
-                            width: 200px;
-                            font-size: 10px;
-                        }
-                        .detail-para {
-                            font-size: 12px;
-                            margin-top: 10px;
-                            padding: 10px 0px 0px;
-                            margin-bottom: 0px;
-                        }
-                        .owl-next {
-                            right: 6%;
-                        }
-                        .owl-prev {
-                            left: 6%;
-                        }
-                        .imgizer {
-                            width: 80px !important;
-                        }
-                        .owl-next img, .owl-prev img {
-                            width: 20px;
-                        }
-                        .depoi-para {
-                            font-size: 10px;
-                            padding-left: 7%;
-                            padding-right: 7%;
-                        }
-                        .depo-sticker {
-                            width: auto;
-                            height: 35px;
-                        }
-                        span.depoi-none {
-                            display: none;
-                        }
-                        a.card-title {
-                            font-size: 11px;
-                        }
-                        .accordion .card-header:after {
-                            position: absolute;
-                            right: 10px;
-                            top: 23%;
-                            transform: translateY(0px);
-                            padding-left: 40px;
-                            font-size: 12px;
-                        }
-                        .card-body p {
-                            font-size: 11px;
-                        }
-                        img.banner-sticker {
-                            right: 20px;
-                            bottom: -90px;
-                            width: 95px;
-                        }
-                        .voce-para {
-                            font-size: 11px;
-                            padding-left: 10px;
-                            padding-right: 10px;
-                        }
-                        .voce-head {
-                            font-size: 16px;
-                        }
-                        .voce-cover {
-                            height: 170px;
-                        }
-                        .voce-header {
-                            font-size: 18px;
-                        }
-                        .timings p {
-                            width: 60px;
-                            height: 45px;
-                            font-size: 13px;
-                        }
-                        .cfull {
-                            padding: 73.5px 0px;
-                        }
-                        .comosera-head {
-                            font-size: 12px;
-                            margin-bottom: 10px;
-                        }
-                        .souli-cover img {
-                            width: 15px;
-                        }
-                        .souli-text p {
-                            font-size: 11px;
-                        }
-                        .souli-cover img {
-                            width: 11px;
-                            margin-top: -9px;
-                        }
-                        .comosera-cover {
-                            margin-top: 30px;
-                            padding: 13px 20px 0px;
-                        }
-                    }
+  .video {
+    float: none !important;
+    width: 282px !important;
+    height: 178px !important;
+    margin: 0 auto !important;
+  }
 
-                    @media all and (max-width: 375px) {
-                        
-                        .banner h3 {
-                            color: #fff;
-                            font-size: 30px;
-                        }
-                        .btn-purple {
-                            background-color: #6d0c91;
-                            font-size: 16px;
-                            padding: 15px 35px;
-                            border-radius: 5px;
-                        }
-                        .quer-torner h3 {
-                            font-size: 16px;
-                        }
-                        .curso-heading {
-                            font-size: 16px;
-                        }
-                        .depoimentos {
-                            padding: 50px 0px 30px;
-                        }
-                        
-                        .footer-head {
-                            font-size: 11px;
-                        }
-                        footer .list-unstyled li a {
-                            font-size: 11px;
-                            line-height: 20px;
-                        }
-                        footer p {
-                            font-size: 11px;
-                            color: #000;
-                            padding: 0px 22%;
-                            margin-bottom: 0.5rem;
-                        }
-                        footer .list-unstyled {
-                            font-size: 11px;
-                        }
-                        footer img {
-                            width: 60px;
-                            margin-bottom: 0px;
-                        }
-                        .btn-navbar {
-                            width: 124.7px;
-                            margin-top: -3px;
-                        }
-                        a.card-title {
-                            font-size: 9px;
-                            padding-right: 25px;
-                        }
-                        .card-body p {
-                            padding-left: 0.5rem;
-                            padding-right: 10%;
-                            font-size: 9px;
-                        }
-                        .faq-para {
-                            font-size: 10px;
-                        }
-                        .st-svg {
-                            width: 18.5vw;
-                            left: -2.7vw;
-                            bottom: -4vh;
-                        }
-                        p.quem-para {
-                            font-size: 13px;
-                            margin: 30px 0px;
-                        }
-                        h2.quem-head {
-                            font-size: 30px;
-                        }
-                        p.temos-para {
-                            font-size: 11.7px;
-                        }
-                        h2.temos-head {
-                            font-size: 17px;
-                        }
-                        .pagemento-head {
-                            color: #fff;
-                            font-size: 25px;
-                        }
-                        .pagemento-subhead {
-                            font-size: 16px;
-                        }
-                        .pagemento-para {
-                            font-size: 10px;
-                            padding-right: 40px;
-                        }
-                        .paga-head {
-                            color: #007aff;
-                            font-size: 16px;
-                        }
-                        
-                        .seja-cover {
-                            padding-left: 11vw;
-                            height: 150px;
-                            margin-right: 0vw;
-                            padding-right: 20px;
-                        }
-                        .seja-head {
-                            font-size: 14px;
-                            font-weight: bold;
-                        }
-                        .seja-para {
-                            font-size: 11px;
-                            margin-bottom: 0px;
-                        }
-                        .pagmento-inside {
-                            top: 150px;
-                            left: 4.5vw;
-                            height: 50px;
-                            width: 50px;
-                            line-height: 50px;
-                        }
-                        .pagmento-inside img {
-                            height: 40px;
-                        }
-                        img.seja-blue {
-                            width: 50px;
-                            left: 18px;
-                            top: -73px;
-                        }
-                        .seja-title {
-                            height: 55px;
-                        }
-                        .marg-150 {
-                            margin-top: 15px;
-                        }
-                        .voce-cover {
-                            height: 160px;
-                        }
-                        .voce-header {
-                            font-size: 15px;
-                        }
-                       
+  .sub-banner {
+    padding: 150px 0px 60px;
+  }
 
-                        p.curriculo-para {
-                            font-size: 11.5px;
-                        }
-                        .bullet-para p {
-                            font-size: 10px;
-                        }
-                        .bullet-img {
-                            margin-right: 15px;
-                        }
-                        .bullet-img img {
-                            width: 20px;
-                        }
-                        .tech-cover {
-                            height: 120px;
-                        }
-                        .technology {
-                            font-size: 10px;
-                            line-height: 14px;
-                        }
-                        .tech-img {
-                            height: 60px;
-                        }
-                        .dimage .col-4 {
-                            padding-left: 5px;
-                            padding-right: 5px;
-                        }
-                        .dimage {
-                            padding-left: 5px;
-                            padding-right: 5px;
-                        }
-                        .curriculo-after {
-                            padding: 25px 0px 35px;
-                        }
-                        .criar-bullet {
-                            margin-top: 20px;
-                        }
-                        .front-head {
-                            font-size: 16px;
-                        }
-                        .bottom-50 {
-                            margin-bottom: 35px;
-                        }
-                        .nosses-para {
-                            font-size: 9px;
-                            padding-left: 5px;
-                            padding-right: 5px;
-                        }
-                        .nosses-head {
-                            font-size: 12px;
-                        }
-                        .nosses-cover {
-                            height: 215px;
-                        }
-                        .sechudle p {
-                            font-size: 9px;
-                        }
-                        p.thalf {
-                            padding: 15px 0px;
-                        }
-                        p.hfull {
-                            padding: 76px 0px;
-                        }
-                        .cfull {
-                            padding: 77px 0px;
-                        }
-                        .sechudle-list li {
-                            font-size: 3.9vw;
-                        }
-                        .timings {
-                            margin-top: 39px;
-                        }
-                        .sechudle-list {
-                            height: 30px;
-                        }
-                        .entenda-subhead {
-                            top: 853px;
-                            margin-left: 46px;
-                            width: 220px;
-                            height: 157px;
-                            text-align: left;
-                            font: normal normal 600 30px/37px Montserrat;
-                            letter-spacing: 0px;
-                            color: #6D0C91;
-                            opacity: 1;
-                        }
-                        p.entenda-logos-para1 {
-                            font-size: 12px !important;
-                            width: auto;
-                            top: 1094px;
-                            left: 7px;
-                            width: 105px;
-                            height: 48px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal 600 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
-                        p.entenda-logos-para2 {
-                            font-size: 12px !important;
-                            top: 1094px;
-                            left: 142px;
-                            width: 92px;
-                            height: 48px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal 600 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
-                        p.entenda-logos-para3 {
-                            font-size: 12px !important;
-                            width: 100px !important;
-                            top: 1093px;
-                            left: 256px;
-                            width: 112px;
-                            height: 48px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal 600 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
-                        .entenda-logos {
-                            margin-top: 28%;
-                            padding: 0px;
-                        }
-                        .entenda-div3 p {
-                            width: 50px;
-                        }
-                        .entenda-div5 {
-                            text-align: center;
-                            width: 150px;
-                        }
-                        .entenda-div5-new p {
-                            width: 110px;
-                        }
-                        .entenda-div4-new {
-                            width: 140px !important;
-                            padding-right: 7px;
-                        }
-                        .entenda-div3 p {
-                            width: 50px !important;
-                        }
-                        .entenda-div5-new {
-                            padding-left: 6px;
-                        }
+  .pagemento-para-new-black {
+    margin: 0 auto;
+    margin-top: 36px;
+    left: 0px;
+    color: var(--unnamed-color-00013c);
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    width: 289px;
+    color: #00013c;
+  }
 
-                        .video-box {
-                            position: absolute;
-                            margin-top: 120%;
-                        }
+  .pagemento-para-new-black-bold {
+    top: 36px;
+    left: 191px;
+    width: 103px;
+    height: 18px;
+    color: var(--unnamed-color-00013c);
+    text-align: left;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+  }
 
-                        .video {
-                            float: none !important;
-                            width: 282px !important;
-                            height: 178px !important;
-                            margin: 0 auto !important;
-                        }
+  .sub-banner-white {
+    padding: 80px 0px 25px;
+  }
 
-                        .sub-banner {
-                            padding: 115px 0px 130px;
-                        }
+  .sub-banner-padding {
+    padding-right: 33px;
+    padding-left: 34px;
+  }
 
-                        .pagemento-para-new-black {
-                            margin: 0 auto;
-                            margin-top: 36px;
-                            left: 0px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: left;
-                            font: normal normal normal 14px/18px Montserrat;
-                            letter-spacing: 0px;
-                            width: 289px;
-                            color: #00013C;
-                        }
+  img.banner-sticker-entenda {
+    display: none;
+  }
+  .entenda-div2 {
+    padding-top: 5px;
+  }
 
-                        .pagemento-para-new-black-bold {
-                                top: 36px;
-                                left: 191px;
-                                width: 103px;
-                                height: 18px;
-                                color: var(--unnamed-color-00013c);
-                                text-align: left;
-                                font: normal normal 600 14px/18px Montserrat;
-                                letter-spacing: 0px;
-                                color: #00013C;
-                        }
+  .entenda-div4 {
+    padding-top: 5px;
+  }
+}
 
-                        .sub-banner-white {
-                            padding: 80px 0px 25px;
-                        }
+@media all and (max-width: 505px) {
+  p.hfull {
+    padding: 68px 0px;
+  }
+  .cfull {
+    padding: 71.5px 0px;
+  }
+  .comosuer {
+    font-size: 20px;
+  }
+  .sechudle-list li {
+    font-size: 4vw;
+  }
+  .entenda-div5-new p {
+    width: 136px;
+  }
+  .entenda-div4-new {
+    width: 175px !important;
+  }
+  .entenda-div4-new p {
+    width: 115px;
+  }
+}
 
-                        .sub-banner-padding {
-                            padding-right: 33px;
-                            padding-left: 34px;
-                        }
+@media all and (max-width: 480px) {
+  .seja-cover {
+    padding-left: 12vw;
+    margin-right: 3vw;
+  }
+  .seja-head {
+    font-size: 16px;
+  }
+  .seja-para {
+    font-size: 11px;
+  }
+  .nosses-head {
+    font-size: 16px;
+  }
+  .nosses-para {
+    font-size: 11.5px;
+  }
+  .showbr {
+    display: inline;
+  }
+  .sechudle p {
+    font-size: 11.5px;
+  }
+  p.thalf {
+    padding: 7px 0px;
+  }
+  p.hfull {
+    padding: 72px 0px;
+  }
+  .accordion .card-header.headero:after {
+    top: 15px !important;
+    right: 15% !important;
+    font-size: unset !important;
+  }
+}
 
-                        img.banner-sticker-entenda {
-                            display: none;
-                        }
+@media all and (max-width: 415px) {
+  .apr-heading {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  .saiba-para {
+    font-size: 12px;
+  }
+  .saiba-para a,
+  .saiba-para i {
+    font-size: 12px;
+  }
+  .sm-purple {
+    width: 130px;
+  }
+  #imnedo {
+    padding-left: 3%;
+    padding-right: 8%;
+  }
+  .kenzie {
+    position: absolute;
+    top: -95px;
+    left: 15px;
+    width: 70px;
+  }
+  .kenzienamidia h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .preparado {
+    padding: 30px 0px;
+  }
+  .arrowendo {
+    height: 54px;
+    width: 55px;
+  }
+  .preparado-cover h3 {
+    font-size: 20px;
+  }
+  .below-spara {
+    width: 200px;
+    font-size: 10px;
+  }
+  .detail-para {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px 0px 0px;
+    margin-bottom: 0px;
+  }
+  .owl-next {
+    right: 6%;
+  }
+  .owl-prev {
+    left: 6%;
+  }
+  .imgizer {
+    width: 80px !important;
+  }
+  .owl-next img,
+  .owl-prev img {
+    width: 20px;
+  }
+  .depoi-para {
+    font-size: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .depo-sticker {
+    width: auto;
+    height: 35px;
+  }
+  span.depoi-none {
+    display: none;
+  }
+  a.card-title {
+    font-size: 11px;
+  }
+  .accordion .card-header:after {
+    position: absolute;
+    right: 10px;
+    top: 23%;
+    transform: translateY(0px);
+    padding-left: 40px;
+    font-size: 12px;
+  }
+  .card-body p {
+    font-size: 11px;
+  }
+  img.banner-sticker {
+    right: 20px;
+    bottom: -90px;
+    width: 95px;
+  }
+  .voce-para {
+    font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .voce-head {
+    font-size: 16px;
+  }
+  .voce-cover {
+    height: 170px;
+  }
+  .voce-header {
+    font-size: 18px;
+  }
+  .timings p {
+    width: 60px;
+    height: 45px;
+    font-size: 13px;
+  }
+  .cfull {
+    padding: 73.5px 0px;
+  }
+  .comosera-head {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .souli-cover img {
+    width: 15px;
+  }
+  .souli-text p {
+    font-size: 11px;
+  }
+  .souli-cover img {
+    width: 11px;
+    margin-top: -9px;
+  }
+  .comosera-cover {
+    margin-top: 30px;
+    padding: 13px 20px 0px;
+  }
+}
 
-                        .sub-banner-entenda {
-                            padding: 20px 0px 35px;
-                        }
+@media all and (max-width: 375px) {
+  .banner h3 {
+    color: #fff;
+    font-size: 30px;
+  }
+  .btn-purple {
+    background-color: #6d0c91;
+    font-size: 16px;
+    padding: 15px 35px;
+    border-radius: 5px;
+  }
+  .quer-torner h3 {
+    font-size: 16px;
+  }
+  .curso-heading {
+    font-size: 16px;
+  }
+  .depoimentos {
+    padding: 50px 0px 30px;
+  }
 
-                        .entenda-divs {
-                            margin-bottom: 10px;
-                            width: 347px;
-                            height: 68px;
-                            border: 1px solid var(--unnamed-color-707070);
-                            border: 1px solid #707070;
-                            border-radius: 10px;
-                        }
+  .footer-head {
+    font-size: 11px;
+  }
+  footer .list-unstyled li a {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  footer p {
+    font-size: 11px;
+    color: #000;
+    padding: 0px 22%;
+    margin-bottom: 0.5rem;
+  }
+  footer .list-unstyled {
+    font-size: 11px;
+  }
+  footer img {
+    width: 60px;
+    margin-bottom: 0px;
+  }
+  .btn-navbar {
+    width: 124.7px;
+    margin-top: -3px;
+  }
+  a.card-title {
+    font-size: 9px;
+    padding-right: 25px;
+  }
+  .card-body p {
+    padding-left: 0.5rem;
+    padding-right: 10%;
+    font-size: 9px;
+  }
+  .faq-para {
+    font-size: 10px;
+  }
+  .st-svg {
+    width: 18.5vw;
+    left: -2.7vw;
+    bottom: -4vh;
+  }
+  p.quem-para {
+    font-size: 13px;
+    margin: 30px 0px;
+  }
+  h2.quem-head {
+    font-size: 30px;
+  }
+  p.temos-para {
+    font-size: 11.7px;
+  }
+  h2.temos-head {
+    font-size: 17px;
+  }
+  .pagemento-head {
+    color: #fff;
+    font-size: 25px;
+  }
+  .pagemento-subhead {
+    font-size: 16px;
+  }
+  .pagemento-para {
+    font-size: 10px;
+    padding-right: 40px;
+  }
+  .paga-head {
+    color: #007aff;
+    font-size: 16px;
+  }
 
-                        .entenda-div1 p {
-                            font-size: 12px;
-                            top: 1171px;
-                            left: 25px;
-                            width: 83px;
-                            height: 16px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal medium 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
+  .seja-cover {
+    padding-left: 11vw;
+    height: 150px;
+    margin-right: 0vw;
+    padding-right: 20px;
+  }
+  .seja-head {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .seja-para {
+    font-size: 11px;
+    margin-bottom: 0px;
+  }
+  .pagmento-inside {
+    top: 150px;
+    left: 4.5vw;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+  }
+  .pagmento-inside img {
+    height: 40px;
+  }
+  img.seja-blue {
+    width: 50px;
+    left: 18px;
+    top: -73px;
+  }
+  .seja-title {
+    height: 55px;
+  }
+  .marg-150 {
+    margin-top: 15px;
+  }
+  .voce-cover {
+    height: 160px;
+  }
+  .voce-header {
+    font-size: 15px;
+  }
 
+  p.curriculo-para {
+    font-size: 11.5px;
+  }
+  .bullet-para p {
+    font-size: 10px;
+  }
+  .bullet-img {
+    margin-right: 15px;
+  }
+  .bullet-img img {
+    width: 20px;
+  }
+  .tech-cover {
+    height: 120px;
+  }
+  .technology {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .tech-img {
+    height: 60px;
+  }
+  .dimage .col-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .dimage {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .curriculo-after {
+    padding: 25px 0px 35px;
+  }
+  .criar-bullet {
+    margin-top: 20px;
+  }
+  .front-head {
+    font-size: 16px;
+  }
+  .bottom-50 {
+    margin-bottom: 35px;
+  }
+  .nosses-para {
+    font-size: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .nosses-head {
+    font-size: 12px;
+  }
+  .nosses-cover {
+    height: 215px;
+  }
+  .sechudle p {
+    font-size: 9px;
+  }
+  p.thalf {
+    padding: 15px 0px;
+  }
+  p.hfull {
+    padding: 76px 0px;
+  }
+  .cfull {
+    padding: 77px 0px;
+  }
+  .sechudle-list li {
+    font-size: 3.9vw;
+  }
+  .timings {
+    margin-top: 39px;
+  }
+  .sechudle-list {
+    height: 30px;
+  }
+  .entenda-subhead {
+    top: 853px;
+    margin-left: 46px;
+    width: 220px;
+    height: 157px;
+    text-align: left;
+    font: normal normal 600 30px/37px Montserrat;
+    letter-spacing: 0px;
+    color: #6d0c91;
+    opacity: 1;
+  }
+  p.entenda-logos-para1 {
+    font-size: 12px !important;
+    width: auto;
+    top: 1094px;
+    left: 7px;
+    width: 105px;
+    height: 48px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+  p.entenda-logos-para2 {
+    font-size: 12px !important;
+    top: 1094px;
+    left: 142px;
+    width: 92px;
+    height: 48px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+  p.entenda-logos-para3 {
+    font-size: 12px !important;
+    width: 100px !important;
+    top: 1093px;
+    left: 256px;
+    width: 112px;
+    height: 48px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+  .entenda-logos {
+    margin-top: 28%;
+    padding: 0px;
+  }
+  .entenda-div3 p {
+    width: 50px;
+  }
+  .entenda-div5 {
+    text-align: center;
+    width: 150px;
+  }
+  .entenda-div5-new p {
+    width: 110px;
+  }
+  .entenda-div4-new {
+    width: 140px !important;
+    padding-right: 7px;
+  }
+  .entenda-div3 p {
+    width: 50px !important;
+  }
+  .entenda-div5-new {
+    padding-left: 6px;
+  }
 
-                        .entenda-div2 {
-                            padding-top: 3px;
-                        }
+  .video-box {
+    position: absolute;
+    margin-top: 12%;
+  }
 
-                        .entenda-div4 {
-                            padding-top: 3px;
-                        }
+  .sub-banner {
+    margin-bottom: 50px;
+  }
 
-                        .entenda-div3 p {
-                            top: 1171px;
-                            left: 155px;
-                            width: 65px !important;
-                            height: 16px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal medium 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
-                        .entenda-div5 p {
-                            font-size: 12px;
-                            width: 86px;
-                            margin-top: 22px;
-                            top: 1171px;
-                            left: 243px;
-                            height: 16px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal medium 12px/15px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
+  .video {
+    float: none !important;
+    width: 282px !important;
+    height: 178px !important;
+    margin: 0 auto !important;
+    margin-top: 200px !important;
+    margin-bottom: 70px !important;
+  }
 
-                        .entenda-div-arrow {
-                            font-size: 25px !important;
-                        }
+  .sub-banner {
+    padding: 115px 0px 130px;
+  }
 
-                        .entenda-div5-new {
-                            padding-left: 0px;
-                        }
+  .pagemento-para-new-black {
+    margin: 0 auto;
+    margin-top: 36px;
+    left: 0px;
+    color: var(--unnamed-color-00013c);
+    text-align: left;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    width: 289px;
+    color: #00013c;
+  }
 
-                        .entenda-div5-new p {
-                            font-size: 10px;
-                            top: 1312px;
-                            left: 256px;
-                            width: 104px;
-                            height: 39px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal medium 10px/13px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
+  .pagemento-para-new-black-bold {
+    top: 36px;
+    left: 191px;
+    width: 103px;
+    height: 18px;
+    color: var(--unnamed-color-00013c);
+    text-align: left;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+  }
 
-                        .entenda-div4-new p {
-                            top: 1387px;
-                            font-size: 10px;
-                            left: 27px;
-                            width: 79px;
-                            height: 40px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal medium 10px/13px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
+  .sub-banner-white {
+    padding: 80px 0px 25px;
+  }
 
-                        .entenda-div4-new {
-                            padding-right: 23px;
-                        }
+  .sub-banner-padding {
+    padding-right: 33px;
+    padding-left: 34px;
+  }
 
-                        .entenda-div1 p {
-                            margin-top: 23px;
-                        }
+  img.banner-sticker-entenda {
+    display: none;
+  }
 
-                        .entenda-div3 p {
-                            margin-top: 22px;
-                        }
+  .sub-banner-entenda {
+    padding: 20px 0px 35px;
+  }
 
-                        .entenda-div4-new p {
-                            margin-top: 8px;
-                        }
+  .entenda-divs {
+    margin-bottom: 10px;
+    width: 347px;
+    height: 68px;
+    border: 1px solid var(--unnamed-color-707070);
+    border: 1px solid #707070;
+    border-radius: 10px;
+  }
 
-                        .entenda-div11 p {
-                            margin-top: 22px;
-                        }
+  .entenda-div1 p {
+    font-size: 12px;
+    top: 1171px;
+    left: 25px;
+    width: 83px;
+    height: 16px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
 
-                        .entenda-div5-new p {
-                            margin-top: 8px;
-                        }
+  .entenda-div2 {
+    padding-top: 3px;
+  }
 
-                        h2.temba-head {
-                            font-size: 20px;
-                            top: 2138px;
-                            left: 7px;
-                            height: 65px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: center;
-                            font: normal normal 600 20px/24px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            opacity: 1;
-                        }
+  .entenda-div4 {
+    padding-top: 3px;
+  }
 
-                        .sub-banner-vos {
-                            padding: 45px 0px 15px;
-                        }
+  .entenda-div3 p {
+    top: 1171px;
+    left: 155px;
+    width: 65px !important;
+    height: 16px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+  .entenda-div5 p {
+    font-size: 12px;
+    width: 86px;
+    margin-top: 22px;
+    top: 1171px;
+    left: 243px;
+    height: 16px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
 
-                        h6.temba-sub-heading {
-                            top: 0px;
-                            left: 0px;
-                            width: 69px;
-                            height: 24px;
-                            text-align: left;
-                            font: normal normal 600 20px/20px Montserrat;
-                            letter-spacing: 0px;
-                            color: #6D0C91;
-                        }
+  .entenda-div-arrow {
+    font-size: 25px !important;
+  }
 
-                        .temba-sub-para{
-                            top: 45px;
-                            left: 0px;
-                            height: 18px;
-                            color: var(--unnamed-color-00013c);
-                            text-align: left;
-                            font: normal normal normal 14px/20px Montserrat;
-                            letter-spacing: 0px;
-                            color: #00013C;
-                            margin-top: 15px;
-                        }
-                        .temba-b1 {
-                            padding-top: 23px;
-                        }
-                        .temba-b {
-                            padding-top: 13px;
-                          
-                        }
+  .entenda-div5-new {
+    padding-left: 0px;
+  }
 
-                        .temba-b1 {
-                            padding-top: 23px;
-                        }
+  .entenda-div5-new p {
+    font-size: 10px;
+    top: 1312px;
+    left: 256px;
+    width: 104px;
+    height: 39px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
 
-                        .video-box {
-                            margin-top: 120%;
-                        }
+  .entenda-div4-new p {
+    top: 1387px;
+    font-size: 10px;
+    left: 27px;
+    width: 79px;
+    height: 40px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
 
-                      
-                    }
+  .entenda-div4-new {
+    padding-right: 23px;
+  }
 
-                    @media all and (max-width: 320px) {
-                        span.padding-box.accord-box, .temba-b.accor{
-                            height: 115px;
-                        }
-                        .accor-p {
-                            font-size: 14px !important;
-                        }
-                        .saiba-para {
-                            font-size: 10px;
-                        }
-                        .saiba-para a, .saiba-para i {
-                            font-size: 10px;
-                        }
-                        
-                    }
+  .entenda-div1 p {
+    margin-top: 23px;
+  }
+
+  .entenda-div3 p {
+    margin-top: 22px;
+  }
+
+  .entenda-div4-new p {
+    margin-top: 8px;
+  }
+
+  .entenda-div11 p {
+    margin-top: 22px;
+  }
+
+  .entenda-div5-new p {
+    margin-top: 8px;
+  }
+
+  h2.temba-head {
+    font-size: 20px;
+    top: 2138px;
+    left: 7px;
+    height: 65px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal 600 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+
+  .sub-banner-vos {
+    padding: 45px 0px 15px;
+  }
+
+  h6.temba-sub-heading {
+    top: 0px;
+    left: 0px;
+    width: 69px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 600 20px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #6d0c91;
+  }
+
+  .temba-sub-para {
+    top: 45px;
+    left: 0px;
+    height: 18px;
+    color: var(--unnamed-color-00013c);
+    text-align: left;
+    font: normal normal normal 14px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    margin-top: 15px;
+  }
+  .temba-b1 {
+    padding-top: 23px;
+  }
+  .temba-b {
+    padding-top: 13px;
+  }
+
+  .temba-b1 {
+    padding-top: 23px;
+  }
+
+  .video-box {
+    margin-top: 120%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  span.padding-box.accord-box,
+  .temba-b.accor {
+    height: 115px;
+  }
+  .accor-p {
+    font-size: 14px !important;
+  }
+  .saiba-para {
+    font-size: 10px;
+  }
+  .saiba-para a,
+  .saiba-para i {
+    font-size: 10px;
+  }
+}
