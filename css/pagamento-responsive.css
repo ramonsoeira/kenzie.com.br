@@ -863,6 +863,7 @@
     opacity: 1;
   }
   p.entenda-logos-para3 {
+    margin-right: 30px;
     font-size: 12px !important;
     width: 100px !important;
     top: 1093px;
@@ -915,7 +916,7 @@
     width: 282px !important;
     height: 178px !important;
     margin: 0 auto !important;
-    margin-top: 200px !important;
+    margin-top: 100px !important;
     margin-bottom: 70px !important;
   }
 
@@ -961,10 +962,14 @@
   }
 
   .sub-banner-entenda {
+    margin-left: 35px;
+    margin-right: 35px;
     padding: 20px 0px 35px;
   }
 
   .entenda-divs {
+    margin-right: 60px;
+    max-width: 380px;
     margin-bottom: 10px;
     width: 347px;
     height: 68px;
@@ -1486,7 +1491,7 @@
 
   .entenda-divs {
     margin-bottom: 10px;
-    width: 347px;
+    max-width: 370px;
     height: 68px;
     border: 1px solid var(--unnamed-color-707070);
     border: 1px solid #707070;
@@ -1890,10 +1895,11 @@
     opacity: 1;
   }
   p.entenda-logos-para2 {
+    margin-right: 30px;
     font-size: 12px !important;
     top: 1094px;
     left: 142px;
-    width: 92px;
+    width: 80px;
     height: 48px;
     color: var(--unnamed-color-00013c);
     text-align: center;
@@ -1903,10 +1909,11 @@
     opacity: 1;
   }
   p.entenda-logos-para3 {
-    font-size: 12px !important;
-    width: 100px !important;
+    margin-right: 30px;
+    font-size: 10px !important;
+    width: 80px !important;
     top: 1093px;
-    left: 256px;
+    left: 206px;
     width: 112px;
     height: 48px;
     color: var(--unnamed-color-00013c);
@@ -2006,7 +2013,7 @@
 
   .entenda-divs {
     margin-bottom: 10px;
-    width: 347px;
+    max-width: 330px;
     height: 68px;
     border: 1px solid var(--unnamed-color-707070);
     border: 1px solid #707070;
@@ -2071,6 +2078,7 @@
   }
 
   .entenda-div5-new p {
+    padding-right: 15px;
     font-size: 10px;
     top: 1312px;
     left: 256px;
@@ -2191,5 +2199,45 @@
   .saiba-para a,
   .saiba-para i {
     font-size: 10px;
+  }
+  .entenda-divs {
+    margin-bottom: 30px;
+    max-width: 280px;
+    height: 68px;
+    border: 1px solid var(--unnamed-color-707070);
+    border: 1px solid #707070;
+    border-radius: 10px;
+  }
+  .entenda-div-arrow {
+    margin-left: 22px;
+    font-size: 13px !important;
+  }
+  .entenda-div5-new p {
+    padding-right: 15px;
+    font-size: 8px;
+    top: 1312px;
+    left: 256px;
+    width: 90px;
+    height: 39px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
+  }
+  .entenda-div5 p {
+    font-size: 10px;
+    width: 70px;
+    margin-top: 22px;
+    top: 1171px;
+    left: 243px;
+    height: 16px;
+    color: var(--unnamed-color-00013c);
+    text-align: center;
+    font: normal normal medium 12px/15px Montserrat;
+    letter-spacing: 0px;
+    color: #00013c;
+    opacity: 1;
   }
 }
