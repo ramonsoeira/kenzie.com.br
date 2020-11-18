@@ -3131,3 +3131,28 @@ iframe.pop-up-cadastro {
 }
 
 /* /\ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA CURSO /\ */
+
+/* \/ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA Home \/ */
+@media (max-width: 450px) {
+  .home-banner-h1 {
+    font-size: 30px;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .home-banner-h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-banner-button {
+    display: none;
+    /* margin-bottom: 50px; */
+  }
+  .home-banner-h2 {
+    margin-bottom: 20px;
+    background-color: aqua;
+    display: inline-block;
+  }
+}
