@@ -12,7 +12,8 @@
 /* //========================================================================================
 */
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
@@ -111,6 +112,19 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 100%;
   background-size: 100% 100%;
   position: relative;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner-subtitle {
+  color: #fff;
+  opacity: 80%;
 }
 
 .banner h3 {
@@ -372,7 +386,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   /* symbol for "collapsed" panels */
   content: "\f067";
   display: none;
-  color: #CBCBD7;
+  color: #cbcbd7;
   font-size: 12px;
 }
 
@@ -428,7 +442,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-family: "Montserrat", sans-serif;
 }
 
-.saiba-para a, .saiba-para i {
+.saiba-para a,
+.saiba-para i {
   font-size: 17px;
   color: #6d0c91;
   margin-top: 10px;
@@ -457,7 +472,11 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 215px;
 }
 
-.no1, .no2, .no3, .no4, .no5 {
+.no1,
+.no2,
+.no3,
+.no4,
+.no5 {
   border-left: 1px dotted #000;
   position: relative;
 }
@@ -609,7 +628,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
  *                                                                                      */
 
 .conheca {
-  background: url("../images/conheca-coover.png") repeat scroll center center / cover;
+  background: url("../images/conheca-coover.png") repeat scroll center center /
+    cover;
   padding: 80px 0px 100px;
 }
 
@@ -633,7 +653,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   position: relative;
 }
 
-.sm-carousel .owl-prev, .sm-carousel .owl-next {
+.sm-carousel .owl-prev,
+.sm-carousel .owl-next {
   top: 30%;
 }
 
@@ -710,7 +731,8 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   text-decoration: none;
 }
 
-.preparado button.btn.btn-purple.btn-primary:hover, section.depoimentos button.btn.btn-purple.btn-primary:hover {
+.preparado button.btn.btn-purple.btn-primary:hover,
+section.depoimentos button.btn.btn-purple.btn-primary:hover {
   background-color: #8125a3;
 }
 
@@ -749,7 +771,8 @@ footer p {
 
 /*  */
 
-.owl-next, .owl-prev {
+.owl-next,
+.owl-prev {
   outline: 0 !important;
 }
 
@@ -762,7 +785,8 @@ footer p {
   margin-bottom: 0px !important;
 }
 
-#imnedo a:hover, .top-50 a:hover {
+#imnedo a:hover,
+.top-50 a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -874,11 +898,14 @@ footer p {
   width: 250px;
 }
 
-.righta, .lefta {
+.righta,
+.lefta {
   width: 55px;
 }
 
-.righti, .lefti, .arrowendo {
+.righti,
+.lefti,
+.arrowendo {
   width: 67px;
 }
 
@@ -967,7 +994,7 @@ h2.padding-differentals {
 }
 
 h3.subtitle-coach {
-  color: #00013C;
+  color: #00013c;
   padding: inherit;
 }
 
@@ -1060,7 +1087,7 @@ p.clique-aqui-mobile {
 }
 
 a.clique-aqui-mobile {
-  color: #3697FF;
+  color: #3697ff;
 }
 
 .day-to-day {
@@ -1255,7 +1282,7 @@ span.text-coachs-items {
 }
 
 .p__div__subtitle_coachs {
-  color: #00013C;
+  color: #00013c;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 30px;
@@ -1275,7 +1302,7 @@ span.text-coachs-items {
 .img__icone_coachs_team {
   width: 48px;
   height: 48px;
-  margin-right: 40px
+  margin-right: 40px;
 }
 
 .team-1-mobile {
@@ -1300,7 +1327,7 @@ span.text-coachs-items {
 }
 
 .cor_fundo_team_mobile {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .div__subtitle_coachs {
@@ -1450,13 +1477,15 @@ span.text-coachs-items {
   flex-direction: row;
 }
 
-.tab-content, #myTabContent {
+.tab-content,
+#myTabContent {
   width: 958px;
   background-color: #3697ff;
   color: #ffffff;
 }
 
-.tab-content, #myTabContent2 {
+.tab-content,
+#myTabContent2 {
   width: 900px;
   background-color: #ffffff;
   color: #00013c;
@@ -1549,7 +1578,7 @@ span.text-coachs-items {
 
 .img__differentals {
   width: 58px;
-  height: 32px
+  height: 32px;
 }
 
 .autor__differentals {
@@ -1624,7 +1653,8 @@ span.text-coachs-items {
   padding: 0.5rem 1rem;
 }
 
-.nav-linkb, a {
+.nav-linkb,
+a {
   color: #939393;
 }
 
@@ -1650,23 +1680,28 @@ span.text-coachs-items {
   color: #ffffff;
 }
 
-.nav2-linka.active, #daily-tab {
+.nav2-linka.active,
+#daily-tab {
   border-radius: 10px 0px 0px 0px;
 }
 
-.nav2-linka.active, #demo-tab {
+.nav2-linka.active,
+#demo-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active, #pausa-tab {
+.nav2-linka.active,
+#pausa-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active, #projetos-tab {
+.nav2-linka.active,
+#projetos-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
-.nav2-linka.active, #softskills-tab {
+.nav2-linka.active,
+#softskills-tab {
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1680,7 +1715,8 @@ span.text-coachs-items {
   justify-content: center;
 }
 
-.nav2-linka, #eventos-lives-tab {
+.nav2-linka,
+#eventos-lives-tab {
   width: 150px;
   border-radius: 0px 10px 0px 0px;
 }
@@ -1925,7 +1961,9 @@ span.text-coachs-items {
   border: 2px solid #3697ff;
 }
 
-.card-header-modules[aria-expanded="true"] .card-title-modules .subtopic-modules {
+.card-header-modules[aria-expanded="true"]
+  .card-title-modules
+  .subtopic-modules {
   color: #fff;
 }
 
@@ -1934,11 +1972,19 @@ span.text-coachs-items {
   border: 2px solid #6d0c91;
 }
 
-.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day {
+.card-header-day[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-day {
   color: #fff;
 }
 
-.card-header-day[aria-expanded="true"] .card-title .media .media-body .subtopic-day-sub {
+.card-header-day[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-day-sub {
   color: #fff;
 }
 
@@ -1947,15 +1993,24 @@ span.text-coachs-items {
   border: 2px solid #00dbff;
 }
 
-.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team {
+.card-header-team[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-team {
   color: #fff;
 }
 
-.card-header-team[aria-expanded="true"] .card-title .media .media-body .subtopic-team-sub {
+.card-header-team[aria-expanded="true"]
+  .card-title
+  .media
+  .media-body
+  .subtopic-team-sub {
   color: #fff;
 }
 
-.card-body p, h5 {
+.card-body p,
+h5 {
   padding-left: 30px;
   color: #00013c;
   padding-right: 20%;
@@ -2027,13 +2082,13 @@ a.card-title-modules {
 }
 
 .h3__coachs_title {
-  color: #00013C;
+  color: #00013c;
   font-size: 20px;
   font-weight: 600;
 }
 
 .h3__teaching_title {
-  color: #00013C;
+  color: #00013c;
   font-size: 20px;
   font-weight: 600;
 }
@@ -2076,21 +2131,42 @@ a.card-title-modules {
   color: #00013c;
 }
 
+.home-banner {
+  margin-top: 5em;
+}
+
+.home-banner-h1 {
+  font-size: 48px;
+  font-family: "Montserrat";
+  color: #00013c;
+}
+
+.home-banner-h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: #00013c;
+}
+
+.home-banner-button {
+  margin-top: 30px;
+}
+
 .h3_title_differentials {
-  color: #00013C;
+  color: #00013c;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 24px;
 }
 
 .h3_title_curso {
-  color: #00013C;
+  color: #00013c;
   font-size: 28px;
   font-weight: 600;
 }
 
 .h3_subtitle_curso {
-  color: #00013C;
+  color: #00013c;
   font-size: 18px;
 }
 
@@ -2148,13 +2224,13 @@ a.card-title-modules {
 }
 
 .h3_curriculum_mobile {
-  color: #00013C;
+  color: #00013c;
   font-size: 20px;
   font-weight: 600;
 }
 
 .h3_day-to-day_mobile {
-  color: #00013C;
+  color: #00013c;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -2163,7 +2239,7 @@ a.card-title-modules {
 
 .p_day-to-day_mobile {
   font-size: 14px;
-  color: #0B0000;
+  color: #0b0000;
 }
 
 .h4_hardSkills_mobile {
@@ -2910,7 +2986,9 @@ p.hfull {
   margin-bottom: 3em;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -2940,11 +3018,12 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media (max-width: 555px) {}
+@media (max-width: 555px) {
+}
 
 /* \/ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA CURSO \/ */
 
-@media(max-width:812px) {
+@media (max-width: 812px) {
   #course-version-mobile {
     display: block;
   }
@@ -2953,7 +3032,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(max-width:800px) {
+@media (max-width: 800px) {
   #course-version-mobile {
     display: block;
   }
@@ -2962,7 +3041,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(max-width:450px) {
+@media (max-width: 450px) {
   #course-version-mobile {
     display: block;
   }
@@ -2971,7 +3050,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(max-width:320px) {
+@media (max-width: 320px) {
   #course-version-mobile {
     display: block;
   }
@@ -2980,7 +3059,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(min-width:813px) {
+@media (min-width: 813px) {
   #course-version-mobile {
     display: none;
   }
@@ -2989,7 +3068,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(min-width:1024px) {
+@media (min-width: 1024px) {
   #scroll-spy-section {
     display: block;
     /* ativar esse quando menu spy estiver funcionando */
@@ -3000,7 +3079,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(max-width:1024px) {
+@media (max-width: 1024px) {
   #scroll-spy-section {
     display: none;
   }
@@ -3009,43 +3088,43 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
   .scroll-spy {
     margin-left: -16%;
   }
 }
 
-@media(min-width: 1366px) {
+@media (min-width: 1366px) {
   .scroll-spy {
     margin-left: -13%;
   }
 }
 
-@media(min-width: 1440px) {
+@media (min-width: 1440px) {
   .scroll-spy {
     margin-left: -10%;
   }
 }
 
-@media(min-width: 1600px) {
+@media (min-width: 1600px) {
   .scroll-spy {
     margin-left: -5%;
   }
 }
 
-@media(min-width: 1680px) {
+@media (min-width: 1680px) {
   .scroll-spy {
     margin-left: -2.5%;
   }
 }
 
-@media(min-width: 1920px) {
+@media (min-width: 1920px) {
   .scroll-spy {
     margin-left: 3%;
   }
 }
 
-@media(min-width: 2560px) {
+@media (min-width: 2560px) {
   .scroll-spy {
     margin-left: 13%;
   }
