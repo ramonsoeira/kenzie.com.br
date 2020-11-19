@@ -3015,23 +3015,10 @@ iframe.pop-up-cadastro {
   height: 966.594px;
 }
 
-/*MEDIA QUERY*/
+/* \/ CONFIGURAÇÃO RESOLUÇÕES MEDIA QUERYS\/ */
 
-@media (max-width: 600px) {
-  #overlayClose {
-    width: 0;
-  }
-  .kz-lead-form-overlay {
-    padding: 0;
-  }
-}
 
-@media (max-width: 555px) {
-}
-
-/* \/ CONFIGURAÇÃO RESOLUÇÕES DA PÁGINA CURSO \/ */
-
-@media (max-width: 812px) {
+@media (max-width: 320px) {
   #course-version-mobile {
     display: block;
   }
@@ -3040,12 +3027,17 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media (max-width: 800px) {
-  #course-version-mobile {
-    display: block;
+@media (min-width: 320px) {
+  .conheca .item figure {
+    width: 106px;
+    height: 104px;
   }
-  #course-version-web {
-    display: none;
+}
+
+@media (min-width: 375px) {
+  .conheca .item figure {
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -3058,7 +3050,32 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
+  #overlayClose {
+    width: 0;
+  }
+  .kz-lead-form-overlay {
+    padding: 0;
+  }
+}
+
+@media (min-width: 748px) {
+  .conheca .item figure {
+    width: 140px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 800px) {
+  #course-version-mobile {
+    display: block;
+  }
+  #course-version-web {
+    display: none;
+  }
+}
+
+@media (max-width: 812px) {
   #course-version-mobile {
     display: block;
   }
