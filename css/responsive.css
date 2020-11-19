@@ -89,14 +89,11 @@
     font-size: 16px;
     padding: 10px 25px;
   }
-  #mbl-none {
+  /* #mbl-none {
     display: none;
-  }
+  } */
   .dont {
     display: block;
-  }
-  .multi-lines {
-    display: none;
   }
   .ka-sticker {
     position: absolute;
@@ -497,9 +494,9 @@
     width: 100%;
     height: auto;
   }
-  .mbl-no {
+  /* .mbl-no {
     display: none;
-  }
+  } */
   .mbl-yes {
     display: block;
     width: 100%;
