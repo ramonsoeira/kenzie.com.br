@@ -114,6 +114,13 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   position: relative;
 }
 
+.tornar-p {
+  font-family: "Montserrat", sans-serif;
+  color: #00013c;
+  line-height: 35px;
+  font-size: 20px;
+}
+
 .banner-title {
   color: #fff;
   font-size: 36px;
@@ -160,6 +167,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
 .quer-torner {
   padding: 100px 0px;
   position: relative;
+  background-color: #f9f9f9;
 }
 
 .quer-torner h3 {
@@ -169,12 +177,12 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   font-weight: 600;
 }
 
-.quer-torner p {
+/* .quer-torner p {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   color: #000;
   line-height: 35px;
-}
+} */
 
 .ka-sticker {
   position: absolute;
@@ -3143,6 +3151,51 @@ iframe.pop-up-cadastro {
   .home-banner-h2 {
     font-size: 20px;
   }
+  .tornar-h2 {
+    font-size: 20px;
+    display: inline-block;
+  }
+  .tornar-p {
+    font-size: 16px;
+  }
+}
+
+@media only-screen and(max-width: 450px) and(-webkit-device-pixel-ratio : 2) {
+  .home-banner-h1 {
+    font-size: 30px;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .home-banner-h2 {
+    font-size: 20px;
+  }
+  .tornar-h2 {
+    font-size: 20px;
+    display: inline-block;
+  }
+  .tornar-p {
+    font-size: 16px;
+  }
+}
+
+@media only-screen and(max-width: 450px) and(-webkit-device-pixel-ratio : 3) {
+  .home-banner-h1 {
+    font-size: 30px;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .home-banner-h2 {
+    font-size: 20px;
+  }
+  .tornar-h2 {
+    font-size: 20px;
+    display: inline-block;
+  }
+  .tornar-p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3154,6 +3207,13 @@ iframe.pop-up-cadastro {
     margin-bottom: 20px;
     background-color: aqua;
     display: inline-block;
+  }
+  .somos-button {
+    margin: 0 auto;
+    display: block;
+  }
+  .ka-sticker {
+    display: none;
   }
 }
 
@@ -3167,6 +3227,12 @@ iframe.pop-up-cadastro {
     background-color: aqua;
     display: inline-block;
   }
+  .home-banner {
+    margin-top: 5em;
+  }
+  .ka-sticker {
+    display: none;
+  }
 }
 
 @media only-screen and(max-width: 767px) and(-webkit-device-pixel-ratio : 2) {
@@ -3178,5 +3244,11 @@ iframe.pop-up-cadastro {
     margin-bottom: 20px;
     background-color: aqua;
     display: inline-block;
+  }
+  .home-banner {
+    margin-top: 5em;
+  }
+  .ka-sticker {
+    display: none;
   }
 }
