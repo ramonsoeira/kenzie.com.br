@@ -3156,3 +3156,27 @@ iframe.pop-up-cadastro {
     display: inline-block;
   }
 }
+
+@media only-screen and(max-width: 767px) and(-webkit-device-pixel-ratio : 3) {
+  .home-banner-button {
+    display: none;
+    /* margin-bottom: 50px; */
+  }
+  .home-banner-h2 {
+    margin-bottom: 20px;
+    background-color: aqua;
+    display: inline-block;
+  }
+}
+
+@media only-screen and(max-width: 767px) and(-webkit-device-pixel-ratio : 2) {
+  .home-banner-button {
+    display: none;
+    /* margin-bottom: 50px; */
+  }
+  .home-banner-h2 {
+    margin-bottom: 20px;
+    background-color: aqua;
+    display: inline-block;
+  }
+}
