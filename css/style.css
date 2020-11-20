@@ -2352,6 +2352,11 @@ p.temos-para {
   position: relative;
 }
 
+.img-cover-home {
+  display: flex;
+  justify-content: flex-end;
+}
+
 h2.temos-head {
   font-weight: bold;
   padding-right: 10px;
@@ -3215,7 +3220,7 @@ iframe.pop-up-cadastro {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .home-banner-button {
     display: none;
     /* margin-bottom: 50px; */
