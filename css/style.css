@@ -165,7 +165,7 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
  *                                                                                      */
 
 .quer-torner {
-  padding: 100px 0px;
+  padding: 50px 0px;
   position: relative;
   background-color: #f9f9f9;
 }
@@ -2140,7 +2140,8 @@ a.card-title-modules {
 }
 
 .home-banner {
-  margin-top: 5em;
+  margin-top: 7em;
+  margin-bottom: 2em;
 }
 
 .home-banner-h1 {
@@ -3022,7 +3023,6 @@ iframe.pop-up-cadastro {
 
 /* \/ CONFIGURAÇÃO RESOLUÇÕES MEDIA QUERYS\/ */
 
-
 @media (max-width: 320px) {
   #course-version-mobile {
     display: block;
@@ -3179,6 +3179,7 @@ iframe.pop-up-cadastro {
   }
   .tornar-p {
     font-size: 16px;
+    line-height: inherit;
   }
 }
 
@@ -3198,6 +3199,7 @@ iframe.pop-up-cadastro {
   }
   .tornar-p {
     font-size: 16px;
+    line-height: inherit;
   }
 }
 
@@ -3217,6 +3219,7 @@ iframe.pop-up-cadastro {
   }
   .tornar-p {
     font-size: 16px;
+    line-height: inherit;
   }
 }
 
