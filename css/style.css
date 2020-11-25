@@ -2353,11 +2353,6 @@ p.temos-para {
   position: relative;
 }
 
-.img-cover-home {
-  display: flex;
-  justify-content: flex-end;
-}
-
 h2.temos-head {
   font-weight: bold;
   padding-right: 10px;
