@@ -3240,6 +3240,10 @@ iframe.pop-up-cadastro {
   .ka-sticker {
     display: none;
   }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   /* .banner-img-home {
     height: 100% !important;
   } */
@@ -3261,6 +3265,10 @@ iframe.pop-up-cadastro {
   .ka-sticker {
     display: none;
   }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   /* .banner-img-home {
     height: 100% !important;
   } */
@@ -3281,6 +3289,10 @@ iframe.pop-up-cadastro {
   }
   .ka-sticker {
     display: none;
+  }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   /* .banner-img-home {
     height: 100% !important;
