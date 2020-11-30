@@ -343,7 +343,7 @@ img.banner-sticker {
 }
 
 .sub-banner-white {
-  background-color: #fff;
+  background-color: #f9f9f9;
   padding: 64px 0px 64px;
 }
 
@@ -375,7 +375,7 @@ img.banner-sticker {
     */
 
 .sub-banner-entenda {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 35px 0px 35px;
   height: 696px;
   width: 100%;

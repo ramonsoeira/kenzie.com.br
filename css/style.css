@@ -615,6 +615,11 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 200px;
 }
 
+figure {
+  margin-left: 6%
+}
+
+
 .conheca .item figure {
   background: #fff;
   width: 162px;
@@ -2353,11 +2358,6 @@ p.temos-para {
   position: relative;
 }
 
-.img-cover-home {
-  display: flex;
-  justify-content: flex-end;
-}
-
 h2.temos-head {
   font-weight: bold;
   padding-right: 10px;
@@ -3240,6 +3240,13 @@ iframe.pop-up-cadastro {
   .ka-sticker {
     display: none;
   }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* .banner-img-home {
+    height: 100% !important;
+  } */
 }
 
 @media only-screen and(max-width: 767px) and(-webkit-device-pixel-ratio : 3) {
@@ -3258,6 +3265,13 @@ iframe.pop-up-cadastro {
   .ka-sticker {
     display: none;
   }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* .banner-img-home {
+    height: 100% !important;
+  } */
 }
 
 @media only-screen and(max-width: 767px) and(-webkit-device-pixel-ratio : 2) {
@@ -3276,4 +3290,11 @@ iframe.pop-up-cadastro {
   .ka-sticker {
     display: none;
   }
+  .video {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* .banner-img-home {
+    height: 100% !important;
+  } */
 }

@@ -27,7 +27,6 @@
   .video {
     float: none !important;
     margin: 0 auto !important;
-    margin-top: 25px !important;
   }
 }
 
@@ -573,7 +572,7 @@
   }
 
   .sub-banner-white {
-    padding: 80px 0px 25px;
+    padding: 25px 0px 25px;
   }
 
   .sub-banner-padding {
@@ -916,8 +915,6 @@
     width: 282px !important;
     height: 178px !important;
     margin: 0 auto !important;
-    margin-top: 100px !important;
-    margin-bottom: 70px !important;
   }
 
   .sub-banner {
@@ -949,7 +946,7 @@
   }
 
   .sub-banner-white {
-    padding: 80px 0px 25px;
+    padding: 20px 0px 20px;
   }
 
   .sub-banner-padding {
@@ -962,13 +959,10 @@
   }
 
   .sub-banner-entenda {
-    margin-left: 35px;
-    margin-right: 35px;
     padding: 20px 0px 35px;
   }
 
   .entenda-divs {
-    margin-right: 60px;
     max-width: 380px;
     margin-bottom: 10px;
     width: 347px;
@@ -1440,8 +1434,6 @@
     width: 282px !important;
     height: 178px !important;
     margin: 0 auto !important;
-    margin-top: 100px !important;
-    margin-bottom: 70px !important;
   }
 
   .sub-banner {
@@ -1473,7 +1465,7 @@
   }
 
   .sub-banner-white {
-    padding: 80px 0px 25px;
+    padding: 20px 0px 20px;
   }
 
   .sub-banner-padding {
@@ -1962,8 +1954,6 @@
     width: 282px !important;
     height: 178px !important;
     margin: 0 auto !important;
-    margin-top: 200px !important;
-    margin-bottom: 70px !important;
   }
 
   .sub-banner {
@@ -1995,7 +1985,7 @@
   }
 
   .sub-banner-white {
-    padding: 80px 0px 25px;
+    padding: 10px 0px 20px;
   }
 
   .sub-banner-padding {
