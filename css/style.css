@@ -615,6 +615,11 @@ nav.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template.container {
   width: 200px;
 }
 
+figure {
+  margin: 0 auto;
+  margin-left: 10%
+}
+
 .conheca .item figure {
   background: #fff;
   width: 162px;
